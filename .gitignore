@@ -5,3 +5,11 @@ dist
 .env
 .env.local
 .vercel
+
+# TypeScript composite-build artifacts. Previously these were emitted next
+# to vite.config.ts, which caused vite to prefer the stale compiled .js
+# over the source .ts. tsconfig.node.json now emits into node_modules/,
+# but keep these here so a fresh clone from an older commit stays clean.
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts

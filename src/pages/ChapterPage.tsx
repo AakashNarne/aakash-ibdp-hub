@@ -93,7 +93,9 @@ export default function ChapterPage() {
 
       {/* Panel */}
       {tab === 'notes' && (
-        <article className="prose-notes max-w-none pb-16">
+        // data-selectable="true" opts this region into the AI selection bubble
+        // — highlighting any text here shows the "Ask AI" chip.
+        <article className="prose-notes max-w-none pb-16" data-selectable="true">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{chapter.notes}</ReactMarkdown>
         </article>
       )}

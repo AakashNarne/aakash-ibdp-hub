@@ -1,12 +1,23 @@
 import { Link } from 'react-router-dom'
 import { useDarkMode } from '../hooks/useProgress'
+import { useAIChat } from '../hooks/useAIChat'
 import Icon from './Icon'
+import SelectionAskBubble from './SelectionAskBubble'
+import AIChatPanel from './AIChatPanel'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { isDark, toggle } = useDarkMode()
+  const chat = useAIChat()
 
   return (
-    <div className="min-h-screen flex flex-col">
+    // When the chat panel is open on sm+ screens, reserve 26rem of space on
+    // the right so the notes don't hide behind the panel. On mobile the
+    // panel is full-width modal (with backdrop) so no padding needed.
+    <div
+      className={`min-h-screen flex flex-col transition-[padding] duration-200 ease-out
+        ${chat.isOpen ? 'sm:pr-[26rem]' : ''}
+      `}
+    >
       <header className="sticky top-0 z-30 backdrop-blur bg-cream-50/80 dark:bg-ink-900/80 border-b border-ink-100 dark:border-ink-700">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <Link
@@ -25,13 +36,24 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </span>
             </div>
           </Link>
-          <button
-            onClick={toggle}
-            aria-label="Toggle dark mode"
-            className="p-2 rounded-lg hover:bg-cream-200 dark:hover:bg-ink-800 text-ink-600 dark:text-cream-200 transition-colors"
-          >
-            <Icon name={isDark ? 'Sun' : 'Moon'} size={18} />
-          </button>
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => chat.open()}
+              aria-label="Open study chat"
+              title="Study chat"
+              className="p-2 rounded-lg hover:bg-cream-200 dark:hover:bg-ink-800 text-ink-600 dark:text-cream-200 transition-colors flex items-center gap-1.5"
+            >
+              <Icon name="Sparkles" size={16} />
+              <span className="text-xs font-medium hidden sm:inline">Ask AI</span>
+            </button>
+            <button
+              onClick={toggle}
+              aria-label="Toggle dark mode"
+              className="p-2 rounded-lg hover:bg-cream-200 dark:hover:bg-ink-800 text-ink-600 dark:text-cream-200 transition-colors"
+            >
+              <Icon name={isDark ? 'Sun' : 'Moon'} size={18} />
+            </button>
+          </div>
         </div>
       </header>
 
@@ -45,6 +67,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <span>Add chapters via <code className="font-mono text-[11px]">src/content/</code></span>
         </div>
       </footer>
+
+      {/* AI chat: floating selection bubble + slide-in side panel.
+          Both mounted globally so they follow Aakash across every route. */}
+      <SelectionAskBubble />
+      <AIChatPanel />
     </div>
   )
 }

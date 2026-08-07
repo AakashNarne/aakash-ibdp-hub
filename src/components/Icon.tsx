@@ -18,6 +18,9 @@ import {
   ListChecks,
   Menu,
   X,
+  Send,
+  Settings,
+  MessageCircle,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -41,6 +44,9 @@ const iconMap: Record<string, LucideIcon> = {
   ListChecks,
   Menu,
   X,
+  Send,
+  Settings,
+  MessageCircle,
 }
 
 export default function Icon({
