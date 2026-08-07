@@ -49,36 +49,68 @@ export type ClientConfig = {
   temperature?: number
 }
 
+/**
+ * Categorises where an error came from so the UI can react correctly:
+ *  - 'endpoint-error' — FreeLLMAPI responded, but with a 4xx/5xx (bad key,
+ *    rate limit, provider outage). Server is reachable; problem is in the
+ *    request or the upstream provider.
+ *  - 'not-endpoint'   — Something responded at the URL, but it wasn't
+ *    FreeLLMAPI (e.g., Vercel's SPA fallback serving index.html, a stray
+ *    proxy, wrong port). The endpoint is effectively unreachable.
+ *  - 'network'        — fetch itself threw (DNS, connection refused, CORS).
+ */
+export type ErrorKind = 'endpoint-error' | 'not-endpoint' | 'network'
+
 export class FreeLLMError extends Error {
   status?: number
   detail?: unknown
-  constructor(message: string, status?: number, detail?: unknown) {
+  kind: ErrorKind
+  constructor(
+    message: string,
+    opts: { status?: number; detail?: unknown; kind?: ErrorKind } = {}
+  ) {
     super(message)
     this.name = 'FreeLLMError'
-    this.status = status
-    this.detail = detail
+    this.status = opts.status
+    this.detail = opts.detail
+    this.kind = opts.kind ?? 'endpoint-error'
   }
 }
 
-/** Health-check the endpoint. Returns true if /models responds 200. */
-export async function ping(cfg: Pick<ClientConfig, 'baseUrl' | 'apiKey'>): Promise<boolean> {
+/**
+ * Health-check the endpoint. Strictly verifies the response looks like a
+ * FreeLLMAPI /v1/models payload — a JSON object with a `data` array. This
+ * matters because Vercel's SPA fallback returns 200 + HTML for any GET,
+ * which would otherwise fool a naive `res.ok` check.
+ */
+export async function ping(
+  cfg: Pick<ClientConfig, 'baseUrl' | 'apiKey'>
+): Promise<boolean> {
   try {
     const res = await fetch(`${cfg.baseUrl}/models`, {
       headers: authHeaders(cfg.apiKey),
     })
-    return res.ok
+    if (!res.ok) return false
+    const ct = (res.headers.get('content-type') || '').toLowerCase()
+    if (!ct.includes('application/json')) return false
+    const body = (await res.json()) as { data?: unknown }
+    return Array.isArray(body?.data)
   } catch {
     return false
   }
 }
 
 /** List available models. */
-export async function listModels(cfg: Pick<ClientConfig, 'baseUrl' | 'apiKey'>): Promise<string[]> {
+export async function listModels(
+  cfg: Pick<ClientConfig, 'baseUrl' | 'apiKey'>
+): Promise<string[]> {
   const res = await fetch(`${cfg.baseUrl}/models`, {
     headers: authHeaders(cfg.apiKey),
   })
   if (!res.ok) {
-    throw new FreeLLMError(`Failed to list models (${res.status})`, res.status)
+    throw new FreeLLMError(`Failed to list models (${res.status})`, {
+      status: res.status,
+    })
   }
   const body = (await res.json()) as ModelListResponse
   return (body.data ?? []).map((m) => m.id).sort()
@@ -107,32 +139,57 @@ export async function chatCompletion(
     temperature: cfg.temperature ?? 0.4,
   }
 
-  const res = await fetch(`${cfg.baseUrl}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      ...authHeaders(cfg.apiKey),
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(req),
-  })
+  let res: Response
+  try {
+    res = await fetch(`${cfg.baseUrl}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        ...authHeaders(cfg.apiKey),
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(req),
+    })
+  } catch (netErr) {
+    throw new FreeLLMError(
+      `Can't reach FreeLLMAPI at ${cfg.baseUrl}`,
+      { kind: 'network', detail: String(netErr) }
+    )
+  }
 
   if (!res.ok) {
+    const ct = (res.headers.get('content-type') || '').toLowerCase()
+    const isJson = ct.includes('application/json')
+    // If the error response isn't JSON, it's almost certainly not from
+    // FreeLLMAPI (e.g., Vercel's SPA fallback 405/text or an nginx page).
+    // Categorise as 'not-endpoint' so the UI shows the reachability banner.
+    if (!isJson) {
+      const bodySnippet = await res.text().catch(() => '')
+      throw new FreeLLMError(
+        `FreeLLMAPI endpoint not reachable (server returned ${res.status} but not a FreeLLMAPI response — you may be on the deployed URL instead of localhost)`,
+        { status: res.status, detail: bodySnippet.slice(0, 400), kind: 'not-endpoint' }
+      )
+    }
     let detail: unknown
     try {
       detail = await res.json()
     } catch {
-      detail = await res.text().catch(() => '')
+      detail = ''
     }
-    throw new FreeLLMError(
-      `Chat request failed (${res.status})`,
-      res.status,
-      detail
-    )
+    throw new FreeLLMError(`Chat request failed (${res.status})`, {
+      status: res.status,
+      detail,
+      kind: 'endpoint-error',
+    })
   }
 
   const body = (await res.json()) as ChatCompletionResponse
   const content = body.choices?.[0]?.message?.content
-  if (!content) throw new FreeLLMError('Empty response from model', 200, body)
+  if (!content) {
+    throw new FreeLLMError('Empty response from model', {
+      status: 200,
+      detail: body,
+    })
+  }
   // FreeLLMAPI echoes the resolved provider model; fall back to the request
   // value if the server didn't set one (some OpenAI-compat servers omit it).
   const model = body.model || req.model

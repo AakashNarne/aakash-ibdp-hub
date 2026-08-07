@@ -189,12 +189,18 @@ export function useAIChat() {
             : err instanceof Error
               ? err.message
               : 'Unknown error'
+        // Only mark 'yes' if the error came from FreeLLMAPI itself (bad
+        // key, rate limit, upstream provider issue). Every other kind
+        // means the endpoint isn't there.
+        const reachable: 'yes' | 'no' =
+          err instanceof FreeLLMError && err.kind === 'endpoint-error'
+            ? 'yes'
+            : 'no'
         setState({
           ...state,
           pending: false,
           error: msg,
-          reachable:
-            err instanceof FreeLLMError && err.status ? 'yes' : 'no',
+          reachable,
         })
       }
     },

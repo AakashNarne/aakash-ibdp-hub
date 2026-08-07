@@ -120,10 +120,14 @@ export default function AIChatPanel() {
         {/* Reachability banner */}
         {isConfigured && chat.reachable === 'no' && (
           <div className="px-4 py-2 text-xs bg-amber-50 dark:bg-amber-900/20 text-amber-800 dark:text-amber-200 border-b border-amber-200 dark:border-amber-800">
-            Can't reach FreeLLMAPI. Make sure the container is running (
-            <code className="font-mono">docker compose up -d</code> in your
-            <code className="font-mono"> ~/freellmapi</code> folder) and that you
-            opened the site via <code className="font-mono">npm run dev</code>.
+            Can't reach FreeLLMAPI. The chat only works when you visit the
+            site via <code className="font-mono">http://localhost:5173</code>{' '}
+            (run <code className="font-mono">npm run dev</code>) AND have
+            the container running (
+            <code className="font-mono">docker compose up -d</code> in{' '}
+            <code className="font-mono">~/freellmapi</code>). It cannot work
+            on the deployed Vercel URL, since Vercel's servers can't reach
+            your Mac's localhost.
           </div>
         )}
         {!isConfigured && (
