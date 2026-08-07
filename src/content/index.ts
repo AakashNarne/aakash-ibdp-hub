@@ -1,6 +1,8 @@
 import type { Subject } from './types'
 import { ch1Flashcards } from './economics/ch1-flashcards'
 import ch1Notes from './economics/ch1-notes.md?raw'
+import { ch1Flashcards as mathsCh1Flashcards } from './maths/ch1-flashcards'
+import mathsCh1Notes from './maths/ch1-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -63,7 +65,30 @@ export const subjects: Subject[] = [
     icon: 'Sigma',
     description:
       'Mathematics: Applications and Interpretation — statistics, calculus, modelling.',
-    chapters: [],
+    chapters: [
+      {
+        id: 'ch1',
+        title: 'Chapter 1: Functions',
+        subtitle: 'Quadratic, rational, composite, inverse, exponential, and logarithmic functions',
+        notes: mathsCh1Notes,
+        sections: [
+          'Section 1.1 — Function Basics (Domain, Range, Notation)',
+          'Section 1.2 — Quadratic Functions',
+          'Section 1.3 — Rational Functions',
+          'Section 1.4 — Composite Functions',
+          'Section 1.5 — Inverse Functions',
+          'Section 1.6 — Exponential Functions',
+          'Section 1.7 — Logarithmic Functions',
+          'Section 1.8 — Combining the Families: Transformations',
+          'Section 1.9 — Summary Table (The Six Families at a Glance)',
+          'Section 1.10 — Exam-Ready Definitions',
+          'Section 1.11 — Common Exam Traps (Learn These Now)',
+          'Section 1.12 — GDC Tips (TI-84 / TI-Nspire / Casio)',
+        ],
+        flashcards: mathsCh1Flashcards,
+        updated: '2026-08-07',
+      },
+    ],
   },
   {
     id: 'english',
