@@ -45,24 +45,49 @@ const DROP_HEADERS = new Set([
 ])
 
 export default async function handler(req: Request): Promise<Response> {
-  const upstreamBase = process.env.FREELLMAPI_URL
+  // Trim whitespace — trailing spaces on env vars pasted from Vercel's UI
+  // silently produce malformed URLs otherwise.
+  const upstreamBase = (process.env.FREELLMAPI_URL || '').trim()
   if (!upstreamBase) {
     return new Response(
       JSON.stringify({
         error: {
           message:
-            'FREELLMAPI_URL env var is not set on Vercel. Add it in Project Settings → Environment Variables, then redeploy.',
+            'FREELLMAPI_URL env var is not set on Vercel. Add it in Project Settings → Environment Variables (value should look like https://xyz.trycloudflare.com/v1), then redeploy.',
         },
       }),
       { status: 500, headers: { 'Content-Type': 'application/json' } }
     )
   }
 
-  // /api/llm/chat/completions  →  <upstream>/chat/completions
+  // /api/llm/chat/completions  →  /chat/completions
   const url = new URL(req.url)
   const suffix = url.pathname.replace(/^\/api\/llm/, '')
+
+  // Vercel's `[...path].ts` catch-all synthesizes a query param that mirrors
+  // the matched segments (e.g. ?path=chat/completions or ?...path=...). That
+  // routing artifact must not be forwarded to FreeLLMAPI — strip it.
+  const params = new URLSearchParams(url.search)
+  params.delete('path')
+  params.delete('...path')
+  const cleanQuery = params.toString()
   const target =
-    upstreamBase.replace(/\/+$/, '') + suffix + (url.search || '')
+    upstreamBase.replace(/\/+$/, '') + suffix + (cleanQuery ? `?${cleanQuery}` : '')
+
+  // Validate before fetch — clearer error than "Invalid URL string".
+  try {
+    // eslint-disable-next-line no-new
+    new URL(target)
+  } catch {
+    return new Response(
+      JSON.stringify({
+        error: {
+          message: `FREELLMAPI_URL produced an invalid target URL: "${target}". Check the env var value on Vercel — it should be the full HTTPS URL ending in /v1, with no trailing space or slash.`,
+        },
+      }),
+      { status: 500, headers: { 'Content-Type': 'application/json' } }
+    )
+  }
 
   // Forward the request headers except host/proxy ones.
   const fwdHeaders = new Headers()
