@@ -1,31 +1,26 @@
 /**
- * Server-side proxy for FreeLLMAPI, running as a Vercel Edge Function.
+ * Vercel Edge Function that dispatches /api/llm/* to the in-repo router.
  *
- * Why this exists:
- *   Browsers block cross-origin fetches from https://aakash-ibdp-hub.vercel.app
- *   to Aakash's Cloudflare-tunnelled FreeLLMAPI unless the tunnelled server
- *   sends CORS headers — which FreeLLMAPI does not. By fetching /api/llm/*
- *   (same origin as the site), the browser is happy, and this function
- *   forwards the request server-to-server to the real FreeLLMAPI URL.
+ * Replaces the earlier one-URL proxy. Now instead of forwarding to a
+ * single FREELLMAPI_URL, we rotate across many providers × many keys
+ * ourselves (see ../../lib/llm-router/router.ts).
  *
- * How it's configured:
- *   Set FREELLMAPI_URL in Vercel's Project → Settings → Environment Variables
- *   to whatever cloudflared prints, WITH the /v1 suffix:
- *     https://<random>.trycloudflare.com/v1
- *   Update it when cloudflared restarts and the URL changes, then redeploy
- *   (or use "Redeploy" from the Vercel dashboard — no code push needed).
- *
- * The bearer key still travels with each request from the browser (via the
- * Authorization header, which we pass through unchanged); the key never
- * lives in Vercel env vars, so rotating it needs no redeploy.
+ * Env vars each provider reads are documented in providers.ts. Add keys
+ * for a provider to switch it on; leave the env var unset to skip.
  */
+
+import {
+  buildFailureResponse,
+  buildModelsList,
+  routeChatCompletion,
+} from '../../lib/llm-router/router'
+
 export const config = { runtime: 'edge' }
 
-// Headers that shouldn't be forwarded (they describe the browser→Vercel hop,
-// not the Vercel→FreeLLMAPI hop).
 const DROP_HEADERS = new Set([
   'host',
   'connection',
+  'authorization', // The router substitutes its own per-provider key.
   'x-forwarded-for',
   'x-forwarded-host',
   'x-forwarded-proto',
@@ -42,95 +37,89 @@ const DROP_HEADERS = new Set([
   'x-vercel-proxied-for',
   'x-vercel-proxy-signature',
   'x-vercel-proxy-signature-ts',
+  'content-length',
+  'content-type', // Set by the router per upstream.
+  'accept-encoding',
 ])
 
 export default async function handler(req: Request): Promise<Response> {
-  // Trim whitespace — trailing spaces on env vars pasted from Vercel's UI
-  // silently produce malformed URLs otherwise.
-  const upstreamBase = (process.env.FREELLMAPI_URL || '').trim()
-  if (!upstreamBase) {
-    return new Response(
-      JSON.stringify({
-        error: {
-          message:
-            'FREELLMAPI_URL env var is not set on Vercel. Add it in Project Settings → Environment Variables (value should look like https://xyz.trycloudflare.com/v1), then redeploy.',
-        },
-      }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
-    )
-  }
-
-  // /api/llm/chat/completions  →  /chat/completions
   const url = new URL(req.url)
   const suffix = url.pathname.replace(/^\/api\/llm/, '')
 
-  // Vercel's `[...path].ts` catch-all synthesizes a query param that mirrors
-  // the matched segments (e.g. ?path=chat/completions or ?...path=...). That
-  // routing artifact must not be forwarded to FreeLLMAPI — strip it.
-  const params = new URLSearchParams(url.search)
-  params.delete('path')
-  params.delete('...path')
-  const cleanQuery = params.toString()
-  const target =
-    upstreamBase.replace(/\/+$/, '') + suffix + (cleanQuery ? `?${cleanQuery}` : '')
-
-  // Validate before fetch — clearer error than "Invalid URL string".
-  try {
-    // eslint-disable-next-line no-new
-    new URL(target)
-  } catch {
-    return new Response(
-      JSON.stringify({
-        error: {
-          message: `FREELLMAPI_URL produced an invalid target URL: "${target}". Check the env var value on Vercel — it should be the full HTTPS URL ending in /v1, with no trailing space or slash.`,
-        },
-      }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
-    )
+  // GET /api/llm/models — return combined model list.
+  if (req.method === 'GET' && suffix === '/models') {
+    return new Response(JSON.stringify(buildModelsList()), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    })
   }
 
-  // Forward the request headers except host/proxy ones.
-  const fwdHeaders = new Headers()
-  req.headers.forEach((value, key) => {
-    if (!DROP_HEADERS.has(key.toLowerCase())) fwdHeaders.set(key, value)
-  })
+  // POST /api/llm/chat/completions — route to a real provider.
+  if (req.method === 'POST' && suffix === '/chat/completions') {
+    let body: unknown
+    try {
+      body = await req.json()
+    } catch {
+      return new Response(
+        JSON.stringify({ error: { message: 'Invalid JSON body', type: 'client_error' } }),
+        { status: 400, headers: { 'Content-Type': 'application/json' } }
+      )
+    }
 
-  const init: RequestInit = {
-    method: req.method,
-    headers: fwdHeaders,
-    // Only include a body for methods that carry one.
-    body:
-      req.method === 'GET' || req.method === 'HEAD'
-        ? undefined
-        : await req.arrayBuffer(),
-    // Don't follow redirects on the upstream — pass them back verbatim.
-    redirect: 'manual',
+    // Collect passthrough headers (drop hop-scoped and Vercel-specific ones).
+    const passthrough: Record<string, string> = {}
+    req.headers.forEach((v, k) => {
+      if (!DROP_HEADERS.has(k.toLowerCase())) passthrough[k] = v
+    })
+
+    const result = await routeChatCompletion({ body, suffix, passthroughHeaders: passthrough })
+
+    if (!result.ok) return buildFailureResponse(result.attempts)
+
+    // Success — pass the upstream body through, but override the `model`
+    // field in the JSON response so the client's little label reflects the
+    // actual provider+model combo (e.g. "groq:llama-3.3-70b-versatile").
+    const upstreamHeaders = new Headers()
+    result.response.headers.forEach((v, k) => {
+      // Drop content-encoding/content-length — Vercel re-encodes.
+      if (
+        k.toLowerCase() !== 'content-encoding' &&
+        k.toLowerCase() !== 'content-length' &&
+        k.toLowerCase() !== 'transfer-encoding'
+      ) {
+        upstreamHeaders.set(k, v)
+      }
+    })
+
+    // Rewrite the body's `model` field to include the provider label.
+    // Only bother if the upstream is JSON (which it will be for chat/completions).
+    const ct = (result.response.headers.get('content-type') || '').toLowerCase()
+    if (ct.includes('application/json')) {
+      try {
+        const upstreamBody = (await result.response.json()) as { model?: string }
+        upstreamBody.model = `${result.provider.id}:${upstreamBody.model || result.model}`
+        return new Response(JSON.stringify(upstreamBody), {
+          status: result.response.status,
+          headers: upstreamHeaders,
+        })
+      } catch {
+        // Fall through and stream verbatim if we can't parse.
+      }
+    }
+
+    return new Response(result.response.body, {
+      status: result.response.status,
+      headers: upstreamHeaders,
+    })
   }
 
-  let upstreamRes: Response
-  try {
-    upstreamRes = await fetch(target, init)
-  } catch (err) {
-    return new Response(
-      JSON.stringify({
-        error: {
-          message: `Failed to reach FreeLLMAPI upstream at ${target}: ${
-            err instanceof Error ? err.message : String(err)
-          }`,
-        },
-      }),
-      { status: 502, headers: { 'Content-Type': 'application/json' } }
-    )
-  }
-
-  // Mirror the response verbatim.
-  const respHeaders = new Headers()
-  upstreamRes.headers.forEach((value, key) => {
-    respHeaders.set(key, value)
-  })
-  return new Response(upstreamRes.body, {
-    status: upstreamRes.status,
-    statusText: upstreamRes.statusText,
-    headers: respHeaders,
-  })
+  return new Response(
+    JSON.stringify({
+      error: {
+        message: `Unsupported route: ${req.method} ${suffix}. This router only implements /chat/completions and /models.`,
+        type: 'client_error',
+      },
+    }),
+    { status: 404, headers: { 'Content-Type': 'application/json' } }
+  )
 }

@@ -4,6 +4,8 @@ dist
 *.log
 .env
 .env.local
+.env.production
+.env.*
 .vercel
 
 # TypeScript composite-build artifacts. Previously these were emitted next
