@@ -72,7 +72,10 @@ export function useAISettings() {
     setState({ ...state, ...patch })
   }, [])
 
-  const isConfigured = Boolean(local.apiKey && local.baseUrl)
+  // The router handles auth server-side via Vercel env vars, so the client
+  // just needs a baseUrl to know where to send requests. The apiKey field
+  // is kept in the type for backwards compatibility but no longer required.
+  const isConfigured = Boolean(local.baseUrl)
 
   return { settings: local, update, isConfigured }
 }

@@ -120,26 +120,21 @@ export default function AIChatPanel() {
         {/* Reachability banner */}
         {isConfigured && chat.reachable === 'no' && (
           <div className="px-4 py-2 text-xs bg-amber-50 dark:bg-amber-900/20 text-amber-800 dark:text-amber-200 border-b border-amber-200 dark:border-amber-800">
-            Can't reach FreeLLMAPI. The chat only works when you visit the
-            site via <code className="font-mono">http://localhost:5173</code>{' '}
-            (run <code className="font-mono">npm run dev</code>) AND have
-            the container running (
-            <code className="font-mono">docker compose up -d</code> in{' '}
-            <code className="font-mono">~/freellmapi</code>). It cannot work
-            on the deployed Vercel URL, since Vercel's servers can't reach
-            your Mac's localhost.
+            The router isn't responding. Check that your Vercel deployment
+            is live and that at least one <code className="font-mono">PROVIDER_*_KEYS</code>{' '}
+            env var is set. See the browser console for details.
           </div>
         )}
         {!isConfigured && (
           <div className="px-4 py-2 text-xs bg-accent-50 dark:bg-accent-900/20 text-accent-800 dark:text-accent-200 border-b border-accent-200 dark:border-accent-800">
-            First time? Open{' '}
+            The router endpoint isn't configured. Open{' '}
             <button
               className="underline font-medium"
               onClick={() => setShowSettings(true)}
             >
               settings
             </button>{' '}
-            and paste your FreeLLMAPI unified key.
+            to point it at your Vercel proxy.
           </div>
         )}
 
@@ -355,12 +350,11 @@ function SuggestionChip({ text }: { text: string }) {
 
 function SettingsDrawer({ onClose }: { onClose: () => void }) {
   const { settings, update } = useAISettings()
-  const [showKey, setShowKey] = useState(false)
   return (
     <div className="border-b border-ink-100 dark:border-ink-700 bg-cream-100/60 dark:bg-ink-800/60 px-4 py-3 space-y-3">
       <div>
         <label className="text-[11px] uppercase tracking-widest text-ink-400 dark:text-ink-300 mb-1 block">
-          FreeLLMAPI base URL
+          Router endpoint
         </label>
         <input
           type="text"
@@ -369,33 +363,10 @@ function SettingsDrawer({ onClose }: { onClose: () => void }) {
           className="w-full font-mono text-xs px-2.5 py-1.5 bg-white dark:bg-ink-800 border border-ink-200 dark:border-ink-700 rounded-md text-ink-900 dark:text-cream-50 focus:outline-none focus:border-accent-500"
         />
         <div className="text-[10px] text-ink-400 mt-1">
-          Default <code className="font-mono">/api/llm</code> goes through the
-          Vite dev proxy to <code className="font-mono">localhost:3001/v1</code>.
-        </div>
-      </div>
-
-      <div>
-        <label className="text-[11px] uppercase tracking-widest text-ink-400 dark:text-ink-300 mb-1 block">
-          Unified API key
-        </label>
-        <div className="flex gap-1">
-          <input
-            type={showKey ? 'text' : 'password'}
-            value={settings.apiKey}
-            onChange={(e) => update({ apiKey: e.target.value })}
-            placeholder="freellmapi-…"
-            className="flex-1 font-mono text-xs px-2.5 py-1.5 bg-white dark:bg-ink-800 border border-ink-200 dark:border-ink-700 rounded-md text-ink-900 dark:text-cream-50 focus:outline-none focus:border-accent-500"
-          />
-          <button
-            onClick={() => setShowKey((v) => !v)}
-            className="text-xs px-2 py-1 rounded-md border border-ink-200 dark:border-ink-700 text-ink-500 dark:text-ink-300 hover:bg-cream-200 dark:hover:bg-ink-800"
-          >
-            {showKey ? 'Hide' : 'Show'}
-          </button>
-        </div>
-        <div className="text-[10px] text-ink-400 mt-1">
-          Get from the FreeLLMAPI dashboard → Keys page. Stored in this
-          browser only.
+          Points at the Vercel-hosted router (
+          <code className="font-mono">/api/llm</code> by default), which
+          rotates across all your provider keys server-side. No API key
+          needed here — the router uses Vercel env vars.
         </div>
       </div>
 
