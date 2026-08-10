@@ -175,7 +175,16 @@ export async function chatCompletion(
     } catch {
       detail = ''
     }
-    throw new FreeLLMError(`Chat request failed (${res.status})`, {
+    // Use the router's error message when it provides one — it typically
+    // has a per-provider breakdown (e.g. "All providers exhausted…") that's
+    // much more useful than a bare status code.
+    const upstreamMessage =
+      detail && typeof detail === 'object' && 'error' in detail
+        ? typeof (detail as { error?: { message?: unknown } }).error?.message === 'string'
+          ? (detail as { error: { message: string } }).error.message
+          : `Chat request failed (${res.status})`
+        : `Chat request failed (${res.status})`
+    throw new FreeLLMError(upstreamMessage, {
       status: res.status,
       detail,
       kind: 'endpoint-error',

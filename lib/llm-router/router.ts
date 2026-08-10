@@ -153,30 +153,20 @@ export async function routeChatCompletion(
 
       // Success path — return this response.
       if (res.ok) {
-        // Tag the response with which provider actually served it so the
-        // client label reflects the real backend. We do this by returning
-        // both the response and metadata; the caller can inject a header.
         return { ok: true, response: res, provider, model }
       }
 
-      // Categorise the failure. Retryable → try next key/provider.
-      // Client error 4xx (bad request) → return to caller; more keys won't help.
+      // Anything non-2xx: record and try the next key. Once this provider's
+      // keys are exhausted, the outer loop moves to the next provider. We
+      // retry on 4xx too (401/403 bad key, 404/410 model gone, 429 rate
+      // limit) because those are provider-specific — a different provider
+      // might handle the same request just fine. Only after every provider
+      // × every key has failed do we surface an error to the caller.
       attempts.push({
         provider: provider.id,
         keyPrefix: keyFingerprint(key),
         status: res.status,
       })
-
-      const isKeyProblem = res.status === 401 || res.status === 403
-      const isRateLimit = res.status === 429
-      const isUpstreamDown = res.status >= 500
-      if (isKeyProblem || isRateLimit || isUpstreamDown) {
-        // Retry with next key (or next provider once keys exhaust).
-        continue
-      }
-
-      // Non-retryable client-side error (400 bad payload etc.) — return it.
-      return { ok: true, response: res, provider, model }
     }
   }
 
