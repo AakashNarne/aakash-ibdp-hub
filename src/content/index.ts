@@ -1,6 +1,8 @@
 import type { Subject } from './types'
 import { ch1Flashcards } from './economics/ch1-flashcards'
 import ch1Notes from './economics/ch1-notes.md?raw'
+import { ch2Flashcards } from './economics/ch2-flashcards'
+import ch2Notes from './economics/ch2-notes.md?raw'
 import { ch1Flashcards as mathsCh1Flashcards } from './maths/ch1-flashcards'
 import mathsCh1Notes from './maths/ch1-notes.md?raw'
 
@@ -43,6 +45,28 @@ export const subjects: Subject[] = [
         ],
         flashcards: ch1Flashcards,
         updated: '2026-08-04',
+      },
+      {
+        id: 'ch2',
+        title: 'Chapter 2: Demand and Supply',
+        subtitle: 'Competitive markets, price mechanism, allocative efficiency, behavioural critique',
+        notes: ch2Notes,
+        sections: [
+          'Section 2.1 — Introduction to Competitive Markets',
+          'Section 2.2 — Demand',
+          'Section 2.3 — Supply',
+          'Section 2.4 — Market Equilibrium',
+          'Section 2.5 — Efficiency in Competitive Markets',
+          'Section 2.6 — The Three Roles of the Price Mechanism',
+          'Section 2.7 — HL Extension: Critique of the Consumer/Producer Model',
+          'Section 2.8 — Diagram Checklist',
+          'Section 2.9 — Chapter Summary',
+          'Section 2.10 — Exam-Ready Definitions',
+          'Section 2.11 — Common Exam Traps',
+          'Section 2.12 — Sources Cited',
+        ],
+        flashcards: ch2Flashcards,
+        updated: '2026-08-10',
       },
     ],
   },
