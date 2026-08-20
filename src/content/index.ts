@@ -5,6 +5,8 @@ import { ch2Flashcards } from './economics/ch2-flashcards'
 import ch2Notes from './economics/ch2-notes.md?raw'
 import { ch1Flashcards as mathsCh1Flashcards } from './maths/ch1-flashcards'
 import mathsCh1Notes from './maths/ch1-notes.md?raw'
+import { ch1Flashcards as gpCh1Flashcards } from './global-politics/ch1-flashcards'
+import gpCh1Notes from './global-politics/ch1-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -142,7 +144,30 @@ export const subjects: Subject[] = [
     color: 'violet',
     icon: 'Globe',
     description: 'Power, sovereignty, human rights, development, peace, and conflict.',
-    chapters: [],
+    chapters: [
+      {
+        id: 'ch1',
+        title: 'Chapter 1: Foundations of Global Politics',
+        subtitle: 'Core key concepts (power, sovereignty, legitimacy, interdependence), theoretical lenses, thematic studies, assessment structure',
+        notes: gpCh1Notes,
+        sections: [
+          'Section 1.1 — What Global Politics Is (and Isn\'t)',
+          'Section 1.2 — The Four Core Key Concepts',
+          'Section 1.3 — The Three Thematic Studies',
+          'Section 1.4 — Levels of Analysis',
+          'Section 1.5 — Theoretical Lenses',
+          'Section 1.6 — Stakeholder Analysis Framework',
+          'Section 1.7 — Claims and Counterclaims: the Grey Areas Rule',
+          'Section 1.8 — Assessment Structure (SL)',
+          'Section 1.9 — Common Exam Traps',
+          'Section 1.10 — Exam-Ready Definitions',
+          'Section 1.11 — Diagnostic Prompts to Test Yourself',
+          'Section 1.12 — Sources',
+        ],
+        flashcards: gpCh1Flashcards,
+        updated: '2026-08-10',
+      },
+    ],
   },
 ]
 
