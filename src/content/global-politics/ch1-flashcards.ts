@@ -82,6 +82,36 @@ export const ch1Flashcards: Flashcard[] = [
     a: 'The more you rely on hard power, the more soft power you LOSE over time. Bullies aren\'t loved. But countries that are only loved aren\'t respected. The strategic art is knowing when each is needed — the smart-power move.',
   },
 
+  // ── Section 1.2.1-c — Power Over / To / With / Within ──────────
+  {
+    q: 'Where does the "power over / to / with / within" typology come from, and why does it matter?',
+    a: 'Mary Parker Follett (1920s), developed by Jo Rowlands ("Questioning Empowerment", 1997), now standard in development, feminist, and IB GP materials (Oxfam uses it directly). It matters because it REFRAMES power away from "who dominates whom" toward "what can be done, and by whom" — bringing individuals, communities, and movements into the analytical frame alongside states.',
+  },
+  {
+    q: 'Define power OVER with two examples.',
+    a: 'The traditional coercive form — one actor exercises power OVER another, extracting compliance through threat, force, or authority. Fundamentally ZERO-SUM: my gain is your loss. Aligns roughly with Nye\'s hard power and Lukes\' first face. Examples: authoritarian government suppressing dissent; occupying army over a population; colonial administration; corporation over gig workers.',
+  },
+  {
+    q: 'Define power TO with two examples.',
+    a: 'The CAPACITY or ability of an actor to act, create, or achieve. Generative rather than coercive. About AGENCY and POSSIBILITY. Doesn\'t require dominating anyone. Examples: literacy programmes give women the power TO read contracts; land rights give indigenous communities the power TO refuse extraction; voter registration gives citizens the power TO participate; microfinance gives entrepreneurs the power TO start a business.',
+  },
+  {
+    q: 'Define power WITH and give two examples.',
+    a: 'COLLECTIVE power built through solidarity, cooperation, coalition-building. NOT zero-sum — two actors combining power WITH each other produce more than either had alone. Foundation of social movements, unions, alliances. Examples: global climate movement pooling advocacy; India\'s farmers\' protest (2020–21); Fridays for Future coalition; South Africa\'s anti-apartheid Congress Alliance; NATO as a state-level power WITH alliance.',
+  },
+  {
+    q: 'Define power WITHIN and explain why the feminist tradition considers it foundational.',
+    a: 'The INTERNAL dimension: SELF-WORTH, SELF-KNOWLEDGE, sense of one\'s own agency and dignity. Rooted in identity and consciousness. Feminist and community-empowerment traditions treat it as FOUNDATIONAL because a person or community that lacks power WITHIN cannot exercise power TO, cannot form power WITH, and remains vulnerable to power OVER. Examples: 1970s women\'s consciousness-raising; Ambedkar on Dalit self-respect; Steve Biko\'s Black Consciousness; indigenous language revitalisation.',
+  },
+  {
+    q: 'How does the Follett/Rowlands typology differ from Nye\'s, and how should you use both in an essay?',
+    a: 'NYE\'s typology is fundamentally about STATES and how they get outcomes internationally. FOLLETT/ROWLANDS works across SCALES — individuals, communities, movements, states — and is neutral about attraction vs coercion. Strong Paper 2 move: use Nye for STATE-LEVEL analysis (US soft power in Vietnam vs Iraq); use Follett/Rowlands for SUB-STATE and NON-STATE dimensions (Vietnamese civil society\'s power within; anti-war movement\'s power with).',
+  },
+  {
+    q: "Why do power TO, WITH, and WITHIN reinforce each other?",
+    a: 'Development projects that only give people resources (power TO) without building solidarity (WITH) or self-worth (WITHIN) tend to fail. The three positive forms REINFORCE each other: self-worth (WITHIN) motivates people to organise (WITH); collective action (WITH) unlocks new capacities (TO); new capacities (TO) build confidence (WITHIN). This is why grassroots empowerment work targets all three simultaneously.',
+  },
+
   // ── Section 1.2.2 — Sovereignty ─────────────────────────────────
   {
     q: 'Define sovereignty.',

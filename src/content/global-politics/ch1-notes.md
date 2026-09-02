@@ -99,6 +99,32 @@ The key insight: **command power** (making others do things through coercion or 
 
 **Rule of thumb from Nye:** the more you rely on hard power, the more soft power you *lose* over time. Bullies aren't loved. And countries that are only loved aren't respected. The strategic art is knowing when each is needed — the smart-power move.
 
+### 1.2.1-c Power Over, Power To, Power With, Power Within — The Empowerment Typology
+
+A second framework, distinct from Nye's, comes from the tradition of Mary Parker Follett (1920s), developed by Jo Rowlands (*Questioning Empowerment*, 1997), and now standard in development, feminist, and IB Global Politics materials (Oxfam's global-programme framework uses it directly). It reframes power away from "who dominates whom" toward "what can be done, and by whom."
+
+Four types:
+
+**1. Power OVER** — the traditional, coercive form. One actor exercises power *over* another, extracting compliance through threat, force, or authority. Fundamentally *zero-sum*: my gain is your loss. Aligns roughly with Nye's hard power and Lukes' first face.
+- Examples: an authoritarian government suppressing dissent; an occupying army over a population; a colonial administration; an abusive corporation over gig workers.
+
+**2. Power TO** — the *capacity* or ability of an actor to act, to create, to achieve. Generative rather than coercive. About *agency* and *possibility*. Power *to* is what you gain when you acquire a skill, a resource, a legal right, an education. It doesn't require dominating anyone.
+- Examples: literacy programmes give women the power *to* read contracts; land rights give indigenous communities the power *to* refuse extraction; voter registration gives citizens the power *to* participate; access to microfinance gives entrepreneurs the power *to* start a business.
+
+**3. Power WITH** — *collective* power built through solidarity, cooperation, coalition-building. Not zero-sum: two actors combining their power *with* each other produce more than either had alone. The foundation of social movements, unions, alliances.
+- Examples: the global climate movement pooling advocacy across NGOs, cities, and youth activists; India's farmers' protest movement (2020–21) that united across state and caste lines; the Fridays for Future coalition; South Africa's anti-apartheid Congress Alliance; NATO as a state-level "power with" alliance.
+
+**4. Power WITHIN** — the internal dimension: *self-worth, self-knowledge, sense of one's own agency and dignity*. Rooted in identity and consciousness. A person or community that lacks power *within* cannot exercise power *to*, cannot form power *with*, and remains vulnerable to power *over*. Feminist and community-empowerment traditions treat this as the foundation for all other kinds.
+- Examples: consciousness-raising in the women's movement of the 1970s; Ambedkar's insistence that Dalit self-respect had to precede political emancipation; Black consciousness / Steve Biko's writings; trauma-informed community work in post-conflict zones (Rwanda, Bosnia); indigenous language revitalisation as a power-within intervention.
+
+**Why the framework matters for GP.**
+
+- **It expands who counts as a political actor.** Realism and Nye focus on states and (in Nye's case) national attractiveness. The Follett/Rowlands framework brings *communities, movements, and individuals* into the analytical frame — essential for the IA (Engagement Project) which is almost always about people trying to build power *to*, *with*, or *within*.
+- **It reframes empowerment.** Development projects that only give people resources (power *to*) without building solidarity (*with*) or self-worth (*within*) tend to fail. The three positive forms reinforce each other.
+- **It reveals that "power over" isn't the whole story.** A government can hold immense power *over* its population and still lose to a mobilised civil society that builds power *with* and power *within* — as in Sudan 2019 (Bashir overthrown), or the Arab Spring 2011.
+
+**Contrast with Nye.** Nye's typology is fundamentally about *states* and how they get outcomes in the international system. The Follett/Rowlands typology works across *scales* — individuals, communities, movements, states — and is neutral about whether power operates through attraction or coercion. In a Paper 2 essay, invoking both frameworks together is a strong analytical move: use Nye for the state-level analysis (US soft power in Vietnam vs Iraq), Follett/Rowlands for the sub-state and non-state dimensions (Vietnamese civil society's power *within*; the anti-war movement's power *with*).
+
 **Contested nature.** Power is always in flux — think of the shift from unipolar (post-1991 US hegemony) to multipolar (2020s: US, China, EU, India, regional powers). Every essay on power should acknowledge that power distributions *change* and are *challenged*.
 
 ### 1.2.1a How Power Operates — Lukes' Three Faces
