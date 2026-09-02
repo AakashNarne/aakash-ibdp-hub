@@ -51,6 +51,37 @@ export const ch1Flashcards: Flashcard[] = [
     a: 'China rises across MULTIPLE power dimensions simultaneously — economic (BRI, 150+ countries), technological (AI, 5G, EVs), military (largest navy by hull count), diplomatic (SCO, BRICS+), and increasingly structural (yuan settlement systems). Russia\'s power is concentrated in hard/military alone. A rising power on many dimensions is a different theoretical case than one on few.',
   },
 
+  // ── Section 1.2.1-Nye — Joseph Nye's Soft Power Framework ──────
+  {
+    q: "State Joseph Nye's core definition of power and the three ways to affect others.",
+    a: 'Power is the ability to affect others to get the outcomes you want. Three ways: (1) THREATS ("sticks") — coercion; (2) PAYMENTS ("carrots") — economic inducements; (3) ATTRACTION (co-option) — soft power, getting others to WANT what you want. The first two are hard power; the third is soft power.',
+  },
+  {
+    q: 'What are Nye\'s three primary sources of a country\'s soft power?',
+    a: '1. CULTURE — when it\'s attractive to others (Hollywood, K-pop, Bollywood, universities, cuisine, English language). 2. POLITICAL VALUES — when the country lives up to them at home AND abroad; hypocrisy destroys this instantly (Abu Ghraib, Guantánamo gutted US soft power). 3. FOREIGN POLICIES — when seen as legitimate and moral (UN-sanctioned coalition-building preserves it; unilateral action without legitimacy destroys it, e.g. 2003 Iraq).',
+  },
+  {
+    q: "Explain Nye's distinction between 'power resources' and 'power outcomes'.",
+    a: 'Countries have power RESOURCES (population, GDP, military spending, cultural exports) that must be CONVERTED into power OUTCOMES (achieving what they want). The conversion isn\'t automatic. Countries with vast resources can fail (Vietnam-era US, USSR, Russia in Ukraine). Countries with modest resources can punch above their weight (Norway on climate/peace; Singapore on trade governance). STRATEGY and LEGITIMACY are what convert resources into outcomes.',
+    hint: 'Power conversion',
+  },
+  {
+    q: "What does Nye mean by 'smart power' and what's the strategic insight?",
+    a: 'Smart power (Nye, 2003, elaborated 2011) is not just hard + soft mixed. It\'s STRATEGIC INTELLIGENCE about which type of power to deploy for which situation — when to use force, when to persuade, when to build institutions, when to walk away. Hillary Clinton adopted it as a Secretary of State framework in 2009.',
+  },
+  {
+    q: "Name three limits of soft power according to Nye's own analysis.",
+    a: '(1) SLOW — cultural attraction builds over decades, can\'t be manufactured in a crisis. (2) UNCONTROLLABLE — governments can\'t dictate what\'s attractive; Hollywood isn\'t a State Department instrument. (3) CONTEXTUAL — what\'s attractive in one country is repellent in another; Iran finds Western liberalism threatening, not attractive. (4) VULNERABLE TO BACKLASH — perceived cultural imperialism generates counter-movements.',
+  },
+  {
+    q: "What's Nye's forecast on China's soft power?",
+    a: 'China has invested heavily in soft power (Confucius Institutes, CGTN, film, Xi\'s global development narrative) but faces a STRUCTURAL LIMIT: authoritarian political system undermines the attractiveness of its political values in liberal democracies. BTS boosts South Korea\'s soft power globally; Communist Party control over Chinese pop culture limits how far it travels. Live 2026 debate as China contests US soft-power dominance in the Global South.',
+  },
+  {
+    q: "What's Nye's rule of thumb on the trade-off between hard and soft power?",
+    a: 'The more you rely on hard power, the more soft power you LOSE over time. Bullies aren\'t loved. But countries that are only loved aren\'t respected. The strategic art is knowing when each is needed — the smart-power move.',
+  },
+
   // ── Section 1.2.2 — Sovereignty ─────────────────────────────────
   {
     q: 'Define sovereignty.',
@@ -128,8 +159,80 @@ export const ch1Flashcards: Flashcard[] = [
     a: 'The international system is ANARCHIC; states are the primary actors; they pursue national interest defined as SECURITY and POWER; conflict is a permanent possibility. Explains well: great-power competition, military build-ups, alliance formation, balance-of-power politics. Case fit: US-China rivalry, Russia\'s Ukraine invasion, India\'s border strategy with China.',
   },
   {
+    q: 'Name the five core assumptions shared by all realist schools.',
+    a: '(1) ANARCHY — no supreme authority above states. (2) STATE-CENTRISM — states are primary actors. (3) RATIONALITY — states are rational, unitary actors calculating costs and benefits. (4) SURVIVAL — primary goal of every state; a dead state pursues no other goal. (5) SELF-HELP — each state must rely ultimately on itself for security; alliances are conditional.',
+  },
+  {
+    q: 'What is the security dilemma?',
+    a: 'One state\'s efforts to increase its own security (buying weapons, building alliances) APPEAR THREATENING to others, who respond by increasing THEIR security, which threatens the first state further. Even purely DEFENSIVE actions produce arms races. Examples: India-Pakistan nuclear posture; US-Soviet Cold War buildup; China\'s naval expansion → US Indo-Pacific rebalance → China feels encircled. Why realists say cooperation is fragile and conflict chronic.',
+  },
+  {
+    q: 'Distinguish absolute gains from relative gains.',
+    a: 'ABSOLUTE gains = how much did I gain? RELATIVE gains = how much did I gain COMPARED TO COMPETITORS? Realists say states care about RELATIVE gains. If a trade deal makes India $10bn richer and China $30bn richer, a realist Indian government might reject it — the economy grew but the power GAP widened. Why realists are skeptical of free-trade optimism.',
+  },
+  {
+    q: 'Distinguish classical realism, neorealism, offensive realism, and defensive realism.',
+    a: 'CLASSICAL (Morgenthau) — conflict rooted in HUMAN NATURE, lust for power. NEOREALISM/STRUCTURAL (Waltz) — conflict rooted in the STRUCTURE of anarchy; even peaceful humans would compete. DEFENSIVE (Waltz, Jervis) — states seek ENOUGH power to be secure, no more; over-expansion is self-defeating. OFFENSIVE (Mearsheimer) — states seek MAXIMUM power; because you can\'t verify others\' intentions, best strategy is to become a regional hegemon.',
+  },
+  {
+    q: "What is the Thucydides Trap?",
+    a: 'Graham Allison\'s concept — peace is preserved when power is balanced, but when a RISING power challenges an ESTABLISHED one, war becomes more likely. Allison documented 16 historical cases of rising vs. established powers; 12 ended in war. Modern application: US-China rivalry as a potential Thucydides Trap. Named after Thucydides\' Peloponnesian War: "It was the rise of Athens and the fear it inspired in Sparta that made war inevitable."',
+  },
+  {
+    q: 'Give a realist reading of the 2011 Libya intervention.',
+    a: 'Framed as R2P but actually driven by: (a) fear of Libyan destabilisation of Southern Europe via migration, (b) French desire to reassert regional influence, (c) opportunistic regime change on a weak dictator. The aftermath — state collapse, chaos, migrant crisis — vindicates realists who warned humanitarian intervention would fail on realist grounds.',
+  },
+  {
     q: "Liberalism's core claim in one line, and what it explains best.",
     a: 'Cooperation is possible in anarchy via INSTITUTIONS, ECONOMIC INTERDEPENDENCE, and shared DEMOCRATIC VALUES. Non-state actors matter; rules and norms shape behaviour. Explains well: the EU, WTO, UN, human rights conventions, Paris Agreement, persistence of post-1945 institutions.',
+  },
+  {
+    q: 'What is the etymology of "liberal" and why does it matter?',
+    a: 'From Latin "liberalis" — pertaining to a FREE person. This root — freedom — is the key to everything liberal theory says. Liberalism is fundamentally about the LIBERTY of the individual, and by extension the liberty of political communities to shape the rules that govern them.',
+  },
+  {
+    q: 'Name the four core principles of liberalism.',
+    a: '(1) INDIVIDUAL LIBERTY — freedom to make choices without undue interference. (2) EQUALITY — before the law, and in modern versions, socially and economically; enables liberty by removing barriers. (3) DEMOCRACY — government BY the people, THROUGH the will of the people; fosters liberty via participation. (4) FREE MARKETS — economic system where transactions are largely free from government interference (extent varies across liberal traditions).',
+  },
+  {
+    q: 'Why did liberalism become more relevant in the 20th century?',
+    a: 'Trade started to include more diverse goods across the globe; connections between countries grew more complicated; a web of complex relationships emerged. Traditional realist, state-centric IR became less helpful for policy makers. Countries needed to COOPERATE with MNCs, IGOs, and other states — failure produced negative repercussions (Smoot-Hawley 1930, League of Nations failure → WWII). This shift created the space for liberal theory to dominate post-1945 international order.',
+  },
+  {
+    q: 'What is embedded in the multilateral approach to global governance from a liberal viewpoint?',
+    a: 'A key principle of POLITICAL LIBERALISM: the "governed" (in this case, states) should have the LIBERTY — hence "liberal-ism" — to provide INPUT into the rules and principles by which global institutions govern. Decisions affecting two or more states require (a) participation of all affected stakeholders and (b) backing of the rule of law.',
+  },
+  {
+    q: 'Name five major IGOs informed by liberalism and what each does.',
+    a: 'UN — general political coordination + agencies (WHO health, UNHCR refugees, UNESCO education). ICC — individual criminal accountability across borders. IMF — balance of payments and financial stability. WORLD BANK — development finance. WTO — rules-based trade. Their mandates combine democratic values (political liberalism), free trade markets (economic liberalism), multilateral cooperation, and a rule-based international society that respects sovereignty and human rights.',
+  },
+  {
+    q: "What are the three dimensions in liberalism's summary definition?",
+    a: '(1) RULE OF LAW + basic rights — citizens equal before the law, with rights to education, free press, religious toleration, fair trial, political participation. (2) LIMITED GOVERNMENT — legislative assembly possesses only the authority granted by citizens, whose basic rights it must not abuse. (3) MARKET-DRIVEN ECONOMY — capitalism, where economic liberty is not unduly constrained by government regulation.',
+  },
+  {
+    q: "What is the essential contrast between liberalism and realism in one sentence?",
+    a: 'Liberal values of ECONOMIC and INDIVIDUAL freedoms and the RULE OF LAW stand in tension with realism\'s emphasis on ORDER and AUTHORITY, where the individual\'s liberty may be sacrificed for the stability and security of the community.',
+  },
+  {
+    q: "What is Kant's democratic peace theory?",
+    a: 'From Kant\'s "Perpetual Peace" (1795): democracies rarely if ever fight each other, because (a) leaders answer to publics who bear war\'s costs, (b) democracies share norms of peaceful conflict resolution, (c) trade and civil society link them. Empirical record has largely held — no two consolidated democracies have gone to war since 1945. Systematised statistically by Michael Doyle (1983). Central to modern liberal IR theory.',
+  },
+  {
+    q: "What is Keohane and Nye's concept of complex interdependence?",
+    a: 'From "Power and Interdependence" (1977). A world where states are entangled with each other AND with non-state actors through MULTIPLE CHANNELS (economic, cultural, informational, security). In this world: (a) military force loses relevance for many issues; (b) there is no clear hierarchy of issues (security isn\'t automatically top); (c) international institutions become important because they lower transaction costs and shape agendas. Foundational to modern liberalism.',
+  },
+  {
+    q: "What is Fukuyama's End of History thesis, and how has it aged?",
+    a: 'From "The End of History and the Last Man" (1992). Liberal democracy is the "final form" of human government — the endpoint of ideological evolution. Written just after Soviet collapse, at peak liberal triumphalism. Aged poorly: China\'s rise, Russia\'s revanchism, democratic backsliding globally. But the underlying question — is liberal democracy uniquely stable and legitimate? — is still central to GP.',
+  },
+  {
+    q: 'Give a liberal reading of the 2011 Libya intervention.',
+    a: 'R2P was invoked by the UN Security Council under Resolution 1973 to protect civilians from a regime committing atrocities. Multiple institutions coordinated (Arab League endorsement, NATO execution, ICC arrest warrant against Gaddafi). Sovereignty was legitimately overridden for a higher legal-humanitarian norm. Aftermath collapse reflects poor liberal EXECUTION — inadequate post-conflict institution-building — not a fatal flaw in liberal principles.',
+  },
+  {
+    q: "List three of liberalism's biggest blind spots.",
+    a: '(1) GREAT-POWER REVISIONISM — Russia\'s Ukraine invasion, China\'s SCS militarisation, US Paris/WHO withdrawals. Institutions don\'t restrain revisionists. (2) DEMOCRATIC BACKSLIDING — Hungary, Turkey, India (Freedom House 2023 downgrade), Philippines, even US. Democracy isn\'t a one-way ratchet, so democratic peace isn\'t either. (3) MESSINESS OF INTERVENTION — liberal interventions to promote democracy (Iraq 2003, Afghanistan 2001–21, Libya 2011) have mostly failed. Tension between liberal ends and illiberal means unresolved. (4) NATIONALISM — Brexit, Trump, Modi, Erdoğan campaigned successfully on anti-globalist platforms.',
   },
   {
     q: "Constructivism's core claim in one line, and what it explains best.",

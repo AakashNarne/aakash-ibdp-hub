@@ -57,6 +57,48 @@ Power isn't a *thing* one actor "has." It's a **relationship** between actors, a
 - **Smart power** — deliberate combination of hard and soft power. The Marshall Plan (aid + strategic alignment). The Belt and Road Initiative (loans + infrastructure + political leverage).
 - **Structural power** — control over the *rules* of the system, not just outcomes. The US dollar's role as reserve currency. The permanent five (P5) UN Security Council veto. Global financial architecture (IMF, World Bank) still Western-led despite BRICS pushback.
 
+### 1.2.1-Nye Joseph Nye's Soft Power Framework — Deep Dive
+
+Joseph Nye Jr. (Harvard) coined **soft power** in *Bound to Lead* (1990) and elaborated it in *Soft Power: The Means to Success in World Politics* (2004). It's the single most-cited concept in contemporary GP.
+
+**Nye's core definition.** Power is the ability to affect others to get the outcomes you want. There are three ways to do this:
+1. **Threats** (sticks) — hard power.
+2. **Payments** (carrots) — also hard power, using economic inducements.
+3. **Attraction** (co-option) — soft power. Getting others to *want* what you want.
+
+The key insight: **command power** (making others do things through coercion or payment) is not the only kind of power. **Co-optive power** — shaping preferences so others align with you voluntarily — is often more efficient, more durable, and cheaper. If you can attract, you don't have to coerce.
+
+**Nye's three primary sources of a country's soft power:**
+
+1. **Culture** — where it's attractive to others. Hollywood, K-pop, Bollywood, the English language, universities (Harvard, Oxford, IITs) that pull global talent, cuisine (Italian, Japanese, Indian), fashion (Paris, Milan). Culture as soft power works only when others find it appealing — it isn't automatic.
+2. **Political values** — when the country lives up to them at home and abroad. US freedom-of-speech norms are soft power when the US practices them consistently. The Nordic countries' commitment to gender equality is soft power because they demonstrably live it. Hypocrisy destroys this source instantly (Guantánamo, Abu Ghraib gutted US soft power for a generation).
+3. **Foreign policies** — when they're seen as legitimate and moral. Coalition-building through the UN before the 1991 Gulf War preserved US soft power. Unilateral action without UN sanction (2003 Iraq invasion) destroyed it.
+
+**Power conversion.** A crucial Nye idea: countries have **power resources** (population, GDP, military spending, cultural exports) that must be *converted* into **power outcomes** (achieving what they want). The conversion isn't automatic. A country with vast resources can fail (Vietnam-era US, USSR, contemporary Russia in Ukraine); a country with modest resources can punch above its weight (Norway on climate/peace diplomacy; Singapore on trade governance). **Strategy** and **legitimacy** are what convert resources into outcomes.
+
+**Smart power (Nye, 2003, elaborated 2011).** Not just hard + soft mixed. It's **strategic intelligence** about which type of power to deploy for which situation. When to use force. When to persuade. When to build institutions. When to walk away. Hillary Clinton adopted "smart power" as a Secretary of State framework in 2009.
+
+**The limits of soft power.**
+- **Slow.** Cultural attraction builds over decades, not years. You can't manufacture it in a crisis.
+- **Uncontrollable.** Governments can't dictate what makes their culture attractive. Hollywood isn't a State Department instrument even if it *produces* soft power.
+- **Contextual.** What's attractive in one country is repellent in another. Iran finds Western liberalism threatening, not attractive.
+- **Vulnerable to backlash.** Perceived cultural imperialism (McDonald's-isation, English hegemony) generates counter-movements.
+
+**Nye's forecast on China (2004, still discussed).** China has invested heavily in soft power (Confucius Institutes, CGTN, film industry, Xi Jinping's global development narrative) but faces a structural limit: an authoritarian political system undermines the attractiveness of its political values in liberal democracies. Compare: BTS boosts South Korea's soft power globally, but the Communist Party's control over Chinese pop culture limits how far it can travel. This is a *live* debate in 2026 as China contests US soft-power dominance in the Global South while being blocked in Western Europe and North America.
+
+### 1.2.1-b Hard vs Soft Power — The Trade-offs
+
+| | Hard power | Soft power |
+|---|---|---|
+| **Mechanism** | Coercion, payment | Attraction, persuasion |
+| **Speed** | Fast (sanctions bite in weeks; wars in days) | Slow (decades to build reputation) |
+| **Cost per outcome** | High (military; economic disruption) | Low once built, but building it is expensive |
+| **Reversibility** | High (sanctions can be lifted; wars can end) | Low (destroyed reputation takes decades to rebuild) |
+| **Precision** | Targetable (specific sanctions, specific strikes) | Diffuse (attracts many, targets few) |
+| **Legitimacy costs** | Often high (backlash, resentment) | Low if authentic; catastrophic if faked |
+
+**Rule of thumb from Nye:** the more you rely on hard power, the more soft power you *lose* over time. Bullies aren't loved. And countries that are only loved aren't respected. The strategic art is knowing when each is needed — the smart-power move.
+
 **Contested nature.** Power is always in flux — think of the shift from unipolar (post-1991 US hegemony) to multipolar (2020s: US, China, EU, India, regional powers). Every essay on power should acknowledge that power distributions *change* and are *challenged*.
 
 ### 1.2.1a How Power Operates — Lukes' Three Faces
@@ -209,23 +251,167 @@ Different theories explain the same events differently. IB Global Politics wants
 
 ### 1.5.1 Realism
 
-**Core claim:** the international system is anarchic (no supreme authority above states); states are the primary actors; they pursue national interest, defined primarily as security and power; conflict is a permanent possibility.
+**One-line core claim:** the international system is *anarchic* (no supreme authority above states); states are the primary actors; they pursue national interest — defined primarily as security and power; conflict is a permanent possibility.
 
-Key thinkers: Thucydides, Hobbes, Morgenthau (*Politics Among Nations*, 1948), Waltz (structural realism), Mearsheimer (offensive realism).
+#### The intellectual lineage
 
-**Explains well:** great-power competition; military build-ups; alliance formation; balance-of-power politics. The US-China rivalry, India's border strategy with China, Russia's invasion of Ukraine — all classically realist.
+- **Thucydides** (~400 BCE). *History of the Peloponnesian War*. The Melian Dialogue is the founding realist text: *"the strong do what they can and the weak suffer what they must."* Athens conquered neutral Melos not because Melos threatened Athens, but because *Athenian security demanded it*.
+- **Machiavelli** (*The Prince*, 1513). Rulers must be prepared to act immorally when necessity demands. Virtue is contextual; survival is universal.
+- **Thomas Hobbes** (*Leviathan*, 1651). Without a sovereign to enforce order, life is *"solitary, poor, nasty, brutish, and short."* This "state of nature" logic gets scaled up to states: without a global sovereign, international relations *is* a state of nature.
+- **Hans Morgenthau** (*Politics Among Nations*, 1948). Founded modern **classical realism**. Six principles, of which the key ones are: politics is governed by objective laws rooted in human nature; the concept of *interest defined as power* is the guiding signpost of political action; morality in politics is prudential, not idealistic.
+- **Kenneth Waltz** (*Theory of International Politics*, 1979). Founded **neorealism** / **structural realism**. Waltz's key move: it's not human nature that drives conflict, it's the *structure* of the international system — anarchy — that forces states to prioritise survival regardless of their leaders' preferences.
+- **John Mearsheimer** (*The Tragedy of Great Power Politics*, 2001). Founded **offensive realism**. States don't just seek security; they seek to *maximise* power and become regional hegemons. Because they can never be certain of others' intentions, they must assume the worst.
 
-**Blind spots:** non-state actors (NGOs, MNCs, terrorist networks), international cooperation, the role of norms and identities.
+#### The five core assumptions
+
+All realist schools share five foundational assumptions:
+
+1. **Anarchy.** No supreme authority sits above states. There is no "world government" to enforce rules. States can appeal to the UN, ICC, or international law but no one is *obliged* to comply.
+2. **State-centrism.** States are the primary — for hard-core realists, *only* — actors that matter. NGOs, MNCs, IGOs are epiphenomena; when the chips are down, states decide.
+3. **Rationality.** States are rational, unitary actors that calculate costs and benefits. They may miscalculate, but they aren't fundamentally irrational.
+4. **Survival.** The primary goal of every state is survival. Everything else — economic growth, prestige, ideology — is secondary. A dead state cannot pursue any other goal.
+5. **Self-help.** In an anarchic world with no enforcer, each state must ultimately rely on itself for security. Alliances are useful but conditional; treaties bind only while it suits the powerful.
+
+#### The security dilemma
+
+The concept that best captures realist logic:
+
+> One state's efforts to increase its own security (buying more weapons, building alliances) *appear threatening* to other states, who respond by increasing *their* security, which threatens the first state further. Even purely defensive actions produce arms races.
+
+Examples: India-Pakistan nuclear posture; US-Soviet Cold War buildup; China's naval expansion → US Indo-Pacific rebalance → China feels encircled → further expansion. The security dilemma is why realists say cooperation is fragile and conflict is chronic even without any actor "wanting" war.
+
+#### Relative gains, not absolute gains
+
+Realists argue states care about *relative* gains — how much they gain *compared to competitors* — more than about absolute gains. If a trade deal makes India $10bn richer and China $30bn richer, a realist Indian government might reject it. The economy grew, but the power *gap* widened.
+
+This is why realists are skeptical of free-trade optimism — trade may create wealth but redistributes power, sometimes to your rivals.
+
+#### Balance of power
+
+The realist theory of stability: peace is preserved when power is balanced between roughly-equal blocs, because no side can win outright. When power *imbalances* grow (a rising challenger, a declining hegemon), war becomes more likely — this is Graham Allison's **Thucydides Trap**, which he documented in 16 historical cases of rising vs. established powers (12 ended in war).
+
+#### Classical vs neorealism vs offensive/defensive
+
+- **Classical (Morgenthau).** Conflict is rooted in *human nature* — the *lust for power*.
+- **Neorealism / structural (Waltz).** Conflict is rooted in the *structure* of anarchy — even peaceful humans would compete.
+- **Defensive realism (Waltz, Jervis).** States seek *enough* power to be secure, no more. Over-expansion is self-defeating.
+- **Offensive realism (Mearsheimer).** States seek *maximum* power. Because you can never be sure of others' intentions, the safest bet is to become a regional hegemon and prevent others from doing the same. This is Mearsheimer's controversial 2014 argument that NATO expansion caused the Ukraine war.
+
+#### What realism explains well
+
+- Great-power competition and balancing behaviour (US vs China; India's simultaneous engagement with QUAD, SCO, BRICS).
+- Military build-ups and arms races (India-Pakistan nuclear symmetry; South China Sea militarisation).
+- Alliance formation and unravelling (NATO's revival post-2022; AUKUS 2021).
+- Why international institutions can't stop great powers when core interests are at stake (Russia's Ukraine war despite full-spectrum Western sanctions and legal condemnation).
+- The persistence of border disputes (India-China LAC; Kashmir; Taiwan Strait).
+
+#### Realism's blind spots
+
+- **Non-state actors.** Terrorist networks (Al-Qaeda, ISIS), MNCs (Apple, Aramco), and NGOs (Amnesty, MSF) don't fit the state-as-primary-actor frame yet clearly shape global outcomes.
+- **International cooperation.** The dense network of IGOs, trade agreements, and human rights conventions in the post-1945 world is real and consequential — realism explains it away as "epiphenomenal" but the pattern is too rich to dismiss.
+- **Norms and identity.** Why is chemical weapon use taboo but conventional bombing not? Why did apartheid become internationally unacceptable? Realism struggles.
+- **Domestic politics.** Realism treats states as unitary. But India's foreign policy varies by government; US foreign policy shifted radically between Obama, Trump, Biden. Domestic politics matters.
+- **Peaceful change.** Realism predicts wars during power transitions; the peaceful UK-US hegemonic transition (1900-1945) and end of the Cold War (1989-1991) are hard to explain.
+
+#### Realism in Aakash's Libya case study
+
+A realist reading of NATO's 2011 intervention: framed as R2P, but actually driven by (a) fear of Libyan destabilisation of Southern Europe via migration, (b) French desire to reassert regional influence, (c) opportunistic regime change on a weak dictator. The aftermath — state collapse, chaos, migrant crisis — vindicates realists who warned humanitarian intervention would fail on realist grounds.
 
 ### 1.5.2 Liberalism
 
-**Core claim:** cooperation is possible even in anarchy, mediated by international institutions, economic interdependence, and shared democratic values. Non-state actors matter. Rules and norms shape behaviour.
+**Etymology.** The word "liberal" comes from the Latin *liberalis*, meaning *"pertaining to a free person."* This etymological root — freedom — is the key to everything that follows. Liberal theory is fundamentally about *the liberty of the individual* and, by extension, *the liberty of political communities* to shape the rules that govern them.
 
-Key thinkers: Kant (democratic peace theory), Keohane and Nye (complex interdependence), Fukuyama (*End of History*).
+**One-line core claim:** cooperation is possible even in anarchy, mediated by *international institutions*, *economic interdependence*, and *shared democratic values*. Non-state actors matter. Rules and norms shape behaviour.
 
-**Explains well:** the EU, the WTO, the UN system, human rights conventions, the density of international cooperation despite anarchy. The Paris Agreement, WTO rulings, and the persistence of post-1945 institutions all support liberal predictions.
+#### The four core principles of liberalism
 
-**Blind spots:** great-power revisionism (Russia, China), the resilience of nationalism, the messiness of intervention.
+Every liberal argument — political, economic, international — rests on some combination of these:
+
+1. **Individual liberty.** The freedom of individuals to make choices and lead their lives without undue interference. The state exists to *protect* this freedom, not to override it.
+2. **Equality.** Equality before the law and, in modern iterations, social and economic equality as well. Equality and human rights *enable* liberty by removing barriers and providing opportunities to exercise freedoms — a poor, uneducated, discriminated-against person is not truly "free."
+3. **Democracy.** A political system where government is formed *by* the people (usually through elected representatives) and *through the will* of the people (free and fair elections). Democracy fosters liberty by allowing individuals to participate in governance rather than have it imposed on them — laws reflect the collective will, and citizens choose who represents them.
+4. **Free markets.** An economic system where transactions are largely free from government interference — though this varies significantly across liberal traditions (classical liberals want minimal state; social liberals accept substantial redistribution).
+
+#### The historical logic — why liberalism took off in the 1900s
+
+Before the 1900s, international relations was largely state-centric: kings dealt with kings, wars settled disputes, and cross-border activity was thin. Then something changed.
+
+As the 20th century progressed, **trade started to include more diverse goods from across the globe**. Connections between countries grew more complicated. A web of complex relationships emerged, supported by formal and informal agreements to facilitate trade. Business and social activities crossed national borders more often.
+
+This produced a problem for realist thinking. **Traditional international relations based on realist, state-centric notions became less helpful for policy makers.** Countries increasingly found they could not act solely for their own gain. States found they needed to cooperate with:
+- **Multinational corporations** (whose supply chains crossed borders),
+- **Intergovernmental organisations** (which coordinated the rules), and
+- **Other states** (whose cooperation was needed for anything to work).
+
+Failure to cooperate produced negative repercussions — from trade collapses (Smoot-Hawley Tariff Act 1930 → deepened Great Depression) to security disasters (League of Nations failure → WWII).
+
+#### Global governance as embedded liberalism
+
+Global institutional decisions affecting two or more states require:
+- The **participation of all affected stakeholders**, and
+- The **backing of the rule of law** (no actor above the law).
+
+Embedded in this multilateral approach is a key principle of **political liberalism**: the governed (in this case, states) should have the *liberty* — hence "liberalism" — to provide *input* into the rules and principles by which global institutions govern.
+
+To facilitate this, political leaders created **inter-governmental organisations (IGOs)** to manage global relations in key political and economic areas:
+
+- **United Nations** and its associated agencies (WHO, UNHCR, UNESCO, UNICEF, UNDP, ILO)
+- **International Criminal Court (ICC)** — for individual criminal accountability across borders
+- **International Monetary Fund (IMF)** — for balance-of-payments and financial stability
+- **World Bank** — for development finance
+- **World Trade Organization (WTO)** — for rules-based trade
+- Regional counterparts: EU, ASEAN, African Union, OAS
+
+The mandates of these IGOs were **informed by liberalism**, combining:
+
+- **Democratic values** — political liberalism,
+- **Free trade markets** — economic liberalism,
+- **Multilateral cooperation** — multilateralism, and
+- **A rule-based international society** — one that respects sovereignty and human rights.
+
+#### The three dimensions of liberalism
+
+Liberalism might be best captured with this three-dimensional definition:
+
+1. **Rule of law + basic rights.** All citizens are equal before the law, and possess certain basic rights: to education, to access a free press, to religious toleration, to fair trial, to political participation, and so on.
+2. **Limited government.** The state's legislative assembly possesses only the authority *granted to it* by its citizens — whose basic rights it must not abuse. Government by consent, not by domination.
+3. **Market-driven economy.** The most effective economic system is one that is market-driven — capitalism — where economic liberty is not unduly constrained by government regulation, either domestically or internationally.
+
+**The essential contrast with realism, in one sentence:** liberal values of *economic and individual freedoms* and the *rule of law* stand in tension with realism's emphasis on *order and authority*, where the individual's liberty may be sacrificed for the stability and security of the community.
+
+#### Key thinkers
+
+- **John Locke** (17th century). Foundational: government exists by consent of the governed to protect life, liberty, and property. If it fails, revolution is justified.
+- **Immanuel Kant** (*Perpetual Peace*, 1795). **Democratic peace theory** — democracies rarely if ever fight each other. The empirical record has largely held: no two consolidated democracies have gone to war since 1945.
+- **John Stuart Mill** (*On Liberty*, 1859). The "harm principle" — individuals should be free to do anything that doesn't harm others.
+- **Woodrow Wilson** (1918 Fourteen Points). Applied liberal principles to international order: self-determination, open diplomacy, League of Nations. The template for the post-1945 UN system.
+- **Robert Keohane and Joseph Nye** (*Power and Interdependence*, 1977). **Complex interdependence** — a world where states are entangled with each other and with non-state actors through multiple channels; military force loses relevance; institutions matter.
+- **Francis Fukuyama** (*The End of History and the Last Man*, 1992). Argued that liberal democracy is the "final form" of human government — the endpoint of ideological evolution. The claim has aged poorly (China's rise, Russia's revanchism, democratic backsliding), but the underlying question — is liberal democracy uniquely stable and legitimate? — is still central to GP.
+- **Michael Doyle** (1983). Systematised the empirical case for democratic peace theory — statistical evidence that democracies don't fight each other.
+
+#### The liberal case in one paragraph
+
+Liberalism argues for *human rights*, *parliamentary democracy*, and *free trade* — while maintaining that these ideals must begin *within the state*. A country that abuses its own citizens cannot credibly promote human rights abroad. A country that manipulates its own elections cannot credibly build democracy abroad. A country that erects trade barriers cannot credibly champion free trade abroad. Liberal foreign policy is coherent only if liberal domestic policy is genuine — which is why liberals push democratisation, rights compliance, and institutional reform simultaneously at home and abroad.
+
+#### What liberalism explains well
+
+- **The density of post-1945 international cooperation.** The UN system, WTO, WHO, ICC, Paris Agreement, human rights treaties — realists dismiss all of this as epiphenomenal; liberals see a genuine transformation of international politics.
+- **Democratic peace.** The empirical regularity that consolidated democracies almost never fight each other holds up across ~200 years of data.
+- **European integration.** The EU is the paradigmatic liberal success — pooled sovereignty, deep economic integration, and eight decades of peace between historical enemies (France-Germany).
+- **The role of NGOs and civil society.** Amnesty International, Human Rights Watch, MSF, Greenpeace — liberalism has room in its theory for these actors as consequential; realism doesn't.
+- **The information/knowledge dimensions of interdependence.** In a hyper-connected world, ideas and reputations flow faster than armies — which is why the Ukrainian resistance in 2022 succeeded so quickly at winning global sympathy and support.
+
+#### Liberalism's blind spots
+
+- **Great-power revisionism.** Liberals struggle to explain why Russia invaded Ukraine, China militarised the South China Sea, or the US repeatedly withdrew from institutions (Paris Accord 2017, UNHRC, WHO, ICC). Institutions don't restrain revisionists.
+- **Democratic backsliding.** Hungary, Turkey, India (Freedom House 2023 downgrade), the Philippines, and even the US show democracy is not a one-way ratchet. If democracy is contingent, so is democratic peace.
+- **The messiness of intervention.** Liberal interventions to promote democracy (Iraq 2003, Afghanistan 2001-2021, Libya 2011) have mostly failed. This tension between liberal ends and illiberal means is unresolved.
+- **Nationalism.** Liberalism assumes universal values; nationalism insists on particular loyalties. Brexit, Trump, Modi, Erdoğan all campaigned successfully on anti-globalist platforms.
+- **Inequality within liberal states.** Liberalism prescribes formal equality but has struggled with substantive inequality (wealth, opportunity, race, gender). Left-liberals push social liberalism to address this; classical liberals resist.
+
+#### Liberalism in Aakash's Libya case study
+
+A liberal reading of the 2011 intervention: R2P was invoked by the UN Security Council under Resolution 1973 to protect civilians from a regime committing atrocities. Multiple institutions coordinated (Arab League endorsement, NATO execution, ICC arrest warrant against Gaddafi). Sovereignty was legitimately overridden for a higher legal-humanitarian norm. That the aftermath collapsed reflects poor liberal *execution* — inadequate post-conflict institution-building — not a fatal flaw in liberal principles.
 
 ### 1.5.3 Constructivism
 
