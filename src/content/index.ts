@@ -5,8 +5,16 @@ import { ch2Flashcards } from './economics/ch2-flashcards'
 import ch2Notes from './economics/ch2-notes.md?raw'
 import { ch1Flashcards as mathsCh1Flashcards } from './maths/ch1-flashcards'
 import mathsCh1Notes from './maths/ch1-notes.md?raw'
+import { ch2Flashcards as mathsCh2Flashcards } from './maths/ch2-flashcards'
+import mathsCh2Notes from './maths/ch2-notes.md?raw'
 import { ch1Flashcards as gpCh1Flashcards } from './global-politics/ch1-flashcards'
 import gpCh1Notes from './global-politics/ch1-notes.md?raw'
+import { ch1Flashcards as englishCh1Flashcards } from './english/ch1-flashcards'
+import englishCh1Notes from './english/ch1-notes.md?raw'
+import { ch1Flashcards as hindiCh1Flashcards } from './hindi/ch1-flashcards'
+import hindiCh1Notes from './hindi/ch1-notes.md?raw'
+import { ch1Flashcards as dtCh1Flashcards } from './design-tech/ch1-flashcards'
+import dtCh1Notes from './design-tech/ch1-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -74,13 +82,38 @@ export const subjects: Subject[] = [
   },
   {
     id: 'design-tech',
-    name: 'Design Technology HL',
+    name: 'Design Technology SL',
     shortName: 'Design Tech',
-    level: 'HL',
+    level: 'SL',
     color: 'amber',
     icon: 'Wrench',
     description: 'Product design, materials, sustainability, and the human-tech interface.',
-    chapters: [],
+    chapters: [
+      {
+        id: 'ch1',
+        title: 'Chapter 1: SA1 Focus — Ergonomics, UCD, and Designer Responsibility',
+        subtitle: 'A 1.1 Ergonomics · B 1.1 User-Centred Design · C 1.1 Responsibility of the Designer',
+        notes: dtCh1Notes,
+        sections: [
+          'Section 1.1 — Overview: Topic A, B, C for SA1',
+          'Section 1.2 — A1.1 Ergonomics: The Three Domains',
+          'Section 1.3 — Anthropometric Data',
+          'Section 1.4 — Percentile Design Decisions',
+          'Section 1.5 — Physiological Considerations',
+          'Section 1.6 — Psychological Considerations',
+          'Section 1.7 — B1.1 User-Centred Design: Definition and Cycle',
+          'Section 1.8 — UCD Methods',
+          'Section 1.9 — UCD Advantages and Limitations',
+          "Section 1.10 — C1.1 Designer's Four Responsibilities",
+          'Section 1.11 — Product Life Cycle and Sustainability',
+          'Section 1.12 — Planned Obsolescence',
+          'Section 1.13 — Legal Responsibilities and Case Studies',
+          'Section 1.14 — Exam-Ready Definitions',
+        ],
+        flashcards: dtCh1Flashcards,
+        updated: '2026-09-04',
+      },
+    ],
   },
   {
     id: 'maths',
@@ -114,6 +147,28 @@ export const subjects: Subject[] = [
         flashcards: mathsCh1Flashcards,
         updated: '2026-08-07',
       },
+      {
+        id: 'ch2',
+        title: 'Chapter 2: SA1 Focus — Functions (SL 2.1–2.6 · AHL 2.7–2.9)',
+        subtitle: 'Straight lines, functions, GDC graphing, key features, modelling, composites, transformations, HL modelling (excl. log)',
+        notes: mathsCh2Notes,
+        sections: [
+          'Section 2.1 — Straight Lines: Gradient, Forms, Parallel & Perpendicular',
+          'Section 2.2 — Functions: Notation, Domain, Range, Inverse',
+          'Section 2.3 — Graphing with Technology (GDC)',
+          'Section 2.4 — Key Features of Graphs',
+          'Section 2.5 — Modelling: Choosing a Function Family',
+          'Section 2.6 — Modelling Skills',
+          'Section 2.7 — Composite Functions and Inverses (AHL)',
+          'Section 2.8 — Transformations of Graphs (AHL)',
+          'Section 2.9 — HL Modelling Functions (AHL, except Log)',
+          'Section 2.10 — Exam-Ready Formulas and Definitions',
+          'Section 2.11 — Common Exam Traps',
+          'Section 2.12 — GDC Tips (SA1 essentials)',
+        ],
+        flashcards: mathsCh2Flashcards,
+        updated: '2026-09-04',
+      },
     ],
   },
   {
@@ -124,7 +179,29 @@ export const subjects: Subject[] = [
     color: 'rose',
     icon: 'BookOpen',
     description: 'Language and Literature — texts, analysis, non-literary works.',
-    chapters: [],
+    chapters: [
+      {
+        id: 'ch1',
+        title: 'Chapter 1: SA1 Focus — Paper 1 Non-Literary Analysis',
+        subtitle: 'Guided textual analysis of ads, PSAs, political cartoons, comic strips, infographics',
+        notes: englishCh1Notes,
+        sections: [
+          'Section 1.1 — Paper 1 Task and Marking Criteria',
+          'Section 1.2 — The SPACECAT Analytical Framework',
+          'Section 1.3 — Print Advertisements',
+          'Section 1.4 — Public Service Announcements (PSAs)',
+          'Section 1.5 — Political Cartoons',
+          'Section 1.6 — Comic Strips',
+          'Section 1.7 — Infographics',
+          'Section 1.8 — Essay Structure and Time Plan',
+          'Section 1.9 — Exam-Ready Definitions',
+          'Section 1.10 — Common Exam Traps',
+          'Section 1.11 — Sources',
+        ],
+        flashcards: englishCh1Flashcards,
+        updated: '2026-09-04',
+      },
+    ],
   },
   {
     id: 'hindi',
@@ -134,13 +211,37 @@ export const subjects: Subject[] = [
     color: 'orange',
     icon: 'Languages',
     description: 'Language acquisition — Hindi, five prescribed themes.',
-    chapters: [],
+    chapters: [
+      {
+        id: 'ch1',
+        title: 'Chapter 1: SA1 Focus — Unit 1 पहचान (Identity)',
+        subtitle: 'Paper 1 Writing + Paper 2 Reading · four sub-themes · five text types',
+        notes: hindiCh1Notes,
+        sections: [
+          'Section 1.1 — Overview: Paper 1 and Paper 2 Structure',
+          'Section 1.2 — Sub-theme: पहचान का महत्व (The importance of identity)',
+          'Section 1.3 — Sub-theme: भाषा और पहचान (Language and identity)',
+          'Section 1.4 — Sub-theme: स्वास्थ्य और कल्याण (Health and wellbeing)',
+          'Section 1.5 — Sub-theme: भोजन और संस्कृति (Food and culture)',
+          'Section 1.6 — Text Type: ईमेल (Email)',
+          'Section 1.7 — Text Type: डायरी (Diary entry)',
+          'Section 1.8 — Text Type: ब्लॉग (Blog)',
+          'Section 1.9 — Text Type: लेख (Article)',
+          'Section 1.10 — Text Type: प्रस्ताव (Proposal)',
+          'Section 1.11 — Grammar Hotspots',
+          'Section 1.12 — Paper 2 Reading Strategy',
+          'Section 1.13 — Exam-Ready Vocabulary and Phrases',
+        ],
+        flashcards: hindiCh1Flashcards,
+        updated: '2026-09-04',
+      },
+    ],
   },
   {
     id: 'global-politics',
-    name: 'Global Politics SL',
+    name: 'Global Politics HL',
     shortName: 'Global Politics',
-    level: 'SL',
+    level: 'HL',
     color: 'violet',
     icon: 'Globe',
     description: 'Power, sovereignty, human rights, development, peace, and conflict.',
@@ -158,14 +259,14 @@ export const subjects: Subject[] = [
           'Section 1.5 — Theoretical Lenses',
           'Section 1.6 — Stakeholder Analysis Framework',
           'Section 1.7 — Claims and Counterclaims: the Grey Areas Rule',
-          'Section 1.8 — Assessment Structure (SL)',
+          'Section 1.8 — Assessment Structure',
           'Section 1.9 — Common Exam Traps',
           'Section 1.10 — Exam-Ready Definitions',
           'Section 1.11 — Diagnostic Prompts to Test Yourself',
           'Section 1.12 — Sources',
         ],
         flashcards: gpCh1Flashcards,
-        updated: '2026-08-10',
+        updated: '2026-09-04',
       },
     ],
   },

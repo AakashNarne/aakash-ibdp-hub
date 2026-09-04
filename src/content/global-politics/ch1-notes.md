@@ -498,7 +498,7 @@ Explore multiple viewpoints in every essay to show depth. Even a case study that
 
 ---
 
-## Section 1.8 — Assessment Structure (SL)
+## Section 1.8 — Assessment Structure
 
 | Component | Duration | Marks | Weighting |
 |---|---|---|---|
