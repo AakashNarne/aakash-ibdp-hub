@@ -40,200 +40,26 @@ Every paragraph in every essay follows this pattern. Every.
 
 ---
 
-## Section 1.2 — The Four Core Key Concepts
 
-These four concepts are the analytical backbone of the entire course. Every question, every essay, every case study will ultimately be explained through one or more of them.
+## Section 1.2 — The Four Core Key Concepts — Summary and Cross-references
 
-### 1.2.1 Power
+The four core key concepts are the analytical backbone of the entire course. Every question, every essay, every case study will ultimately be explained through one or more of them.
 
-**Definition.** Power is the ability to affect change — to make actors do (or not do) something they otherwise wouldn't. It is contested, relational, and takes many forms.
+Because each concept has grown too large for a single chapter, they now have **dedicated chapters** in this hub:
 
-Power isn't a *thing* one actor "has." It's a **relationship** between actors, and it varies by context. The US has enormous military power globally but limited power to influence what OPEC+ does with oil quotas. India has significant regional influence but constrained global institutional power at the IMF.
+- **[[Chapter 2 — Power]]** — definitions (Weber, Dahl, Lukes, Nye, Strange, Foucault); classifications (hard/soft/smart; structural; power over/to/with/within; three faces); polarity; indicators; rising and declining powers; 2026 case studies (US-China chip war, Russia-Ukraine, BRICS de-dollarisation, ICC as structural power, EU strategic autonomy, Taiwan).
+- **[[Chapter 3 — Sovereignty]]** — Westphalian origin; sources; internal and external dimensions; de jure vs de facto; the erosion debate; pooled sovereignty (EU); modern challenges (digital, health, climate, financial); contested cases (Taiwan, Palestine, Kashmir, Kurds, Kosovo, Ukraine); 2026 developments.
+- **[[Chapter 4 — Legitimacy]]** — Weber's three sources + modern additions (performance, procedural, deliberative); legitimacy vs legality vs morality; live cases (Taliban, Russia 2024 election, CCP performance legitimacy, Arab Spring, Ashraf Ghani's 24-hour collapse).
+- **[[Chapter 5 — Interdependence]]** — Keohane and Nye (1977); dimensions (economic, security, environmental, health, informational, technological); sensitivity vs vulnerability; weaponised interdependence (Farrell & Newman); live cases (chip supply chain, Russia gas/grain, BRICS de-dollarisation, EU strategic autonomy).
 
-**Forms of power** (all four matter — memorise):
+**One-line reminders (use as memory hooks — full treatments in the dedicated chapters):**
 
-- **Hard power** — coercion via military force or economic sanctions. US freezing Russian foreign reserves ($300B+ after Feb 2022 invasion); India's cross-border strikes after Uri (2016) or Balakot (2019).
-- **Soft power** — attraction and persuasion via culture, ideology, foreign policy legitimacy. K-pop and Korean film → South Korea's cultural soft power. India's yoga diplomacy, Bollywood exports, the diaspora.
-- **Smart power** — deliberate combination of hard and soft power. The Marshall Plan (aid + strategic alignment). The Belt and Road Initiative (loans + infrastructure + political leverage).
-- **Structural power** — control over the *rules* of the system, not just outcomes. The US dollar's role as reserve currency. The permanent five (P5) UN Security Council veto. Global financial architecture (IMF, World Bank) still Western-led despite BRICS pushback.
+- **Power** — the ability to affect change; contested, relational, dynamic. Hard / soft / smart / structural.
+- **Sovereignty** — independence, territorial control, self-government; internal and external; de jure and de facto; on a spectrum.
+- **Legitimacy** — the acceptability of an actor or action to a relevant population; audience-specific and dynamic.
+- **Interdependence** — mutual reliance among actors; sensitivity vs vulnerability; can be weaponised.
 
-### 1.2.1-Nye Joseph Nye's Soft Power Framework — Deep Dive
-
-Joseph Nye Jr. (Harvard) coined **soft power** in *Bound to Lead* (1990) and elaborated it in *Soft Power: The Means to Success in World Politics* (2004). It's the single most-cited concept in contemporary GP.
-
-**Nye's core definition.** Power is the ability to affect others to get the outcomes you want. There are three ways to do this:
-1. **Threats** (sticks) — hard power.
-2. **Payments** (carrots) — also hard power, using economic inducements.
-3. **Attraction** (co-option) — soft power. Getting others to *want* what you want.
-
-The key insight: **command power** (making others do things through coercion or payment) is not the only kind of power. **Co-optive power** — shaping preferences so others align with you voluntarily — is often more efficient, more durable, and cheaper. If you can attract, you don't have to coerce.
-
-**Nye's three primary sources of a country's soft power:**
-
-1. **Culture** — where it's attractive to others. Hollywood, K-pop, Bollywood, the English language, universities (Harvard, Oxford, IITs) that pull global talent, cuisine (Italian, Japanese, Indian), fashion (Paris, Milan). Culture as soft power works only when others find it appealing — it isn't automatic.
-2. **Political values** — when the country lives up to them at home and abroad. US freedom-of-speech norms are soft power when the US practices them consistently. The Nordic countries' commitment to gender equality is soft power because they demonstrably live it. Hypocrisy destroys this source instantly (Guantánamo, Abu Ghraib gutted US soft power for a generation).
-3. **Foreign policies** — when they're seen as legitimate and moral. Coalition-building through the UN before the 1991 Gulf War preserved US soft power. Unilateral action without UN sanction (2003 Iraq invasion) destroyed it.
-
-**Power conversion.** A crucial Nye idea: countries have **power resources** (population, GDP, military spending, cultural exports) that must be *converted* into **power outcomes** (achieving what they want). The conversion isn't automatic. A country with vast resources can fail (Vietnam-era US, USSR, contemporary Russia in Ukraine); a country with modest resources can punch above its weight (Norway on climate/peace diplomacy; Singapore on trade governance). **Strategy** and **legitimacy** are what convert resources into outcomes.
-
-**Smart power (Nye, 2003, elaborated 2011).** Not just hard + soft mixed. It's **strategic intelligence** about which type of power to deploy for which situation. When to use force. When to persuade. When to build institutions. When to walk away. Hillary Clinton adopted "smart power" as a Secretary of State framework in 2009.
-
-**The limits of soft power.**
-- **Slow.** Cultural attraction builds over decades, not years. You can't manufacture it in a crisis.
-- **Uncontrollable.** Governments can't dictate what makes their culture attractive. Hollywood isn't a State Department instrument even if it *produces* soft power.
-- **Contextual.** What's attractive in one country is repellent in another. Iran finds Western liberalism threatening, not attractive.
-- **Vulnerable to backlash.** Perceived cultural imperialism (McDonald's-isation, English hegemony) generates counter-movements.
-
-**Nye's forecast on China (2004, still discussed).** China has invested heavily in soft power (Confucius Institutes, CGTN, film industry, Xi Jinping's global development narrative) but faces a structural limit: an authoritarian political system undermines the attractiveness of its political values in liberal democracies. Compare: BTS boosts South Korea's soft power globally, but the Communist Party's control over Chinese pop culture limits how far it can travel. This is a *live* debate in 2026 as China contests US soft-power dominance in the Global South while being blocked in Western Europe and North America.
-
-### 1.2.1-b Hard vs Soft Power — The Trade-offs
-
-| | Hard power | Soft power |
-|---|---|---|
-| **Mechanism** | Coercion, payment | Attraction, persuasion |
-| **Speed** | Fast (sanctions bite in weeks; wars in days) | Slow (decades to build reputation) |
-| **Cost per outcome** | High (military; economic disruption) | Low once built, but building it is expensive |
-| **Reversibility** | High (sanctions can be lifted; wars can end) | Low (destroyed reputation takes decades to rebuild) |
-| **Precision** | Targetable (specific sanctions, specific strikes) | Diffuse (attracts many, targets few) |
-| **Legitimacy costs** | Often high (backlash, resentment) | Low if authentic; catastrophic if faked |
-
-**Rule of thumb from Nye:** the more you rely on hard power, the more soft power you *lose* over time. Bullies aren't loved. And countries that are only loved aren't respected. The strategic art is knowing when each is needed — the smart-power move.
-
-### 1.2.1-c Power Over, Power To, Power With, Power Within — The Empowerment Typology
-
-A second framework, distinct from Nye's, comes from the tradition of Mary Parker Follett (1920s), developed by Jo Rowlands (*Questioning Empowerment*, 1997), and now standard in development, feminist, and IB Global Politics materials (Oxfam's global-programme framework uses it directly). It reframes power away from "who dominates whom" toward "what can be done, and by whom."
-
-Four types:
-
-**1. Power OVER** — the traditional, coercive form. One actor exercises power *over* another, extracting compliance through threat, force, or authority. Fundamentally *zero-sum*: my gain is your loss. Aligns roughly with Nye's hard power and Lukes' first face.
-- Examples: an authoritarian government suppressing dissent; an occupying army over a population; a colonial administration; an abusive corporation over gig workers.
-
-**2. Power TO** — the *capacity* or ability of an actor to act, to create, to achieve. Generative rather than coercive. About *agency* and *possibility*. Power *to* is what you gain when you acquire a skill, a resource, a legal right, an education. It doesn't require dominating anyone.
-- Examples: literacy programmes give women the power *to* read contracts; land rights give indigenous communities the power *to* refuse extraction; voter registration gives citizens the power *to* participate; access to microfinance gives entrepreneurs the power *to* start a business.
-
-**3. Power WITH** — *collective* power built through solidarity, cooperation, coalition-building. Not zero-sum: two actors combining their power *with* each other produce more than either had alone. The foundation of social movements, unions, alliances.
-- Examples: the global climate movement pooling advocacy across NGOs, cities, and youth activists; India's farmers' protest movement (2020–21) that united across state and caste lines; the Fridays for Future coalition; South Africa's anti-apartheid Congress Alliance; NATO as a state-level "power with" alliance.
-
-**4. Power WITHIN** — the internal dimension: *self-worth, self-knowledge, sense of one's own agency and dignity*. Rooted in identity and consciousness. A person or community that lacks power *within* cannot exercise power *to*, cannot form power *with*, and remains vulnerable to power *over*. Feminist and community-empowerment traditions treat this as the foundation for all other kinds.
-- Examples: consciousness-raising in the women's movement of the 1970s; Ambedkar's insistence that Dalit self-respect had to precede political emancipation; Black consciousness / Steve Biko's writings; trauma-informed community work in post-conflict zones (Rwanda, Bosnia); indigenous language revitalisation as a power-within intervention.
-
-**Why the framework matters for GP.**
-
-- **It expands who counts as a political actor.** Realism and Nye focus on states and (in Nye's case) national attractiveness. The Follett/Rowlands framework brings *communities, movements, and individuals* into the analytical frame — essential for the IA (Engagement Project) which is almost always about people trying to build power *to*, *with*, or *within*.
-- **It reframes empowerment.** Development projects that only give people resources (power *to*) without building solidarity (*with*) or self-worth (*within*) tend to fail. The three positive forms reinforce each other.
-- **It reveals that "power over" isn't the whole story.** A government can hold immense power *over* its population and still lose to a mobilised civil society that builds power *with* and power *within* — as in Sudan 2019 (Bashir overthrown), or the Arab Spring 2011.
-
-**Contrast with Nye.** Nye's typology is fundamentally about *states* and how they get outcomes in the international system. The Follett/Rowlands typology works across *scales* — individuals, communities, movements, states — and is neutral about whether power operates through attraction or coercion. In a Paper 2 essay, invoking both frameworks together is a strong analytical move: use Nye for the state-level analysis (US soft power in Vietnam vs Iraq), Follett/Rowlands for the sub-state and non-state dimensions (Vietnamese civil society's power *within*; the anti-war movement's power *with*).
-
-**Contested nature.** Power is always in flux — think of the shift from unipolar (post-1991 US hegemony) to multipolar (2020s: US, China, EU, India, regional powers). Every essay on power should acknowledge that power distributions *change* and are *challenged*.
-
-### 1.2.1a How Power Operates — Lukes' Three Faces
-
-Steven Lukes' *Power: A Radical View* (1974) offers a widely-cited framework worth naming in essays:
-
-- **First face — decision-making power.** Direct coercion or influence over decisions. A state vetoes a UN resolution. A CEO fires an employee. Visible, measurable.
-- **Second face — agenda-setting power.** Deciding what gets discussed at all. The US kept the Vietnam War off the UN agenda for years. Fossil-fuel lobbies delayed climate action by shaping what "reasonable" policy debate included.
-- **Third face — ideological / preference-shaping power.** Convincing others their interests align with yours, so no coercion is needed. Advertising, socialisation, "manufactured consent." Post-1945 US influence over global norms of democracy and free markets is a classic example. So is Chinese state framing of "harmonious society" domestically.
-
-The third face is the hardest to detect and the most consequential. If you can shape what people *want*, you don't need to force them to comply.
-
-### 1.2.1b Distribution of Power — Polarity
-
-**Polarity** describes the number of major power centres in the international system:
-
-- **Unipolar** — one dominant power. Post-1991 to roughly the 2008 GFC: US as sole superpower. Realists like Charles Krauthammer called this the "unipolar moment."
-- **Bipolar** — two roughly balanced great powers. The Cold War (1945–1991): US vs USSR.
-- **Multipolar** — three or more comparable power centres. Pre-WWI Europe; arguably today with the US, China, EU, India, Russia, and rising regional powers (Brazil, Turkey, Indonesia).
-- **Non-polar** (Richard Haass' term) — power diffused across many state and non-state actors, no clear hierarchy. Some argue the 2020s are non-polar because MNCs, cities, NGOs, and networks now wield significant power alongside states.
-
-**The current shift.** Most scholars agree we're transitioning from a US-led unipolar order to a *contested multipolarity*. Evidence: China's GDP now ~75% of US GDP (PPP: already larger); BRICS+ expansion (2024 additions: Egypt, Ethiopia, Iran, UAE); India as the world's fifth-largest economy and expected third by 2027–2030; the erosion of dollar hegemony at the margins (yuan-settled Russian oil, BRICS payment systems).
-
-### 1.2.1c Indicators of Power
-
-Power isn't one thing — you'd use different indicators depending on the type of power you're describing:
-
-| Dimension | Indicators |
-|---|---|
-| **Military** | Defence spending (SIPRI data); nuclear arsenal (SIPRI/FAS); force projection capability (aircraft carriers, foreign bases); alliance network |
-| **Economic** | GDP (nominal and PPP); share of global trade; reserve currency status; FDI flows; supply-chain centrality |
-| **Technological** | R&D spending; patents; AI/semiconductor leadership; space capabilities |
-| **Diplomatic** | UN Security Council seat; number of embassies; treaty ratifications; membership in major IGOs |
-| **Soft / cultural** | Cultural exports (film, music, cuisine); educational attractiveness (foreign students); global media reach; ideological appeal |
-| **Structural** | Ability to set global rules (WTO, IMF, ICANN); dominance of global infrastructure (SWIFT, dollar system, undersea cables) |
-
-**A powerful analytical move for essays:** pick a case and show that a country ranks *high* on one dimension and *low* on another. India is a rising economic and demographic power, but its military is regionally strong yet globally limited, and its structural power in institutions like the IMF remains modest.
-
-### 1.2.1d Rising and Declining Powers — Case Snapshots
-
-- **China's rise.** From ~4% of global GDP in 2000 to ~19% (nominal) / ~19% (PPP) in 2024. Belt and Road Initiative launched 2013, now involves 150+ countries. Blue-water navy expanding rapidly (largest by hull count). Realist reading: classic rising challenger to the US. Liberal reading: China is *inside* many institutions and benefits from the current order. Constructivist reading: China's identity as a "civilisational state" shapes its exceptionalist claims.
-- **US relative decline (but persistent hegemony).** Still dominates in most dimensions — reserve currency, blue-water navy, tech ecosystem, soft power. But its share of global GDP has fallen from ~40% (1960) to ~25% today. Domestic polarisation and repeated withdrawals from institutions (Paris Accord 2017, UNHRC, WHO under Trump) have eroded soft power. Debate: is the US in *decline*, or in *relative* decline while remaining dominant?
-- **India's ascent.** 5th-largest economy (2024), expected to overtake Japan and Germany by 2027–2030. Democratic legitimacy claim distinguishes it from China. QUAD member, SCO member, BRICS founder — a "strategic autonomy" posture pursued through multiple institutional homes at once. Weak points: per-capita GDP still low, military-industrial capability still catching up.
-- **Russia's contradictory position.** Enormous nuclear arsenal + P5 UN veto = major hard power. Weak economy (~10% of the US, similar to Italy). The Ukraine war has revealed the *limits* of Russian conventional military power while confirming its willingness to use force. A "great power in one dimension only."
-- **Non-state and network power.** Apple's market cap exceeds the GDP of all but 10 states. Meta, Google, and X shape the information environments of 5 billion people. ISIS at its 2014–2017 peak controlled territory the size of the UK, without statehood. Amnesty and Human Rights Watch shape human-rights discourse globally with budgets a fraction of a mid-sized state.
-
-### 1.2.2 Sovereignty
-
-**Definition.** Sovereignty characterises a state's **independence**, its **control over territory**, and its **ability to govern itself** without external interference. It's the foundational principle of the modern international system (traced to the Treaty of Westphalia, 1648, though the exact origin is contested).
-
-**Two dimensions:**
-- **Internal sovereignty** — supreme authority within a territory (making and enforcing law).
-- **External sovereignty** — recognition by other states as an equal, legitimate actor in international affairs.
-
-**The central debate — is sovereignty being eroded?**
-
-**Erosion argument** (globalisation weakens sovereignty):
-- Borderless trade and finance — states can't control capital flows the way they once did (2008 GFC exposed how synchronised financial systems override national fiscal choices).
-- Digital communication — encrypted messaging, cross-border data flows, cyber warfare bypass state control.
-- Supranational institutions — EU membership requires ceding legislative sovereignty; WTO rulings can override national trade policy.
-- Climate accords, ICC jurisdiction, human rights conventions — all bind sovereignty in principle.
-
-**Persistence argument** (sovereignty remains robust):
-- States still control borders (Trump's border wall, EU's post-2015 migration securitisation, India's citizenship laws).
-- Great powers act unilaterally when it serves them (US withdrawal from Paris Accord 2017; Russia's rejection of ICC jurisdiction).
-- BRICS + Global South push back on Western-designed institutions.
-- COVID-19 revealed that when it matters, states close borders, hoard vaccines, and prioritise national interest.
-
-**Sovereignty isn't binary — it exists on a spectrum.** North Korea has extreme sovereignty (isolated, unbound by external norms). EU members have pooled sovereignty. Failed or fragile states (Somalia, parts of Yemen) have degraded sovereignty despite legal recognition.
-
-### 1.2.3 Legitimacy
-
-**Definition.** Legitimacy refers to an actor or an action that is **commonly considered acceptable** by a relevant population. It provides the rationale for governance and for exercising power.
-
-**Sources of legitimacy** (an actor can draw on more than one):
-
-- **Democratic / constitutional legitimacy** — free and fair elections, rule of law, constitutional constraints. The most widely accepted contemporary form.
-- **Traditional / hereditary** — monarchies (UK, Saudi Arabia, Bhutan) draw legitimacy from history and continuity rather than elections.
-- **Charismatic** — Weber's category. Leaders like Nelson Mandela, Gandhi, Modi's early popular mandate — legitimacy from personal quality and moral authority.
-- **Performance-based / output legitimacy** — the Chinese Communist Party bases much of its legitimacy on delivering rapid economic growth and social stability, not electoral mandate.
-- **International recognition** — states become legitimate international actors partly through UN membership, diplomatic recognition, and treaty participation. Taiwan's ambiguous status is exactly a legitimacy problem.
-
-**Legitimacy is contested and can be lost.**
-
-- The Taliban regained control of Afghanistan in August 2021 but has not been diplomatically recognised by most states — power without international legitimacy.
-- Russia held presidential elections in March 2024 (Putin won 87%). The Kremlin claims democratic legitimacy; most Western states and NGOs dispute it because opposition was excluded/imprisoned/dead.
-- Domestic legitimacy can collapse rapidly — the Arab Spring uprisings (2011) delegitimised Ben Ali (Tunisia), Mubarak (Egypt), Gaddafi (Libya) within months.
-
-**Legitimacy vs legality vs morality — don't conflate them.** Something can be legal but seen as illegitimate (many find the P5 UN veto legal but no longer legitimate). Something can be illegal but seen as legitimate by many (civil disobedience — Gandhi's Salt March, MLK's civil rights actions).
-
-### 1.2.4 Interdependence
-
-**Definition.** Interdependence refers to the **mutual reliance** between and among actors on access to resources, systems, or arrangements. Globalisation has *increased* interdependence and, in doing so, has changed the power relationships between actors.
-
-**Dimensions:**
-
-- **Economic interdependence** — trade, investment, supply chains. India imports ~85% of its crude oil; a Gulf crisis is an Indian domestic crisis. Apple's supply chain sourced from 43 countries pre-2024, with China dominating final assembly.
-- **Security interdependence** — defence pacts (NATO), non-proliferation treaties, intelligence sharing (Five Eyes). One actor's insecurity affects others (Russia-Ukraine → European gas crisis → global food price spike via Ukrainian grain).
-- **Environmental interdependence** — climate change is the paradigmatic case. India's emissions affect Bangladesh's flood risk; Amazon deforestation affects global rainfall patterns.
-- **Health interdependence** — COVID-19 was the definitive demonstration. A market in Wuhan shut down the global economy in weeks.
-- **Informational interdependence** — a Facebook algorithm change reshapes political discourse across 190 countries simultaneously.
-
-**Interdependence isn't symmetric.** The classic Keohane/Nye distinction:
-- **Sensitivity** — how quickly changes in one country produce costly effects in another.
-- **Vulnerability** — how costly it is to *adjust* to those changes.
-
-Small states are typically more vulnerable to great powers than vice versa. The US-China relationship is deeply interdependent but the vulnerabilities are asymmetric — decoupling hurts both, but not equally.
-
----
+**The four never operate in isolation.** Every strong Paper 2 essay names two or more of them and shows how they interact. See §2.11, §3.11, §4.5, §5.5 for the interlocking diagrams.
 
 ## Section 1.3 — The Three Thematic Studies
 
@@ -626,4 +452,4 @@ Beyond the primary references in Aakash's teacher's classroom pack, this chapter
 
 ---
 
-*Notes compiled August 2026 for Global Politics SL, DP1. Update after each teacher clarification, engagement-project insight, or fresh case study.*
+*Notes compiled August 2026 for Global Politics HL, DP1 · restructured September 2026 into Chapters 1–5. Update after each teacher clarification, engagement-project insight, or fresh case study.*
