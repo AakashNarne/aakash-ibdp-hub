@@ -37,13 +37,13 @@ Any function of the form *f*(*x*) = *ax*² + *bx* + *c*, *a* ≠ 0. The graph is
 
 | Form | Expression | What it tells you directly |
 |---|---|---|
-| Standard | *f*(*x*) = *ax*² + *bx* + *c* | *y*-intercept = *c*; opens up if *a* > 0, down if *a* < 0 |
-| Vertex | *f*(*x*) = *a*(*x* − *h*)² + *k* | Vertex is at (*h*, *k*); axis of symmetry *x* = *h* |
-| Factored | *f*(*x*) = *a*(*x* − *p*)(*x* − *q*) | Roots at *x* = *p* and *x* = *q* |
+| Standard | $$f(x) = ax^{2} + bx + c$$ | *y*-intercept = *c*; opens up if *a* > 0, down if *a* < 0 |
+| Vertex | $$f(x) = a(x - h)^{2} + k$$ | Vertex is at (*h*, *k*); axis of symmetry *x* = *h* |
+| Factored | $$f(x) = a(x - p)(x - q)$$ | Roots at *x* = *p* and *x* = *q* |
 
 **Axis of symmetry and vertex from standard form.**
 
-- Axis: *x* = −*b* / (2*a*)
+- Axis: $$x = -\frac{b}{2a}$$
 - Vertex *y*-value: substitute the axis back into *f*(*x*), or use *k* = *c* − *b*²/(4*a*).
 
 **The discriminant Δ = *b*² − 4*ac*** decides how the parabola meets the *x*-axis:
@@ -54,12 +54,14 @@ Any function of the form *f*(*x*) = *ax*² + *bx* + *c*, *a* ≠ 0. The graph is
 
 **Quadratic formula.** For *ax*² + *bx* + *c* = 0:
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 **Sum and product of roots (Vieta's).** If *p* and *q* are the roots of *ax*² + *bx* + *c* = 0:
 
-- *p* + *q* = −*b* / *a*
-- *pq* = *c* / *a*
+- $$p + q = -\frac{b}{a}$$
+- $$pq = \frac{c}{a}$$
 
 Use this when a question gives you a relationship between the roots without asking you to solve for them.
 
@@ -87,8 +89,8 @@ The prototype. Domain *x* ≠ 0, range *y* ≠ 0. Two asymptotes: vertical *x* =
 
 - **Vertical asymptote (VA):** set the denominator to zero. *cx* + *d* = 0 ⇒ *x* = −*d*/*c*.
 - **Horizontal asymptote (HA):** ratio of leading coefficients. *y* = *a*/*c*.
-- **Domain:** *x* ≠ −*d*/*c*.
-- **Range:** *y* ≠ *a*/*c*.
+- **Domain:** $$x \ne -\frac{d}{c}$$.
+- **Range:** $$y \ne \frac{a}{c}$$.
 - **Intercepts:** *y*-intercept at (0, *b*/*d*) (if *d* ≠ 0). *x*-intercept at (−*b*/*a*, 0) (if *a* ≠ 0).
 
 **Worked example.** *f*(*x*) = (2*x* − 3) / (*x* + 1). VA: *x* = −1. HA: *y* = 2. Domain *x* ∈ ℝ, *x* ≠ −1. Range *y* ∈ ℝ, *y* ≠ 2. *y*-intercept (0, −3). *x*-intercept (3/2, 0).
@@ -103,9 +105,9 @@ The prototype. Domain *x* ≠ 0, range *y* ≠ 0. Two asymptotes: vertical *x* =
 
 | Degree comparison | Horizontal asymptote |
 |---|---|
-| deg(*P*) < deg(*Q*) | *y* = 0 |
-| deg(*P*) = deg(*Q*) | *y* = ratio of leading coefficients |
-| deg(*P*) > deg(*Q*) | none — slant if difference is 1 |
+| $$\deg(P) < \deg(Q)$$ | $$y = 0$$ |
+| $$\deg(P) = \deg(Q)$$ | *y* = ratio of leading coefficients |
+| $$\deg(P) > \deg(Q)$$ | none — slant if difference is 1 |
 
 ---
 
@@ -158,15 +160,15 @@ Formally: *f*⁻¹(*f*(*x*)) = *x* for all *x* in the domain of *f*.
 
 **Worked example.** *f*(*x*) = 3*x* − 5.
 
-1. *y* = 3*x* − 5.
-2. *x* = 3*y* − 5.
-3. *y* = (*x* + 5)/3.
+1. $$y = 3x - 5$$.
+2. $$x = 3y - 5$$.
+3. $$y = \frac{x + 5}{3}$$.
 4. *f*⁻¹(*x*) = (*x* + 5)/3. Domain ℝ.
 
 **Worked example (with a restricted domain).** *f*(*x*) = *x*² for *x* ≥ 0.
 
-1. *y* = *x*².
-2. *x* = *y*².
+1. $$y = x^{2}$$.
+2. $$x = y^{2}$$.
 3. *y* = √*x* (take the positive root because the original domain was *x* ≥ 0).
 4. *f*⁻¹(*x*) = √*x*. Domain *x* ≥ 0.
 
@@ -192,13 +194,13 @@ A function of the form *f*(*x*) = *a* · *b*ˣ, where *a* is a constant, *b* > 0
 
 **Laws of exponents** (memorise cold — these underpin every log/exp manipulation):
 
-- *b*ᵐ · *bⁿ* = *b*⁽ᵐ⁺ⁿ⁾
-- *b*ᵐ / *bⁿ* = *b*⁽ᵐ⁻ⁿ⁾
-- (*b*ᵐ)ⁿ = *b*⁽ᵐⁿ⁾
-- (*ab*)ⁿ = *aⁿ* · *bⁿ*
-- *b*⁰ = 1
-- *b*⁻ⁿ = 1 / *bⁿ*
-- *b*^(1/*n*) = ⁿ√*b*
+- $$b^{m} \cdot b^{n} = b^{m+n}$$
+- $$\frac{b^{m}}{b^{n}} = b^{m-n}$$
+- $$(b^{m})^{n} = b^{mn}$$
+- $$(ab)^{n} = a^{n} \cdot b^{n}$$
+- $$b^{0} = 1$$
+- $$b^{-n} = \frac{1}{b^{n}}$$
+- $$b^{1/n} = \sqrt[n]{b}$$
 
 **The natural exponential *e*ˣ.** *e* ≈ 2.71828… is the unique base for which the tangent to *y* = *bˣ* at *x* = 0 has slope 1. It arises naturally in continuous compounding, radioactive decay, and (later) calculus — the derivative of *eˣ* is *eˣ*.
 
@@ -233,22 +235,24 @@ Read both ways until it's automatic — half of log problems solve themselves on
 
 **Laws of logs** (same base throughout):
 
-- log*ᵦ*(*xy*) = log*ᵦ*(*x*) + log*ᵦ*(*y*)   *(product law)*
-- log*ᵦ*(*x*/*y*) = log*ᵦ*(*x*) − log*ᵦ*(*y*)   *(quotient law)*
-- log*ᵦ*(*xⁿ*) = *n* · log*ᵦ*(*x*)   *(power law)*
-- log*ᵦ*(1) = 0
-- log*ᵦ*(*b*) = 1
-- log*ᵦ*(*b*ˣ) = *x*   and   *b*^(log*ᵦ*(*x*)) = *x*   *(inverse identities)*
+- $$\log_b(xy) = \log_b(x) + \log_b(y)$$   *(product law)*
+- $$\log_b(\frac{x}{y}) = \log_b(x) - \log_b(y)$$   *(quotient law)*
+- $$\log_b(x^{n}) = n \cdot \log_b(x)$$   *(power law)*
+- $$\log_b(1) = 0$$
+- $$\log_b(b) = 1$$
+- $$\log_b(b^{x}) = x$$   and   $$b^{\log_b(x)} = x$$   *(inverse identities)*
 
 **Change of base formula** — how to compute log₇(20) on a calculator that only has log and ln:
 
-$$\log_b(x) = \frac{\log(x)}{\log(b)} = \frac{\ln(x)}{\ln(b)}$$
+$$
+\log_b(x) = \frac{\log(x)}{\log(b)} = \frac{\ln(x)}{\ln(b)}
+$$
 
 **The shape of *y* = log*ᵦ*(*x*), *b* > 1:**
 
 - Domain: *x* > 0. Range: ℝ.
 - Passes through (1, 0) — because log*ᵦ*(1) = 0 for every *b*.
-- Vertical asymptote: *x* = 0.
+- Vertical asymptote: $$x = 0$$.
 - Mirror image of *y* = *bˣ* across *y* = *x*.
 - Grows without bound but *very slowly*.
 
@@ -275,10 +279,10 @@ Let *y* = *f*(*x*). Then:
 
 | Transformation | Effect |
 |---|---|
-| *y* = *f*(*x*) + *k* | shift **up** by *k* (down if *k* < 0) |
-| *y* = *f*(*x* − *h*) | shift **right** by *h* (opposite sign — this is the counter-intuitive one) |
-| *y* = *a* · *f*(*x*) | vertical stretch by factor *a*; if *a* < 0, reflect in the *x*-axis |
-| *y* = *f*(*bx*) | horizontal stretch by factor 1/*b*; if *b* < 0, reflect in the *y*-axis |
+| $$y = f(x) + k$$ | shift **up** by *k* (down if *k* < 0) |
+| $$y = f(x - h)$$ | shift **right** by *h* (opposite sign — this is the counter-intuitive one) |
+| $$y = a \cdot f(x)$$ | vertical stretch by factor *a*; if *a* < 0, reflect in the *x*-axis |
+| $$y = f(bx)$$ | horizontal stretch by factor 1/*b*; if *b* < 0, reflect in the *y*-axis |
 
 **Order of operations for a combined transformation** *y* = *a* · *f*(*b*(*x* − *h*)) + *k*: inside first (horizontal shift, then horizontal stretch/reflection), then outside (vertical stretch/reflection, then vertical shift). Mnemonic: **HSRT** — Horizontal shift, Stretch, then Reflect (vertical), Translate (vertical).
 
@@ -292,11 +296,11 @@ Start with *y* = *eˣ*. Reflect in *y*-axis → *y* = *e*⁻ˣ. Stretch vertical
 
 | Family | Standard form | Domain | Range | Key features |
 |---|---|---|---|---|
-| Linear | *y* = *mx* + *c* | ℝ | ℝ | slope *m*, *y*-int *c* |
-| Quadratic | *y* = *ax*² + *bx* + *c* | ℝ | *y* ≥ *k* (or ≤ *k*) | vertex, parabola |
-| Rational (1/x type) | *y* = (*ax*+*b*)/(*cx*+*d*) | *x* ≠ −*d*/*c* | *y* ≠ *a*/*c* | vertical + horizontal asymptotes |
-| Exponential | *y* = *a* · *bˣ* | ℝ | *y* > 0 (or < 0) | HA at *y* = 0; passes (0, *a*) |
-| Logarithmic | *y* = log*ᵦ*(*x*) | *x* > 0 | ℝ | VA at *x* = 0; passes (1, 0) |
+| Linear | $$y = mx + c$$ | ℝ | ℝ | slope *m*, *y*-int *c* |
+| Quadratic | $$y = ax^{2} + bx + c$$ | ℝ | $$y \ge k$$ (or ≤ *k*) | vertex, parabola |
+| Rational (1/x type) | $$y = \frac{ax+b}{cx+d}$$ | $$x \ne -\frac{d}{c}$$ | $$y \ne \frac{a}{c}$$ | vertical + horizontal asymptotes |
+| Exponential | $$y = a \cdot b^{x}$$ | ℝ | $$y > 0$$ (or < 0) | HA at *y* = 0; passes (0, *a*) |
+| Logarithmic | $$y = \log_b(x)$$ | $$x > 0$$ | ℝ | VA at *x* = 0; passes (1, 0) |
 | Composite/Inverse | *f*(*g*(*x*)) / *f*⁻¹ | depends | depends | domain-range swap for inverse |
 
 ---

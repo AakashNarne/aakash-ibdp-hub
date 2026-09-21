@@ -17,7 +17,9 @@
 
 The gradient of the line joining two points (*x*₁, *y*₁) and (*x*₂, *y*₂) is:
 
-$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
 **Sign meaning.** Positive gradient = rises left-to-right. Negative gradient = falls. Zero gradient = horizontal line. Undefined gradient = vertical line (denominator zero).
 
@@ -25,9 +27,9 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 | Form | Expression | Read off directly |
 |---|---|---|
-| **Slope–intercept** | *y* = *mx* + *c* | Gradient *m*, *y*-intercept *c* |
-| **Point–slope** | *y* − *y*₁ = *m*(*x* − *x*₁) | Line through (*x*₁, *y*₁) with gradient *m* |
-| **Standard / general** | *ax* + *by* + *d* = 0 | Useful for finding intercepts by setting each variable to 0 |
+| **Slope–intercept** | $$y = mx + c$$ | Gradient *m*, *y*-intercept *c* |
+| **Point–slope** | $$y - y_{1} = m(x - x_{1})$$ | Line through (*x*₁, *y*₁) with gradient *m* |
+| **Standard / general** | $$ax + by + d = 0$$ | Useful for finding intercepts by setting each variable to 0 |
 
 **Convert point–slope to slope–intercept** by expanding and rearranging. **Convert slope–intercept to standard** by moving all terms to one side.
 
@@ -42,7 +44,7 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 Line *L*₁ passes through (2, 3) and (6, 11).
 
-1. **Gradient.** *m* = (11 − 3) / (6 − 2) = 8 / 4 = **2**.
+1. **Gradient.** $$m = \frac{11 - 3}{6 - 2} = \frac{8}{4} = 2$$.
 2. **Equation of *L*₁.** Using point–slope through (2, 3): *y* − 3 = 2(*x* − 2) → *y* = **2*x* − 1**.
 3. **Line through (0, 4) perpendicular to *L*₁.** Perpendicular gradient = −1/2. Line: *y* = **−½*x* + 4**.
 
@@ -50,8 +52,8 @@ Line *L*₁ passes through (2, 3) and (6, 11).
 
 Between points (*x*₁, *y*₁) and (*x*₂, *y*₂):
 
-- **Distance**: *d* = √((*x*₂ − *x*₁)² + (*y*₂ − *y*₁)²)
-- **Midpoint**: *M* = ((*x*₁ + *x*₂)/2, (*y*₁ + *y*₂)/2)
+- **Distance**: $$d = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}$$
+- **Midpoint**: $$M = (\frac{x_{1} + x_{2}}{2}, \frac{y_{1} + y_{2}}{2})$$
 
 ---
 
@@ -62,7 +64,7 @@ Between points (*x*₁, *y*₁) and (*x*₂, *y*₂):
 - **Function** — a rule assigning exactly one output *y* to each input *x*.
 - **Domain** — the set of all valid inputs.
 - **Range** — the set of all outputs the function actually produces.
-- **Notation** — *f*(*x*) = 2*x* + 3, or *f* : *x* ↦ 2*x* + 3.
+- **Notation** $$— f(x) = 2x + 3,$$ or $$f : x \mapsto 2x + 3$$.
 
 ### Common domain restrictions
 
@@ -92,15 +94,15 @@ Three restrictions do most of the work:
 2. Swap *x* and *y*.
 3. Solve for *y*.
 4. Rewrite as *f*⁻¹(*x*).
-5. Verify: *f*(*f*⁻¹(*x*)) = *x* and *f*⁻¹(*f*(*x*)) = *x*.
+5. Verify: $$f(f^{-1}(x)) = x$$ and $$f^{-1}(f(x)) = x$$.
 
 **Worked example.** If *f*(*x*) = 3*x* − 6, find *f*⁻¹(*x*).
 
-- Let *y* = 3*x* − 6.
-- Swap: *x* = 3*y* − 6.
+- $$Let y = 3x - 6$$.
+- Swap: $$x = 3y - 6$$.
 - Solve for *y*: *y* = (*x* + 6) / 3.
-- So *f*⁻¹(*x*) = (*x* + 6) / 3.
-- Verify: *f*(*f*⁻¹(*x*)) = 3·(*x* + 6)/3 − 6 = *x* + 6 − 6 = *x* ✓
+- $$So f^{-1}(x) = \frac{x + 6}{3}$$.
+- Verify: $$f(f^{-1}(x)) = 3\cdot \frac{x + 6}{3} - 6 = x + 6 - 6 = x ✓$$
 
 ---
 
@@ -164,13 +166,13 @@ Modelling is the SA1 mark-earner. Given a real-world dataset or scenario, identi
 
 | Family | Form | Real-world shape |
 |---|---|---|
-| **Linear** | *f*(*x*) = *mx* + *c* | Constant rate of change (fixed pay per hour, taxi meter after base fare) |
-| **Quadratic** | *f*(*x*) = *ax*² + *bx* + *c* | Projectile motion; profit-maximisation curves |
-| **Cubic** | *f*(*x*) = *ax*³ + *bx*² + *cx* + *d* | Volume with a length; some cost curves |
-| **Exponential** | *f*(*x*) = *k*·*a*^*x* + *c* | Growth (compound interest, populations), decay (radioactive, cooling) |
-| **Sinusoidal** | *f*(*x*) = *a*·sin(*b*(*x* − *c*)) + *d* | Tides, daylight hours, sound waves |
-| **Direct variation** | *y* = *kx* (or *y* = *kx*ⁿ) | Simple proportionality |
-| **Inverse variation** | *y* = *k*/*x* | Time and speed at fixed distance; pressure and volume of a gas |
+| **Linear** | $$f(x) = mx + c$$ | Constant rate of change (fixed pay per hour, taxi meter after base fare) |
+| **Quadratic** | $$f(x) = ax^{2} + bx + c$$ | Projectile motion; profit-maximisation curves |
+| **Cubic** | $$f(x) = ax^{3} + bx^{2} + cx + d$$ | Volume with a length; some cost curves |
+| **Exponential** | $$f(x) = k\cdot a^x + c$$ | Growth (compound interest, populations), decay (radioactive, cooling) |
+| **Sinusoidal** | $$f(x) = a\cdot sin(b(x - c)) + d$$ | Tides, daylight hours, sound waves |
+| **Direct variation** | $$y = kx$$ (or *y* = *kx*ⁿ) | Simple proportionality |
+| **Inverse variation** | $$y = \frac{k}{x}$$ | Time and speed at fixed distance; pressure and volume of a gas |
 
 ### Model-choosing heuristic
 
@@ -231,8 +233,8 @@ $$
 
 *f*(*x*) = 2*x* + 1, *g*(*x*) = *x*². Find (*f* ∘ *g*)(*x*) and (*g* ∘ *f*)(*x*).
 
-- (*f* ∘ *g*)(*x*) = *f*(*g*(*x*)) = *f*(*x*²) = 2*x*² + 1.
-- (*g* ∘ *f*)(*x*) = *g*(*f*(*x*)) = *g*(2*x* + 1) = (2*x* + 1)² = 4*x*² + 4*x* + 1.
+- $$(f \circ g)(x) = f(g(x)) = f(x^{2}) = 2x^{2} + 1$$.
+- $$(g \circ f)(x) = g(f(x)) = g(2x + 1) = (2x + 1)^{2} = 4x^{2} + 4x + 1$$.
 
 Different — order matters.
 
@@ -301,12 +303,12 @@ For a composite like *y* = 2*f*(*x* − 3) + 4, apply in this order:
 
 | Model | Form | Real-world use |
 |---|---|---|
-| **Direct & inverse variation (extended)** | *y* = *kx*ⁿ, *y* = *k*/*x*ⁿ | Physics laws, engineering |
+| **Direct & inverse variation (extended)** | $$y = kx^{n}, y = \frac{k}{x^{n}}$$ | Physics laws, engineering |
 | **Cubic & polynomial** | Higher-degree polynomials | Complex cost/revenue curves; interpolation |
-| **Rational** | *f*(*x*) = (*ax* + *b*) / (*cx* + *d*) | Concentration-response; efficiency curves with asymptotes |
-| **Logistic** | *f*(*x*) = *L* / (1 + *C*·*e*^(−*kx*)) | Bounded growth — population with carrying capacity, product adoption S-curve, epidemic spread |
+| **Rational** | $$f(x) = \frac{ax + b}{cx + d}$$ | Concentration-response; efficiency curves with asymptotes |
+| **Logistic** | $$f(x) = \frac{L}{1 + C\cdot e^{-kx}}$$ | Bounded growth — population with carrying capacity, product adoption S-curve, epidemic spread |
 | **Piecewise** | Different rules on different intervals | Tax brackets, tariff structures, shipping cost tiers |
-| **Sinusoidal (HL depth)** | *y* = *a*·sin(*b*(*x* − *c*)) + *d* | Extended amplitude/period/phase analysis |
+| **Sinusoidal (HL depth)** | $$y = a\cdot sin(b(x - c)) + d$$ | Extended amplitude/period/phase analysis |
 
 ### The logistic model — worth extra attention
 
@@ -324,9 +326,9 @@ $$
 
 A rumour spreads through a school of 500 students. Initially 5 students know it. Growth rate *k* = 0.4 per day.
 
-- *L* = 500, *P*₀ = 5.
-- *C* = (500 − 5) / 5 = 99.
-- Model: *P*(*t*) = 500 / (1 + 99·*e*^(−0.4*t*)).
+- $$L = 500, P_{0} = 5$$.
+- $$C = \frac{500 - 5}{5} = 99$$.
+- Model: $$P(t) = \frac{500}{1 + 99\cdot e^{-0.4t}}$$.
 - After 10 days: *P*(10) = 500 / (1 + 99·*e*^(−4)) = 500 / (1 + 99·0.0183) ≈ 500 / 2.813 ≈ **178 students**.
 
 ### Piecewise functions
@@ -363,10 +365,10 @@ For *f*(*x*) = (*ax* + *b*) / (*cx* + *d*):
 
 ### Formulas you should have memorised (not on the formula booklet for AI HL)
 
-- Gradient: *m* = (*y*₂ − *y*₁) / (*x*₂ − *x*₁)
+- Gradient: $$m = \frac{y_{2} - y_{1}}{x_{2} - x_{1}}$$
 - Parallel: *m*₁ = *m*₂. Perpendicular: *m*₁·*m*₂ = −1.
-- Distance: *d* = √((*x*₂ − *x*₁)² + (*y*₂ − *y*₁)²)
-- Midpoint: ((*x*₁ + *x*₂)/2, (*y*₁ + *y*₂)/2)
+- Distance: $$d = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}$$
+- Midpoint: $$(\frac{x_{1} + x_{2}}{2}, \frac{y_{1} + y_{2}}{2})$$
 
 ### Definitions
 

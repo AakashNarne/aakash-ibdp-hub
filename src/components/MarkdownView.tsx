@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import ReactMarkdown, { defaultUrlTransform } from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { remarkWikilink, WIKI_SCHEME, headingSlug } from '../lib/wikilink'
+import { mathRemarkPlugin, mathRehypePlugin } from '../lib/math'
 import { resolveWikilink } from '../lib/linkGraph'
 
 /** Flatten a React children tree to text, so headings can get stable ids. */
@@ -110,7 +111,10 @@ export default function MarkdownView({
 
   return (
     <ReactMarkdown
-      remarkPlugins={[remarkGfm, remarkWikilink]}
+      // Math runs before the wikilink pass so a [[ inside a formula is never
+      // touched, and GFM runs first so tables still work.
+      remarkPlugins={[remarkGfm, mathRemarkPlugin, remarkWikilink]}
+      rehypePlugins={[mathRehypePlugin]}
       components={components}
       // react-markdown's default urlTransform allows only http/https/mailto/tel
       // and blanks anything else — which silently emptied every wiki: href.

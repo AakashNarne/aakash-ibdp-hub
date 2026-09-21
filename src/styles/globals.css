@@ -369,3 +369,80 @@ h1, h2, h3 {
   .prose-notes a.wikilink { text-decoration: underline; opacity: 1; }
   .prose-notes .wikilink-stub { @apply text-ink-500; }
 }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   KaTeX
+
+   The stylesheet ships from the package (imported in main.tsx); this only
+   adapts it to the reading column and the two themes.
+
+   Authoring rule for the notes:
+     $$x^2$$           on one line  → inline maths, mid-sentence
+     $$ \n ... \n $$   on its own   → a centred display block
+   Single dollars are deliberately NOT maths (see src/lib/math.ts) so that
+   prices like $50 keep working.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.prose-notes .katex {
+  /* KaTeX defaults to 1.21em, which shouts next to Fraunces at this size. */
+  font-size: 1.06em;
+}
+
+/* A long formula scrolls rather than forcing the whole page sideways on a
+   phone — the same treatment wide tables get. */
+.prose-notes .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+  margin: 1.4rem 0;
+}
+.prose-notes .katex-display > .katex {
+  font-size: 1.15em;
+  text-align: center;
+}
+
+/* Inline maths should sit on the text baseline without stretching the line. */
+.prose-notes p .katex,
+.prose-notes li .katex,
+.prose-notes td .katex,
+.prose-notes th .katex {
+  line-height: 1.2;
+}
+
+/* Maths inside a table cell must not blow the column open. */
+.prose-notes td .katex,
+.prose-notes th .katex {
+  font-size: 0.98em;
+  white-space: nowrap;
+}
+
+/* KaTeX draws fraction bars, radicals and rules with currentColor, so it
+   follows the theme — except these, which ship with hard-coded colours. */
+/* NB: do not add `.overline`/`.underline` selectors here — Tailwind treats
+   those names as its own utilities and `@apply underline` elsewhere in this
+   file then reports a circular dependency. KaTeX colours those rules with
+   currentColor by default anyway. */
+.dark .prose-notes .katex .frac-line,
+.dark .prose-notes .katex .hline,
+.dark .prose-notes .katex .sqrt > .root {
+  border-color: currentColor;
+}
+.dark .prose-notes .katex svg line,
+.dark .prose-notes .katex svg path {
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* A formula that fails to parse renders in place rather than blanking the
+   page (throwOnError: false). Make it obvious it needs fixing. */
+.prose-notes .katex-error {
+  color: #b3543f;
+  background: rgb(179 84 63 / 0.08);
+  border-bottom: 1px dotted currentColor;
+  padding: 0 0.15em;
+  border-radius: 2px;
+}
+
+/* Chat answers get maths too, one notch smaller to suit the panel. */
+.prose-chat .katex { font-size: 1em; }
+.prose-chat .katex-display { overflow-x: auto; margin: 0.6rem 0; }

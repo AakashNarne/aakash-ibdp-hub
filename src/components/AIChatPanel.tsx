@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { mathRemarkPlugin, mathRehypePlugin } from '../lib/math'
 import { useAIChat } from '../hooks/useAIChat'
 import { useAISettings } from '../hooks/useAISettings'
 import { useProgress } from '../hooks/useProgress'
@@ -279,7 +280,12 @@ function MessageBubble({
             <div className="whitespace-pre-wrap leading-relaxed">{message.content}</div>
           ) : (
             <div className="prose-chat">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{message.content}</ReactMarkdown>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm, mathRemarkPlugin]}
+                rehypePlugins={[mathRehypePlugin]}
+              >
+                {message.content}
+              </ReactMarkdown>
             </div>
           )}
         </div>

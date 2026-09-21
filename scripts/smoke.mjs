@@ -66,6 +66,22 @@ const p = wl.extractWikilinks('see [[A|alias]] and [[B#Head]] and [[C]] but `[[n
 ok(p.length === 4, 'parses alias, heading and bare forms', JSON.stringify(p.map(x=>x.target)))
 ok(p[0].alias === 'alias' && p[1].heading === 'Head', 'alias and heading captured')
 
+console.log('\n── maths rendering ──')
+{
+  const { MemoryRouter: MR } = await import('react-router-dom')
+  const A = (await load('/src/App.tsx')).default
+  const m1 = renderToString(React.createElement(MR,{initialEntries:['/subject/maths/chapter/ch1']},React.createElement(A)))
+  const m2 = renderToString(React.createElement(MR,{initialEntries:['/subject/maths/chapter/ch2']},React.createElement(A)))
+  const gp = renderToString(React.createElement(MR,{initialEntries:['/subject/global-politics/chapter/ch1']},React.createElement(A)))
+  ok(m1.includes('mfrac') && m2.includes('mfrac'), 'fractions render as fractions')
+  ok(m1.includes('msqrt') || m1.includes('mroot'), 'radicals render')
+  ok(m1.includes('msub') && m2.includes('msub'), 'subscripts render')
+  ok(!m1.includes('$$') && !m2.includes('$$'), 'no leftover $$ delimiters')
+  const errs = (m1+m2+gp).match(/katex-error/g)
+  ok(!errs, 'no KaTeX parse errors', errs ? `${errs.length}` : '')
+  ok(gp.includes('$10bn'), 'currency survives (single $ is not maths)')
+}
+
 console.log('\n── server-render every page ──')
 const { MemoryRouter } = await load('/node_modules/react-router-dom/dist/index.js').catch(()=>import('react-router-dom'))
 const App = (await load('/src/App.tsx')).default
