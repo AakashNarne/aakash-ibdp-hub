@@ -424,3 +424,14 @@ For *f*(*x*) = (*ax* + *b*) / (*cx* + *d*):
 - For regressions: `STAT` mode → enter data → `CALC` → `REG`.
 
 **Whichever machine you use, drill the four essential operations before SA1:** enter a function, find a zero, find an intersection, run a regression. These come up in almost every question.
+
+---
+
+## Section 2.13 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: Functions|Maths AI · Functions]]** — The fuller treatment, including the parts not in the SA1 window.
+- **[[Chapter 2: Demand and Supply|Economics · Demand and Supply]]** — Where these functions show up with units attached. Modelling marks in Maths AI reward exactly this kind of context.
+- **[[Chapter 1: Introduction to Economics|Economics · PPC]]** — Non-linear modelling with a real interpretation of gradient.

@@ -5,6 +5,7 @@
  */
 import type { Chapter, Subject } from '../content/types'
 import { subjects } from '../content'
+import { backlinksFor, outgoingFor, conceptIndex, chapterRefs } from './linkGraph'
 
 export type RouteContext =
   | { kind: 'home' }
@@ -33,6 +34,34 @@ function overallOverview(): string {
     .join('\n')
 }
 
+/**
+ * The link graph, flattened for the prompt. This is what lets the model answer
+ * "where have I covered this before?" instead of re-explaining from scratch —
+ * it can point Aakash back at his own notes, which is the whole reason the
+ * links exist.
+ */
+function connectionMap(): string {
+  const lines: string[] = []
+  for (const ref of chapterRefs) {
+    const out = outgoingFor(ref.key)
+    if (!out.length) continue
+    lines.push(
+      `• ${ref.subject.shortName} — ${ref.shortTitle} → ` +
+        out.map((o) => `${o.subject.shortName}: ${o.shortTitle}`).join('; '),
+    )
+  }
+  return lines.join('\n')
+}
+
+/** Terms that appear in more than one subject — the transferable ones. */
+function crossSubjectConcepts(limit = 24): string {
+  return conceptIndex()
+    .filter((c) => c.subjectIds.length > 1)
+    .slice(0, limit)
+    .map((c) => `• ${c.term} — ${c.mentions.map((m) => m.ref.subject.shortName).join(', ')}`)
+    .join('\n')
+}
+
 export function buildSystemPrompt(ctx: RouteContext): string {
   const preamble = `You are an expert IB Diploma Programme tutor helping Aakash Narne (DP1) study. Aakash is preparing for his IB exams. Be precise, use IB terminology and command terms (state, describe, explain, evaluate, analyse) where appropriate, and reference the specific IB syllabus he is on when relevant.
 
@@ -45,6 +74,21 @@ Style:
 
 Aakash's subjects currently loaded in his study hub:
 ${overallOverview()}
+
+His notes are cross-linked, and you can see the link graph. Use it:
+- When a question touches material he has already written up elsewhere, say so by
+  name ("you covered this in Global Politics — Sovereignty") instead of explaining
+  it cold. Pointing him back at his own notes is more useful than a fresh summary.
+- Prefer connections that cross subjects. Carrying a concept between papers is
+  what earns marks, and it is the thing a folder structure hides from him.
+- Never invent a chapter. If it is not in the map below, it does not exist yet —
+  say that, and suggest where a note on it would belong.
+
+Chapter link graph:
+${connectionMap()}
+
+Concepts that span more than one subject:
+${crossSubjectConcepts()}
 `
 
   if (ctx.kind === 'home') {
@@ -82,6 +126,16 @@ ${done}
 
 Sections still to work through:
 ${todo}
+
+This chapter links out to:
+${outgoingFor(`${ctx.subject.id}/${ctx.chapter.id}`)
+  .map((r) => `  → ${r.subject.shortName}: ${r.chapter.title}`)
+  .join('\n') || '  (nothing yet)'}
+
+And is linked to from:
+${backlinksFor(`${ctx.subject.id}/${ctx.chapter.id}`)
+  .map((b) => `  ← ${b.from.subject.shortName}: ${b.from.chapter.title}`)
+  .join('\n') || '  (nothing yet)'}
 
 Here is the full content of the chapter he's currently on — treat this as the shared context you both have. If Aakash quotes a snippet from it, help him understand or extend that part specifically.
 

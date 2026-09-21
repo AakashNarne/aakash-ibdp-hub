@@ -244,6 +244,20 @@ Every body paragraph runs this four-move cycle. The `link` at the end brings the
 
 ---
 
+
+---
+
+## Section 1.12 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: Foundations of Global Politics|Global Politics · Foundations]]** — The media is a political actor in its own right. A Paper 1 text about a political issue is doing framing, and framing is on your Global Politics syllabus.
+- **[[Chapter 2: Power|Global Politics · Power]]** — Soft power is persuasion. The rhetorical devices you identify here are the mechanism behind it.
+- **[[Chapter 1: SA1 Focus — Unit 1 पहचान (Identity)|Hindi B · पहचान]]** — Audience, context and purpose are the Language B conceptual understandings almost word for word. The analytical move transfers between the two languages.
+
+---
+
 ## Section 1.11 — Sources
 
 - IB DP Language A: Language and Literature Guide (first assessment 2021, updated for cohort 2028).

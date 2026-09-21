@@ -268,3 +268,14 @@ The anti-pattern. Planned obsolescence is the deliberate design of products to h
 | Planned obsolescence | Deliberate design to limit a product's useful life. |
 | Right-to-repair | Legislation requiring manufacturers to provide access to parts, tools, and manuals for repair. |
 | Product liability | Legal responsibility for harm caused by product design flaws. |
+
+---
+
+## Section 1.15 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: SA1 Focus — Paper 1 Non-Literary Analysis|English · Paper 1 Analysis]]** — User-centred research and audience analysis are the same skill. Who is this for, what do they need, what does the artefact assume about them — a designer and a text analyst ask identical questions.
+- **[[Chapter 1: Introduction to Economics|Economics · Scarcity and Sustainability]]** — Material choice is an opportunity-cost problem, and sustainability is one of the nine central economic concepts. The Economics framing gives you evaluation language.
+- **[[Chapter 1: Foundations of Global Politics|Global Politics · Foundations]]** — Designer responsibility sits inside the Development and sustainability thematic study — stakeholders, unequal impact, who bears the cost of a design decision.

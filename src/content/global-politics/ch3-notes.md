@@ -42,6 +42,20 @@ Max Weber's classic definition of the state (1919): a state is a **"human commun
 
 ---
 
+
+---
+
+## Section 3.15 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 2: Power|Power]]** — Sovereignty without the power to exercise it is a legal claim, not a political fact.
+- **[[Chapter 4: Legitimacy|Legitimacy]]** — A state can be sovereign and not legitimate. The gap between the two is where most essay questions live.
+- **[[Chapter 5: Interdependence|Interdependence]]** — Every form of interdependence is a voluntary constraint on sovereignty.
+
+---
+
 ## Section 3.2 — Sources of Sovereignty
 
 An actor claiming sovereignty typically draws on some combination of five sources:

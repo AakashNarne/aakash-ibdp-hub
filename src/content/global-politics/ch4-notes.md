@@ -18,6 +18,20 @@ Three properties to hold in mind:
 
 ---
 
+
+---
+
+## Section 4.10 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 3: Sovereignty|Sovereignty]]** — The pairing to get right: sovereignty is recognised authority, legitimacy is accepted authority.
+- **[[Chapter 2: Power|Power]]** — Legitimacy is what makes power cheap to exercise. Without it you need coercion.
+- **[[Chapter 1: Foundations of Global Politics|Foundations]]** — Where legitimacy sits among the four key concepts.
+
+---
+
 ## Section 4.2 — Sources of Legitimacy
 
 An actor can draw on more than one source. Max Weber's 1919 classification remains the standard starting point, updated with modern additions.

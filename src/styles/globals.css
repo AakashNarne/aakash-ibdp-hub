@@ -189,8 +189,19 @@ body {
   animation: fadein 0.15s ease-out;
 }
 
-/* Smooth transitions */
-* { transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease; }
+/* Theme transition, scoped. A blanket `*` rule here costs a style recalc on
+   every element and makes hover feedback feel laggy — Apple's first rule is
+   that latency on the input path is a regression. */
+body,
+header,
+footer,
+article,
+aside,
+section,
+.prose-notes,
+.prose-chat {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 8px; height: 8px; }
@@ -199,3 +210,162 @@ body {
 .dark ::-webkit-scrollbar-thumb { @apply bg-ink-600; }
 ::-webkit-scrollbar-thumb:hover { @apply bg-ink-300; }
 .dark ::-webkit-scrollbar-thumb:hover { @apply bg-ink-500; }
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Typography — optical sizing, size-specific tracking, inverse leading
+   (Apple, "The Details of UI Typography", WWDC 2020)
+
+   The rule people skip: tracking is size-specific. Letters read too far apart
+   as they grow, so large text wants NEGATIVE tracking and small text wants a
+   touch positive. One letter-spacing value for the whole page is wrong
+   somewhere. Leading moves the opposite way to size: tight on headings,
+   generous on body.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.prose-notes,
+.display,
+h1, h2, h3 {
+  font-optical-sizing: auto;
+}
+
+/* Page-level display headings */
+.display {
+  line-height: 1.05;
+  letter-spacing: -0.021em;
+}
+
+.prose-notes h1 { line-height: 1.12; letter-spacing: -0.02em; }
+.prose-notes h2 { line-height: 1.2;  letter-spacing: -0.015em; }
+.prose-notes h3 { line-height: 1.28; letter-spacing: -0.01em; }
+.prose-notes h4 { line-height: 1.35; letter-spacing: -0.005em; }
+
+/* Body copy sits near zero tracking, with leading that makes a long note
+   readable rather than dense. */
+.prose-notes p,
+.prose-notes li {
+  letter-spacing: 0.0015em;
+  line-height: 1.72;
+}
+
+/* Reading measure. Prose past ~72 characters is measurably harder to track
+   line-to-line; tables and figures are allowed to break out. */
+.prose-notes > p,
+.prose-notes > ul,
+.prose-notes > ol,
+.prose-notes > blockquote {
+  max-width: 68ch;
+}
+
+/* Small caps-ish metadata gets positive tracking — the inverse of headings. */
+.prose-notes th {
+  letter-spacing: 0.01em;
+}
+
+/* Tables scroll instead of crushing the column on a phone. */
+.table-scroll {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+.table-scroll > table { margin: 0; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Wikilinks
+   A resolved link is a link. An unresolved one is a "stub" — dotted and
+   muted, Obsidian's convention — so a pointer to a note that doesn't exist
+   yet reads as a promise rather than as something broken.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.prose-notes a.wikilink {
+  @apply text-accent-600 no-underline;
+  background-image: linear-gradient(to right, currentColor, currentColor);
+  background-size: 100% 1px;
+  background-position: 0 1.15em;
+  background-repeat: no-repeat;
+  padding: 0 0.06em;
+  border-radius: 2px;
+  opacity: 0.95;
+  transition: background-size 0.18s ease, opacity 0.12s ease, background-color 0.12s ease;
+}
+.dark .prose-notes a.wikilink { @apply text-accent-300; }
+
+.prose-notes a.wikilink:hover {
+  opacity: 1;
+  background-color: rgb(56 97 140 / 0.09);
+}
+/* Feedback on press, not on release. */
+.prose-notes a.wikilink:active {
+  background-color: rgb(56 97 140 / 0.16);
+}
+.dark .prose-notes a.wikilink:hover { background-color: rgb(127 161 194 / 0.14); }
+
+.prose-notes .wikilink-stub {
+  @apply text-ink-300;
+  border-bottom: 1px dashed currentColor;
+  cursor: help;
+}
+.dark .prose-notes .wikilink-stub { @apply text-ink-400; }
+
+/* Anchor targets sit clear of the sticky header, and flash briefly so you can
+   see where a deep link actually landed you. */
+.prose-notes h2[id],
+.prose-notes h3[id] {
+  scroll-margin-top: 5.5rem;
+}
+.prose-notes h2[id]:target,
+.prose-notes h3[id]:target {
+  animation: target-glow 1.4s ease-out;
+}
+@keyframes target-glow {
+  0%   { background-color: rgb(56 97 140 / 0.16); }
+  100% { background-color: transparent; }
+}
+
+/* Graph transitions. Compositor-friendly properties only. */
+.graph-anim {
+  transition: opacity 0.22s ease, r 0.18s ease, fill-opacity 0.18s ease,
+              stroke-width 0.18s ease, font-size 0.18s ease, fill 0.18s ease;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Accessibility preferences. Reduced motion does not mean no feedback — it
+   means a gentler, non-vestibular equivalent: keep the opacity changes that
+   aid comprehension, drop the travel and the overshoot.
+   ───────────────────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .graph-anim { transition: opacity 0.15s ease; }
+  .animate-fadein { animation: none; }
+  .prose-notes h2[id]:target,
+  .prose-notes h3[id]:target { animation: none; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.12s !important;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .backdrop-blur,
+  .backdrop-blur-md,
+  [class*='backdrop-blur'] {
+    backdrop-filter: none !important;
+  }
+  .bg-cream-50\/80 { background-color: #fdfcf9 !important; }
+  .dark .bg-ink-900\/80 { background-color: #0d0c0a !important; }
+  .bg-cream-50\/80.dark\:bg-ink-800\/80 { background-color: #fdfcf9 !important; }
+}
+
+@media (prefers-contrast: more) {
+  .prose-notes a.wikilink { text-decoration: underline; opacity: 1; }
+  .prose-notes .wikilink-stub { @apply text-ink-500; }
+}

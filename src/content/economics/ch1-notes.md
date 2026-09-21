@@ -493,3 +493,15 @@ Useful for framing essay arguments.
 - **Ceteris paribus:** "All other things being equal."
 - **Positive statement:** Factual, testable claim about the economy.
 - **Normative statement:** Value-based claim about what *should* be.
+
+---
+
+## Section 1.9 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 2: Demand and Supply|Economics · Demand and Supply]]** — Scarcity forces the choices that demand and supply curves then model. Opportunity cost is the idea underneath every movement along a PPC and every trade-off in a market.
+- **[[Chapter 1: Functions|Maths AI · Functions]]** — The PPC is a function before it is an economics diagram. Concave-to-origin shape, gradient as marginal opportunity cost, intercepts as full specialisation — all of it is Topic 2 language.
+- **[[Chapter 5: Interdependence|Global Politics · Interdependence]]** — The circular flow opens up the moment you add imports and exports. That open economy is exactly what Global Politics means by economic interdependence.
+- **[[Chapter 1: SA1 Focus — Ergonomics, UCD, and Designer Responsibility|Design Tech · Designer Responsibility]]** — Sustainability is one of your nine central concepts here and a whole strand of the Design Technology course. Same idea, two mark schemes.

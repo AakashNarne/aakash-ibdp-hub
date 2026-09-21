@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useDarkMode } from '../hooks/useProgress'
 import { useAIChat } from '../hooks/useAIChat'
 import Icon from './Icon'
 import SelectionAskBubble from './SelectionAskBubble'
 import AIChatPanel from './AIChatPanel'
+import SearchPalette from './SearchPalette'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { isDark, toggle } = useDarkMode()
@@ -36,7 +37,40 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </span>
             </div>
           </Link>
+          <nav className="hidden sm:flex items-center gap-1 ml-6 mr-auto">
+            {[
+              { to: '/concepts', label: 'Index', icon: 'BookMarked' },
+              { to: '/graph', label: 'Graph', icon: 'Network' },
+            ].map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={({ isActive }) =>
+                  `px-3 py-1.5 rounded-lg text-sm flex items-center gap-1.5 transition-colors active:scale-[0.97] ${
+                    isActive
+                      ? 'text-ink-900 dark:text-cream-50 bg-cream-200/70 dark:bg-ink-800'
+                      : 'text-ink-400 dark:text-ink-300 hover:text-ink-700 dark:hover:text-cream-100'
+                  }`
+                }
+              >
+                <Icon name={item.icon} size={15} />
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+
           <div className="flex items-center gap-1">
+            <button
+              onClick={() => window.dispatchEvent(new Event('open-search'))}
+              aria-label="Search notes"
+              title="Search notes (⌘K)"
+              className="p-2 rounded-lg hover:bg-cream-200 dark:hover:bg-ink-800 text-ink-600 dark:text-cream-200 transition-colors active:scale-[0.97] flex items-center gap-1.5"
+            >
+              <Icon name="Search" size={16} />
+              <kbd className="hidden md:inline font-mono text-[10px] text-ink-400 dark:text-ink-300 border border-ink-200 dark:border-ink-600 rounded px-1 py-0.5">
+                ⌘K
+              </kbd>
+            </button>
             <button
               onClick={() => chat.open()}
               aria-label="Open study chat"
@@ -72,6 +106,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           Both mounted globally so they follow Aakash across every route. */}
       <SelectionAskBubble />
       <AIChatPanel />
+      <SearchPalette />
     </div>
   )
 }

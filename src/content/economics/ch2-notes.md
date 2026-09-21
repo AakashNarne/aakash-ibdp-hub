@@ -337,6 +337,20 @@ The **price mechanism** signals, incentivises, and rations without central direc
 
 ---
 
+
+---
+
+## Section 2.13 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: Introduction to Economics|Economics · Introduction]]** — Everything here rests on scarcity and choice. If you cannot say why a curve slopes the way it does in terms of opportunity cost, you are describing rather than explaining.
+- **[[Chapter 2: SA1 Focus — Functions (SL 2.1–2.6 · AHL 2.7–2.9)|Maths AI · Functions (SA1)]]** — Demand and supply are linear functions: gradient, intercept, simultaneous solution at equilibrium. Elasticity is a rate of change. The maths is easier than the economics notation makes it look.
+- **[[Chapter 2: Power|Global Politics · Power]]** — Market power in economics and structural power in global politics are the same question — who sets the terms — asked by two disciplines.
+
+---
+
 ## Section 2.12 — Sources Cited
 
 Beyond the primary textbook (Tragakes, *Economics for the IB Diploma*, Cambridge University Press, 3rd Edition, 2022), this chapter draws on:

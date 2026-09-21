@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import { useEffect, useState } from 'react'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { getChapter, getSubject } from '../content'
 import { useProgress } from '../hooks/useProgress'
 import Icon from '../components/Icon'
 import ProgressBar from '../components/ProgressBar'
 import Flashcards from '../components/Flashcards'
+import MarkdownView from '../components/MarkdownView'
+import Backlinks from '../components/Backlinks'
 
 type Tab = 'notes' | 'flashcards' | 'progress'
 
@@ -17,6 +17,23 @@ export default function ChapterPage() {
   const { isDone, toggle, chapterPercent, resetChapter } = useProgress()
 
   const [tab, setTab] = useState<Tab>('notes')
+  const { hash } = useLocation()
+
+  // Deep links from the search palette and from [[Chapter#Heading]] land on a
+  // heading. The notes tab has to be showing before the anchor exists, so
+  // switch to it first, then scroll on the next frame.
+  useEffect(() => {
+    if (!hash) return
+    setTab('notes')
+    const id = decodeURIComponent(hash.slice(1))
+    const raf = requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+        block: 'start',
+      })
+    })
+    return () => cancelAnimationFrame(raf)
+  }, [hash, chapterId])
 
   if (!subject || !chapter) {
     return (
@@ -95,9 +112,14 @@ export default function ChapterPage() {
       {tab === 'notes' && (
         // data-selectable="true" opts this region into the AI selection bubble
         // — highlighting any text here shows the "Ask AI" chip.
-        <article className="prose-notes max-w-none pb-16" data-selectable="true">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{chapter.notes}</ReactMarkdown>
-        </article>
+        <>
+          <article className="prose-notes max-w-none" data-selectable="true">
+            <MarkdownView markdown={chapter.notes} subjectId={subject.id} />
+          </article>
+          <div className="pb-16">
+            <Backlinks chapterKey={`${subject.id}/${chapter.id}`} />
+          </div>
+        </>
       )}
 
       {tab === 'flashcards' && <Flashcards cards={chapter.flashcards} />}

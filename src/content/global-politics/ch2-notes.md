@@ -410,6 +410,21 @@ Power and Sovereignty are the two SA1-priority concepts. They interact constantl
 
 ---
 
+
+---
+
+## Section 2.15 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: Foundations of Global Politics|Foundations]]** — Where power sits among the four key concepts.
+- **[[Chapter 3: Sovereignty|Sovereignty]]** — Power is the capacity; sovereignty is the recognised authority to use it. Keep them distinct.
+- **[[Chapter 2: Demand and Supply|Economics · Demand and Supply]]** — Market power is economic structural power with a diagram attached. Monopoly is a power relationship.
+- **[[Chapter 1: SA1 Focus — Paper 1 Non-Literary Analysis|English · Paper 1 Analysis]]** — Soft power works through texts. Identifying how is an English skill.
+
+---
+
 ## Section 2.14 — Sources
 
 - Nye, J. (2004). *Soft Power: The Means to Success in World Politics.* PublicAffairs — foundational hard/soft/smart taxonomy.

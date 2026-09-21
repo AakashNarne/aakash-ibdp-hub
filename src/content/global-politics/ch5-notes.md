@@ -122,6 +122,21 @@ Structurally exposed. India has diversified sources (Russia post-2022 at discoun
 
 ---
 
+
+---
+
+## Section 5.10 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 3: Sovereignty|Sovereignty]]** — Interdependence is the pressure; sovereignty is what it presses on.
+- **[[Chapter 1: Introduction to Economics|Economics · Introduction]]** — The open circular flow is the economic machinery of interdependence — leakages, injections, trade.
+- **[[Chapter 2: Demand and Supply|Economics · Demand and Supply]]** — Global markets are these same curves with more actors and more politics.
+- **[[Chapter 1: Foundations of Global Politics|Foundations]]** — Where interdependence sits among the four key concepts.
+
+---
+
 ## Section 5.9 — Sources
 
 - Keohane, R. and Nye, J. (1977). *Power and Interdependence.* Longman — foundational.

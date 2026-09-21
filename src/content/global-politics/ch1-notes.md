@@ -430,6 +430,23 @@ If you can't do all six, re-read the relevant sections.
 
 ---
 
+
+---
+
+## Section 1.13 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 2: Power|Power]]** — The first of the four key concepts, in full.
+- **[[Chapter 3: Sovereignty|Sovereignty]]** — The second — and the one most often tested against the first.
+- **[[Chapter 4: Legitimacy|Legitimacy]]** — The third. Easy to confuse with sovereignty; the distinction is worth marks.
+- **[[Chapter 5: Interdependence|Interdependence]]** — The fourth, and the bridge to the global economy.
+- **[[Chapter 1: Introduction to Economics|Economics · Introduction]]** — The Development and sustainability thematic study runs on economic concepts. Borrow the vocabulary — poverty, inequality, growth versus development.
+- **[[Chapter 1: SA1 Focus — Paper 1 Non-Literary Analysis|English · Paper 1 Analysis]]** — You will be handed political sources in Paper 1. The close-reading technique you are drilling in English is directly reusable.
+
+---
+
 ## Section 1.12 — Sources
 
 Beyond the primary references in Aakash's teacher's classroom pack, this chapter draws on:

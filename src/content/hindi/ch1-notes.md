@@ -369,3 +369,13 @@ Three texts, ~45 questions, one hour.
 - क्योंकि (because), इसलिए (therefore), अगर (if), तो (then)
 - बहुत, अत्यंत, वास्तव में, सच में (very, extremely, really, truly)
 - साथ ही, इसके अलावा, ऊपर से (also, in addition, on top of that)
+
+---
+
+## Section 1.14 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 1: SA1 Focus — Paper 1 Non-Literary Analysis|English · Paper 1 Analysis]]** — Audience, context and purpose drive both courses. Text-type conventions in Hindi Paper 1 and register in English analysis are the same idea in two languages.
+- **[[Chapter 1: Foundations of Global Politics|Global Politics · Foundations]]** — पहचान — identity — is one of the eight HL global political challenges. Your Hindi theme and your Global Politics HL extension overlap more than the timetable suggests.

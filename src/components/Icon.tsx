@@ -21,6 +21,13 @@ import {
   Send,
   Settings,
   MessageCircle,
+  Search,
+  Network,
+  CornerUpLeft,
+  ArrowUpRight,
+  Hash,
+  Link2,
+  BookMarked,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -47,6 +54,13 @@ const iconMap: Record<string, LucideIcon> = {
   Send,
   Settings,
   MessageCircle,
+  Search,
+  Network,
+  CornerUpLeft,
+  ArrowUpRight,
+  Hash,
+  Link2,
+  BookMarked,
 }
 
 export default function Icon({

@@ -345,3 +345,14 @@ Start with *y* = *eˣ*. Reflect in *y*-axis → *y* = *e*⁻ˣ. Stretch vertical
 ---
 
 *Notes compiled August 2026 for Maths AI HL, DP1. Update after each teacher clarification or past-paper insight.*
+
+---
+
+## Section 1.13 — Connections
+
+Where this chapter touches the rest of the course. Cross-subject links are the ones
+worth chasing: examiners reward a candidate who can carry a concept between papers.
+
+- **[[Chapter 2: SA1 Focus — Functions (SL 2.1–2.6 · AHL 2.7–2.9)|Maths AI · Functions (SA1 focus)]]** — The SA1 chapter narrows this down to what is actually examined, with the AHL extensions separated out.
+- **[[Chapter 2: Demand and Supply|Economics · Demand and Supply]]** — Your clearest real application of linear functions and simultaneous equations. Equilibrium is just an intersection.
+- **[[Chapter 1: Introduction to Economics|Economics · PPC]]** — A concave curve whose gradient has an economic meaning — good practice for reading a model rather than just plotting it.
