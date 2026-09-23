@@ -149,6 +149,11 @@ function contextAround(text: string, index: number): string {
   return text
     .slice(start, end + 1)
     .replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, t, a) => a || t)
+    // A backlink preview is plain text, so unwrap any maths rather than
+    // showing the reader a raw `$$\sigma$$`.
+    .replace(/\$\$([\s\S]*?)\$\$/g, (_, m) =>
+      m.replace(/\\([a-zA-Z]+)/g, '$1').replace(/[{}]/g, '').trim(),
+    )
     .replace(/[*_`>#]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
