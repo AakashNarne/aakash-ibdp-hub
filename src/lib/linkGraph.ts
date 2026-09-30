@@ -8,6 +8,7 @@
 import { subjects } from '../content'
 import type { Chapter, Subject } from '../content/types'
 import { extractWikilinks, normalizeKey, headingSlug } from './wikilink'
+import { stripFrontmatter } from './callout'
 
 export type ChapterRef = {
   key: string // "global-politics/ch2"
@@ -81,6 +82,7 @@ function aliasesFor(ref: ChapterRef): string[] {
     `${subject.shortName} ${shortTitle}`,
     `${subject.name} ${shortTitle}`,
   ]
+  if (chapter.vaultNote) out.push(chapter.vaultNote)
   if (num) {
     out.push(`chapter ${num}`, `ch${num}`, `${subject.shortName} chapter ${num}`, `${subject.shortName} ch${num}`)
     // "Chapter 2 — Power" is how he actually writes them.
@@ -348,7 +350,7 @@ export function searchIndex(): SearchDoc[] {
       if (text) docs.push({ ref, section, sectionSlug: section ? headingSlug(section) : undefined, text })
       buf = []
     }
-    for (const line of ref.chapter.notes.split('\n')) {
+    for (const line of stripFrontmatter(ref.chapter.notes).split('\n')) {
       const h = line.match(/^#{2,3}\s+(.*)$/)
       if (h) { flush(); section = h[1].replace(/[*`]/g, '').trim(); continue }
       buf.push(line.replace(/[*_`>|#-]/g, ' '))

@@ -446,3 +446,34 @@ h1, h2, h3 {
 /* Chat answers get maths too, one notch smaller to suit the panel. */
 .prose-chat .katex { font-size: 1em; }
 .prose-chat .katex-display { overflow-x: auto; margin: 0.6rem 0; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Obsidian callouts (notes mirrored from the vault — see lib/callout.ts)
+   ───────────────────────────────────────────────────────────────────────── */
+.prose-notes .callout {
+  --callout: 107 102 90;
+  border-left: 4px solid rgb(var(--callout));
+  background: rgb(var(--callout) / 0.07);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0;
+  max-width: 68ch;
+}
+.prose-notes .callout-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95em;
+  color: rgb(var(--callout));
+  margin-bottom: 0.35rem;
+}
+.prose-notes summary.callout-title { cursor: pointer; margin-bottom: 0; }
+.prose-notes details.callout[open] > summary.callout-title { margin-bottom: 0.5rem; }
+.prose-notes .callout-body > :last-child { margin-bottom: 0; }
+.prose-notes .callout-tip, .prose-notes .callout-success { --callout: 22 163 74; }
+.prose-notes .callout-abstract, .prose-notes .callout-summary, .prose-notes .callout-info,
+.prose-notes .callout-note { --callout: 37 99 235; }
+.prose-notes .callout-warning, .prose-notes .callout-caution { --callout: 217 119 6; }
+.prose-notes .callout-danger, .prose-notes .callout-failure, .prose-notes .callout-bug { --callout: 220 38 38; }
+.prose-notes .callout-example { --callout: 124 58 237; }
+.prose-notes .callout-question, .prose-notes .callout-faq { --callout: 202 138 4; }
+.prose-notes .callout-quote { --callout: 107 102 90; }

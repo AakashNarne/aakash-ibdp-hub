@@ -1,4 +1,5 @@
 import type { Subject } from './types'
+import { h2Sections } from '../lib/callout'
 import { ch1Flashcards } from './economics/ch1-flashcards'
 import ch1Notes from './economics/ch1-notes.md?raw'
 import { ch2Flashcards } from './economics/ch2-flashcards'
@@ -23,6 +24,12 @@ import { ch1Flashcards as hindiCh1Flashcards } from './hindi/ch1-flashcards'
 import hindiCh1Notes from './hindi/ch1-notes.md?raw'
 import { ch1Flashcards as dtCh1Flashcards } from './design-tech/ch1-flashcards'
 import dtCh1Notes from './design-tech/ch1-notes.md?raw'
+// Byte-identical copies of vault notes (npm run notes:check). Sections come
+// from their H2 headings so the progress tab can never drift from the note.
+import econCh3Notes from './economics/ch3-notes.md?raw'
+import dtCh2Notes from './design-tech/ch2-notes.md?raw'
+import mathsCh3Notes from './maths/ch3-notes.md?raw'
+import gpCh6Notes from './global-politics/ch6-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -86,6 +93,17 @@ export const subjects: Subject[] = [
         flashcards: ch2Flashcards,
         updated: '2026-08-10',
       },
+      {
+        id: 'ch3',
+        title: 'Chapter 3: 2.1 Demand',
+        subtitle: 'Law of demand, HL marginal utility, market demand, non-price determinants, movement vs shift, linear demand functions',
+        notes: econCh3Notes,
+        sections: h2Sections(econCh3Notes),
+        flashcards: [],
+        updated: '2026-09-30',
+        format: 'obsidian',
+        vaultNote: 'Economics HL — Demand — Notes',
+      },
     ],
   },
   {
@@ -124,6 +142,17 @@ export const subjects: Subject[] = [
         ],
         flashcards: dtCh1Flashcards,
         updated: '2026-09-04',
+      },
+      {
+        id: 'ch2',
+        title: 'Chapter 2: A1.1 Ergonomics',
+        subtitle: 'Anthropometrics, percentiles, product sizing (ANSUR II worked example), physiology, psychology',
+        notes: dtCh2Notes,
+        sections: h2Sections(dtCh2Notes),
+        flashcards: [],
+        updated: '2026-09-30',
+        format: 'obsidian',
+        vaultNote: 'DT A1.1 — Ergonomics — Notes',
       },
     ],
   },
@@ -180,6 +209,17 @@ export const subjects: Subject[] = [
         ],
         flashcards: mathsCh2Flashcards,
         updated: '2026-09-04',
+      },
+      {
+        id: 'ch3',
+        title: 'Chapter 3: AHL 2.10 Log-Log and Semi-Log Graphs',
+        subtitle: 'Scaling large and small numbers, log scales (Richter, dB, pH), linearisation, Kepler worked example',
+        notes: mathsCh3Notes,
+        sections: h2Sections(mathsCh3Notes),
+        flashcards: [],
+        updated: '2026-09-30',
+        format: 'obsidian',
+        vaultNote: 'Maths AHL 2.10 — Log-Log and Semi-Log Graphs — Notes',
       },
     ],
   },
@@ -365,6 +405,17 @@ export const subjects: Subject[] = [
         ],
         flashcards: gpCh5Flashcards,
         updated: '2026-09-09',
+      },
+      {
+        id: 'ch6',
+        title: 'Chapter 6: Rights and Justice — Contested Meanings',
+        subtitle: 'Rights and the UDHR, positive/negative rights, universalism vs relativism, types of justice, Ubuntu and the TRC',
+        notes: gpCh6Notes,
+        sections: h2Sections(gpCh6Notes),
+        flashcards: [],
+        updated: '2026-09-30',
+        format: 'obsidian',
+        vaultNote: 'GP Rights & Justice 1 — Contested Meanings — Notes',
       },
     ],
   },

@@ -114,7 +114,7 @@ export default function ChapterPage() {
         // — highlighting any text here shows the "Ask AI" chip.
         <>
           <article className="prose-notes max-w-none" data-selectable="true">
-            <MarkdownView markdown={chapter.notes} subjectId={subject.id} />
+            <MarkdownView markdown={chapter.notes} subjectId={subject.id} format={chapter.format} />
           </article>
           <div className="pb-16">
             <Backlinks chapterKey={`${subject.id}/${chapter.id}`} />

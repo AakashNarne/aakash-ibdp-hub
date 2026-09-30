@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "notes:check": "node scripts/sync-vault-notes.mjs",
+    "notes:sync": "node scripts/sync-vault-notes.mjs --sync"
   },
   "dependencies": {
     "katex": "^0.18.7",

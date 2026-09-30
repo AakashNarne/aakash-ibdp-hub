@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import ReactMarkdown, { defaultUrlTransform } from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { remarkWikilink, WIKI_SCHEME, headingSlug } from '../lib/wikilink'
-import { mathRemarkPlugin, mathRehypePlugin } from '../lib/math'
+import { mathRemarkPlugin, obsidianMathRemarkPlugin, mathRehypePlugin } from '../lib/math'
+import { remarkCallout, stripFrontmatter } from '../lib/callout'
 import { resolveWikilink } from '../lib/linkGraph'
 
 /** Flatten a React children tree to text, so headings can get stable ids. */
@@ -27,10 +28,15 @@ function textOf(node: React.ReactNode): string {
 export default function MarkdownView({
   markdown,
   subjectId,
+  format,
 }: {
   markdown: string
   subjectId?: string
+  /** 'obsidian' for notes mirrored from the vault (frontmatter, callouts, $math$). */
+  format?: 'obsidian'
 }) {
+  const obsidian = format === 'obsidian'
+  const source = obsidian ? stripFrontmatter(markdown) : markdown
   const components = useMemo(
     () => ({
       a({ href, children, node: _node, ...rest }: React.ComponentPropsWithoutRef<'a'> & {
@@ -113,7 +119,11 @@ export default function MarkdownView({
     <ReactMarkdown
       // Math runs before the wikilink pass so a [[ inside a formula is never
       // touched, and GFM runs first so tables still work.
-      remarkPlugins={[remarkGfm, mathRemarkPlugin, remarkWikilink]}
+      remarkPlugins={
+        obsidian
+          ? [remarkGfm, obsidianMathRemarkPlugin, remarkWikilink, remarkCallout]
+          : [remarkGfm, mathRemarkPlugin, remarkWikilink]
+      }
       rehypePlugins={[mathRehypePlugin]}
       components={components}
       // react-markdown's default urlTransform allows only http/https/mailto/tel
@@ -122,7 +132,7 @@ export default function MarkdownView({
       // sanitising behaviour.
       urlTransform={(url) => (url.startsWith(WIKI_SCHEME) ? url : defaultUrlTransform(url))}
     >
-      {markdown}
+      {source}
     </ReactMarkdown>
   )
 }

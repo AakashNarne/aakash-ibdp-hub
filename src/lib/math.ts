@@ -22,6 +22,14 @@ type RehypePlugin = NonNullable<Options['rehypePlugins']>[number]
 
 export const mathRemarkPlugin: RemarkPlugin = [remarkMath, { singleDollarTextMath: false }]
 
+/**
+ * Notes mirrored byte-for-byte from the Obsidian vault use Obsidian's own
+ * syntax, where `$x$` IS inline math. For those chapters only (Chapter.format
+ * === 'obsidian') single-dollar math is switched on, so the site renders them
+ * exactly as Obsidian does. Hand-written site chapters keep the safe default.
+ */
+export const obsidianMathRemarkPlugin: RemarkPlugin = [remarkMath, { singleDollarTextMath: true }]
+
 export const mathRehypePlugin: RehypePlugin = [
   rehypeKatex,
   {
