@@ -1,0 +1,92 @@
+[
+  {
+    "q": "Define market equilibrium.",
+    "a": "The market outcome where quantity demanded equals quantity supplied, so the price has no tendency to change. It is at the intersection of demand and supply.",
+    "hint": "Qd = Qs"
+  },
+  {
+    "q": "What happens when the market price is above equilibrium?",
+    "a": "Quantity supplied exceeds quantity demanded, creating excess supply. Unsold stock puts downward pressure on price; Qd rises and Qs falls as price falls.",
+    "hint": "Compare Qs and Qd at the given price."
+  },
+  {
+    "q": "What happens when the market price is below equilibrium?",
+    "a": "Quantity demanded exceeds quantity supplied, creating excess demand. The shortage puts upward pressure on price; Qd falls and Qs rises as price rises.",
+    "hint": "Compare Qd and Qs at the given price."
+  },
+  {
+    "q": "How do you distinguish a demand shift from a movement along demand?",
+    "a": "A non-price determinant changes demand and shifts the entire curve. A change in the good's own price changes quantity demanded and causes movement along the same curve.",
+    "hint": "Identify what changed first."
+  },
+  {
+    "q": "What happens to equilibrium after demand increases?",
+    "a": "Demand shifts right. At the old price there is excess demand; price rises and the market moves along unchanged supply to a higher equilibrium price and quantity.",
+    "hint": "Show the old-price gap before the new equilibrium."
+  },
+  {
+    "q": "What happens to equilibrium after supply decreases?",
+    "a": "Supply shifts left. At the old price there is excess demand; price rises and the market moves up unchanged demand to a higher price and lower quantity.",
+    "hint": "Supply left means fewer units at every price."
+  },
+  {
+    "q": "Distinguish a free good from an economic good in the textbook diagram.",
+    "a": "A free good has quantity supplied greater than quantity demanded even at a zero price. An economic good has quantity demanded greater than quantity supplied at zero price and an equilibrium at a positive price.",
+    "hint": "Compare quantities at price zero."
+  },
+  {
+    "q": "What is the signalling function of the price mechanism?",
+    "a": "Prices communicate information. A rising price signals relative scarcity or excess demand; a falling price signals excess supply.",
+    "hint": "Signals inform decision-makers."
+  },
+  {
+    "q": "What is the incentive function of the price mechanism?",
+    "a": "A price change motivates buyers and sellers to respond. A higher output price can reward firms for supplying more and encourages consumers to economise.",
+    "hint": "Incentives change behaviour."
+  },
+  {
+    "q": "Distinguish price rationing from non-price rationing.",
+    "a": "Price rationing allocates a good to people willing and able to pay the market price. Non-price rationing allocates it by another rule, such as a first-come, first-served queue.",
+    "hint": "What decides who receives the good?"
+  },
+  {
+    "q": "What do the demand and supply curves represent in the allocative-efficiency model?",
+    "a": "Demand represents marginal benefit, the extra benefit from one more unit. Supply represents marginal cost, the extra cost of producing one more unit.",
+    "hint": "Interpret the curves as MB and MC."
+  },
+  {
+    "q": "State the condition for allocative efficiency and explain its meaning.",
+    "a": "Marginal benefit equals marginal cost. At that output, the extra benefit of the last unit equals its extra production cost; producing more or less would reduce net benefit under the model assumptions.",
+    "hint": "MB = MC"
+  },
+  {
+    "q": "Define consumer surplus and producer surplus using their diagram areas.",
+    "a": "Consumer surplus is the area below demand and above the equilibrium price, up to the quantity traded. Producer surplus is the area above supply and below the equilibrium price, up to the quantity traded.",
+    "hint": "Both areas stop at Q*."
+  },
+  {
+    "q": "What is social surplus, and where is it maximised in the competitive model?",
+    "a": "Social surplus is consumer surplus plus producer surplus. It is maximised at competitive market equilibrium where MB = MC, subject to the model assumptions.",
+    "hint": "SS = CS + PS"
+  },
+  {
+    "q": "What are the corrected surplus results for Tragakes Figure 2.18(a)?",
+    "a": "Consumer surplus is 7.875, approximately 7.88; producer surplus is 4.50; exact social surplus is 12.375, approximately 12.38. The scan prints 12.38; 12.18 is an OCR error.",
+    "hint": "Add the unrounded areas before rounding."
+  },
+  {
+    "q": "In Tragakes Figure 2.18(b), how is producer surplus calculated when supply has a quantity intercept?",
+    "a": "Using the textbook trapezium: one half times the sum of the quantity intercept 2 and equilibrium quantity 4, times price 3, equals 9. Consumer surplus is 7, so social surplus is 16.",
+    "hint": "Check the intercepts and shape before using a triangle formula."
+  },
+  {
+    "q": "For Qd = 60 - 4P and Qs = -12 + 8P, find equilibrium and surplus values.",
+    "a": "Equilibrium is P = 6 and Q = 36. Demand and supply price intercepts are 15 and 1.5. Consumer surplus is 162, producer surplus is 81, and social surplus is 243 in INR thousand per week.",
+    "hint": "Set Qd = Qs, then use triangle areas."
+  },
+  {
+    "q": "What did FAO report about rice prices after India's July 2023 export restriction?",
+    "a": "The FAO All Rice Price Index averaged 142.4 in August 2023, up 9.8 percent from July and a 15-year nominal high. FAO linked the increase largely to trade disruptions after India's ban, while also noting tight seasonal availability and uncertainty.",
+    "hint": "The index supports the model analysis but does not isolate the ban as the only cause."
+  }
+]

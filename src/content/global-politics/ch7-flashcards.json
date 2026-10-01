@@ -1,0 +1,85 @@
+[
+  {
+    "q": "What is the key difference between the ICJ and the ICC?",
+    "a": "The ICJ settles disputes between states (states only). The ICC prosecutes individuals, including heads of state, for genocide, crimes against humanity, war crimes and aggression.",
+    "hint": "Justice = states; Criminal = individuals"
+  },
+  {
+    "q": "How many judges sit on the ICJ and the ICC, and for how long?",
+    "a": "ICJ: 15 judges, nine-year terms, elected by the UN General Assembly and Security Council. ICC: 18 judges, nine-year non-renewable terms, elected by the Assembly of States Parties."
+  },
+  {
+    "q": "What is the principle of complementarity at the ICC?",
+    "a": "The ICC does not replace national courts; it acts only when a state's courts are unable or unwilling to prosecute."
+  },
+  {
+    "q": "What are the three ways a case can reach the ICC?",
+    "a": "Referral by a state party to the Rome Statute; referral by the UN Security Council; the Prosecutor opening an investigation on information from outside sources."
+  },
+  {
+    "q": "What did the ICJ order in DRC v Uganda (9 Feb 2022)?",
+    "a": "Uganda must pay the DRC USD 325 million (225 m for damage to persons, 40 m property, 60 m natural resources) in five annual instalments of USD 65 million.",
+    "hint": "The case was filed in 1999"
+  },
+  {
+    "q": "What did the ICJ order in The Gambia v Myanmar on 23 January 2020?",
+    "a": "Unanimous provisional measures: Myanmar must prevent genocidal acts against the Rohingya, preserve evidence and report to the Court every six months."
+  },
+  {
+    "q": "Name two main functions of the UN Human Rights Council and one limitation.",
+    "a": "It passes (non-binding) resolutions and runs the Universal Periodic Review of every state's record. Limitations: members with poor rights records ('foxes in the henhouse') and resolutions that are not legally binding."
+  },
+  {
+    "q": "Name two limitations of the UNHCR.",
+    "a": "Donor funding has not kept pace with need, and it can operate in a country only with the state's permission, which states may restrict or trade for favours."
+  },
+  {
+    "q": "Distinguish a refugee from an internally displaced person (IDP).",
+    "a": "A refugee has crossed an international border fleeing conflict or persecution; an IDP seeks safety inside their own country."
+  },
+  {
+    "q": "Which regional human rights court issues binding judgments that individuals can bring directly?",
+    "a": "The European Court of Human Rights (Strasbourg), under the Council of Europe's European Convention on Human Rights (46 member states). The Council of Europe is not the EU."
+  },
+  {
+    "q": "Why is individual access to the African Court on Human and Peoples' Rights limited?",
+    "a": "Only 34 AU states have ratified the Court Protocol, and only 8 of those have made the Article 34(6) declaration allowing individuals and NGOs to bring cases."
+  },
+  {
+    "q": "What was decided in Hirst v UK (No 2) and why is it significant?",
+    "a": "On 6 Oct 2005 the ECtHR Grand Chamber ruled 12-5 that the UK's blanket ban on prisoners voting violated Article 3 of Protocol 1. The UK resisted until the Committee of Ministers closed the case on 6 Dec 2018, showing that binding judgments still depend on state compliance."
+  },
+  {
+    "q": "On what does the legitimacy of civil society organizations depend, according to Hodder?",
+    "a": "On being non-profit, independent of government control and without commercial affiliation."
+  },
+  {
+    "q": "How do Amnesty International and Human Rights Watch influence states without voting power?",
+    "a": "Through research and reports (e.g. Amnesty's annual report), 'naming and shaming', advocacy campaigns and petitions, and advice through UN consultative status (Amnesty since 1964)."
+  },
+  {
+    "q": "What are the three pillars of the UN Guiding Principles on Business and Human Rights (2011)?",
+    "a": "The state duty to protect, the corporate responsibility to respect, and access to remedy for victims. They were endorsed by Human Rights Council resolution 17/4 on 16 June 2011.",
+    "hint": "Protect, Respect, Remedy"
+  },
+  {
+    "q": "What happened at Rana Plaza and what binding agreement followed?",
+    "a": "On 24 April 2013 a garment factory building near Dhaka collapsed, killing 1,138 workers (ILO). On 15 May 2013 more than 200 brands and two global unions signed the legally binding Accord on Fire and Building Safety in Bangladesh."
+  },
+  {
+    "q": "When was the Hong Kong National Security Law passed, and what are its four offences?",
+    "a": "30 June 2020, by the NPC Standing Committee in Beijing. The offences are secession, subversion, terrorism and collusion with foreign forces, each carrying up to life imprisonment."
+  },
+  {
+    "q": "What did India's Supreme Court decide on Article 370 on 11 December 2023?",
+    "a": "A five-judge bench upheld the 2019 abrogation of Jammu and Kashmir's special status, ordered statehood restored as soon as possible and directed elections before 30 September 2024."
+  },
+  {
+    "q": "What is collective bargaining?",
+    "a": "Workers negotiating as a union with employers over wages, health and safety, benefits and other work-related rights, on the basis that a group has more power than an individual."
+  },
+  {
+    "q": "What did the ITUC Global Rights Index 2022 find about union rights?",
+    "a": "Across 148 countries, 77% excluded workers from the right to form or join a union, 74% impeded union registration, and trade unionists were murdered in 13 countries."
+  }
+]

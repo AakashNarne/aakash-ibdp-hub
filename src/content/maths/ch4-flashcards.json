@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What question does log_a(b) answer?",
+    "a": "Which power of a gives b: a^x = b means log_a(b) = x."
+  },
+  {
+    "q": "What conditions make log_a(b) a real logarithm?",
+    "a": "The base must have a > 0 and a not equal to 1; the argument must have b > 0."
+  },
+  {
+    "q": "Convert 10^(-2) = 0.01 to logarithmic form.",
+    "a": "log_10(0.01) = -2."
+  },
+  {
+    "q": "What does log(x) mean when no base is written?",
+    "a": "It means log_10(x), the common logarithm."
+  },
+  {
+    "q": "What does ln(x) mean?",
+    "a": "It means log_e(x), the natural logarithm."
+  },
+  {
+    "q": "Why can a positive number below 1 have a negative logarithm?",
+    "a": "The base must be raised to a negative power; for example, 10^(-2) = 0.01."
+  },
+  {
+    "q": "What is log_a(1) for a valid base?",
+    "a": "0, because a^0 = 1."
+  },
+  {
+    "q": "What is log_a(a) for a valid base?",
+    "a": "1, because a^1 = a."
+  },
+  {
+    "q": "State the product law of logarithms.",
+    "a": "log_a(mn) = log_a(m) + log_a(n)."
+  },
+  {
+    "q": "State the quotient law of logarithms.",
+    "a": "log_a(m/n) = log_a(m) - log_a(n)."
+  },
+  {
+    "q": "State the power law of logarithms.",
+    "a": "log_a(m^k) = k log_a(m)."
+  },
+  {
+    "q": "Can log(m + n) be split into log(m) + log(n)?",
+    "a": "No. There is no sum law for logarithms."
+  },
+  {
+    "q": "Evaluate log_4(32) without a calculator.",
+    "a": "5/2 or 2.5, because 4^(5/2) = 32."
+  },
+  {
+    "q": "Between which whole numbers is log_10(237)?",
+    "a": "Between 2 and 3, because 100 < 237 < 1000."
+  },
+  {
+    "q": "How are y = a^x and y = log_a(x) related?",
+    "a": "They are inverse functions and reflect across y = x."
+  },
+  {
+    "q": "Solve 3^x = 50 to 3 significant figures.",
+    "a": "x = ln(50)/ln(3) = log_3(50), approximately 3.56."
+  },
+  {
+    "q": "What must you do with candidate roots from a logarithmic equation?",
+    "a": "Check each candidate in the original equation and reject any that makes an argument zero or negative."
+  },
+  {
+    "q": "A pH drop of 0.1 corresponds to what concentration multiplier?",
+    "a": "10^0.1, approximately 1.26, or about a 26 percent increase."
+  }
+]

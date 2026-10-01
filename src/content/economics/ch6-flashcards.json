@@ -1,0 +1,83 @@
+[
+  {
+    "q": "What does rational economic decision-making assume?",
+    "a": "Individuals act in their best self-interest and try to maximise the satisfaction expected from their economic decisions. In the standard model, consumers maximise utility and firms maximise profit.",
+    "hint": "Standard model"
+  },
+  {
+    "q": "Define completeness, transitivity and non-satiation.",
+    "a": "Completeness: a consumer can rank any two alternatives or be indifferent. Transitivity: if A is preferred to B and B to C, A is preferred to C. Non-satiation: more of a good is preferred to less, other things equal."
+  },
+  {
+    "q": "What are perfect information and utility maximisation?",
+    "a": "Perfect information means the consumer knows relevant products, qualities and prices. Utility maximisation means choosing the combination of goods and services that gives the greatest total utility for a given budget or income."
+  },
+  {
+    "q": "What is homo economicus, and what is one critique of interpreting all actions as self-interest?",
+    "a": "Homo economicus is a simplified agent who continually maximises self-interest. If every motive, including altruism, is redefined as personal utility, the theory may explain every action and therefore explain little."
+  },
+  {
+    "q": "Define behavioural economics.",
+    "a": "The study of how people actually make decisions, drawing especially on psychology and also on sociology and neuroscience, and using experiments to observe behaviour."
+  },
+  {
+    "q": "What is a rule of thumb? Give an example.",
+    "a": "A simple guideline based on experience or common sense that reduces the effort of a complex decision, such as estimating a serving of fruit as about the size of a fist."
+  },
+  {
+    "q": "Define anchoring and give an example.",
+    "a": "Giving undue weight to an irrelevant reference point, often the first information encountered. Jeans first seen at USD 150 can make a similar pair at USD 100 seem cheap even if a comparable pair is available for USD 50."
+  },
+  {
+    "q": "What is framing?",
+    "a": "A choice is affected by how equivalent information is presented. For example, beef described as 80 percent lean may be preferred to the same beef described as 20 percent fat."
+  },
+  {
+    "q": "Define the availability bias.",
+    "a": "Relying more heavily on information that is recent or readily recalled, even though it is not necessarily more reliable. Recent advertising can make a brand easier to recall and more likely to be chosen."
+  },
+  {
+    "q": "Define bounded rationality and satisficing.",
+    "a": "Bounded rationality means consumers are rational only within limits because information is incomplete and costly to obtain and the mind has limited capacity. They may satisfice by seeking a satisfactory rather than optimal outcome."
+  },
+  {
+    "q": "What is bounded self-control?",
+    "a": "People exercise self-control only within limits and may not follow through on choices serving their longer-term interests, such as saving less than intended."
+  },
+  {
+    "q": "What is bounded selfishness?",
+    "a": "People are selfish only within limits; self-interest alone cannot explain actions such as anonymous donations, volunteering or a firm keeping workers during a recession despite a cost to profit."
+  },
+  {
+    "q": "What is imperfect information in the consumer model?",
+    "a": "Consumers cannot access all relevant information about prices, products and quality, so their decisions may rely on incomplete or faulty information. This contradicts the assumption of perfect information."
+  },
+  {
+    "q": "Define a nudge and choice architecture.",
+    "a": "A nudge influences choices predictably without financial incentives, sanctions or limiting choice. Choice architecture is the design of the setting in which people make choices."
+  },
+  {
+    "q": "Distinguish default, restricted and mandated choice.",
+    "a": "A default applies if a person does nothing. Restricted choice limits the available options. Mandated choice requires a selection but leaves the selection to the person."
+  },
+  {
+    "q": "What did the HMRC minority-norm letter experiment find, and what is one limitation?",
+    "a": "An adjusted model estimated a 5.1 percentage-point increase in payments within 23 days for the minority-norm message; about GBP 4.9 million in payments was estimated to be accelerated. The sample was taxpayers who had filed but not yet paid, and accelerated payments are not necessarily new revenue."
+  },
+  {
+    "q": "What does UK workplace pension automatic enrolment show, and why is it not a pure nudge?",
+    "a": "DWP reported participation of eligible employees rising from 55 percent in 2012 to 87 percent in 2018. Automatic enrolment also involved legal employer duties and employer contributions, so the default effect cannot be isolated from the whole policy package."
+  },
+  {
+    "q": "Define profit maximisation and calculate profit in Tragakes' pizza example.",
+    "a": "Profit maximisation seeks to make total revenue minus total cost as large as possible. Revenue is 400 pizzas times USD 7, or USD 2,800. Subtracting USD 2,650 in costs gives USD 150 profit."
+  },
+  {
+    "q": "Define market share and calculate the textbook example.",
+    "a": "Market share is a firm's sales as a proportion of total market sales. USD 10 million divided by USD 50 million, multiplied by 100, equals 20 percent."
+  },
+  {
+    "q": "How do growth maximisation, revenue maximisation and satisficing differ?",
+    "a": "Growth maximisation prioritises firm expansion. Revenue maximisation prioritises sales revenue and may suit managers measured on sales. Satisficing seeks satisfactory levels across several objectives rather than the optimum for any single one."
+  }
+]

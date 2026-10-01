@@ -30,6 +30,28 @@ import econCh3Notes from './economics/ch3-notes.md?raw'
 import dtCh2Notes from './design-tech/ch2-notes.md?raw'
 import mathsCh3Notes from './maths/ch3-notes.md?raw'
 import gpCh6Notes from './global-politics/ch6-notes.md?raw'
+import econCh4Notes from './economics/ch4-notes.md?raw'
+import econCh5Notes from './economics/ch5-notes.md?raw'
+import econCh6Notes from './economics/ch6-notes.md?raw'
+import dtCh3Notes from './design-tech/ch3-notes.md?raw'
+import dtCh4Notes from './design-tech/ch4-notes.md?raw'
+import dtCh5Notes from './design-tech/ch5-notes.md?raw'
+import mathsCh4Notes from './maths/ch4-notes.md?raw'
+import gpCh7Notes from './global-politics/ch7-notes.md?raw'
+import gpCh8Notes from './global-politics/ch8-notes.md?raw'
+import gpCh9Notes from './global-politics/ch9-notes.md?raw'
+import econCh3Cards from './economics/ch3-flashcards.json'
+import gpCh6Cards from './global-politics/ch6-flashcards.json'
+import econCh4Cards from './economics/ch4-flashcards.json'
+import econCh5Cards from './economics/ch5-flashcards.json'
+import econCh6Cards from './economics/ch6-flashcards.json'
+import dtCh3Cards from './design-tech/ch3-flashcards.json'
+import dtCh4Cards from './design-tech/ch4-flashcards.json'
+import dtCh5Cards from './design-tech/ch5-flashcards.json'
+import mathsCh4Cards from './maths/ch4-flashcards.json'
+import gpCh7Cards from './global-politics/ch7-flashcards.json'
+import gpCh8Cards from './global-politics/ch8-flashcards.json'
+import gpCh9Cards from './global-politics/ch9-flashcards.json'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -99,10 +121,43 @@ export const subjects: Subject[] = [
         subtitle: 'Law of demand, HL marginal utility, market demand, non-price determinants, movement vs shift, linear demand functions',
         notes: econCh3Notes,
         sections: h2Sections(econCh3Notes),
-        flashcards: [],
+        flashcards: econCh3Cards,
         updated: '2026-09-30',
         format: 'obsidian',
         vaultNote: 'Economics HL — Demand — Notes',
+      },
+      {
+        id: 'ch4',
+        title: 'Chapter 4: 2.2 Supply',
+        subtitle: 'Law of supply, supply curve, market supply, non-price determinants, movement vs shift, HL: diminishing returns and rising marginal cost, cocoa 2023/24 case',
+        notes: econCh4Notes,
+        sections: h2Sections(econCh4Notes),
+        flashcards: econCh4Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'Economics HL — Supply — Notes',
+      },
+      {
+        id: 'ch5',
+        title: 'Chapter 5: 2.3 Competitive Market Equilibrium',
+        subtitle: 'Equilibrium, shortages and surpluses, functions of the price mechanism, consumer and producer surplus, allocative efficiency, HL surplus calculations',
+        notes: econCh5Notes,
+        sections: h2Sections(econCh5Notes),
+        flashcards: econCh5Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'Economics HL — Competitive Market Equilibrium — Notes',
+      },
+      {
+        id: 'ch6',
+        title: 'Chapter 6: 2.4 Critique of Maximizing Behaviour (HL)',
+        subtitle: 'Rational consumer choice, behavioural biases, bounded rationality, choice architecture and nudges, business objectives',
+        notes: econCh6Notes,
+        sections: h2Sections(econCh6Notes),
+        flashcards: econCh6Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'Economics HL — Critique of Maximizing Behaviour — Notes',
       },
     ],
   },
@@ -153,6 +208,39 @@ export const subjects: Subject[] = [
         updated: '2026-09-30',
         format: 'obsidian',
         vaultNote: 'DT A1.1 — Ergonomics — Notes',
+      },
+      {
+        id: 'ch3',
+        title: 'Chapter 3: B1.1 User-centred design',
+        subtitle: 'UCD inquiry, research methods, SUS, personae and anti-personae, the five E\'s, task analysis, poka-yoke, Xbox Adaptive Controller',
+        notes: dtCh3Notes,
+        sections: h2Sections(dtCh3Notes),
+        flashcards: dtCh3Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'DT B1.1 — User-centred design — Notes',
+      },
+      {
+        id: 'ch4',
+        title: 'Chapter 4: C1.1 Responsibility of the designer',
+        subtitle: 'Kaizen and PDCA, sustainability, standards and interchangeability, planned obsolescence, EU USB-C and Apple France cases',
+        notes: dtCh4Notes,
+        sections: h2Sections(dtCh4Notes),
+        flashcards: dtCh4Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'DT C1.1 — Responsibility of the designer — Notes',
+      },
+      {
+        id: 'ch5',
+        title: 'Chapter 5: C1.2 Inclusive design',
+        subtitle: 'Inclusive vs universal design, seven principles, legislation, percentiles, design for extremes, OXO Good Grips and Xbox cases',
+        notes: dtCh5Notes,
+        sections: h2Sections(dtCh5Notes),
+        flashcards: dtCh5Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'DT C1.2 — Inclusive design — Notes',
       },
     ],
   },
@@ -220,6 +308,17 @@ export const subjects: Subject[] = [
         updated: '2026-09-30',
         format: 'obsidian',
         vaultNote: 'Maths AHL 2.10 — Log-Log and Semi-Log Graphs — Notes',
+      },
+      {
+        id: 'ch4',
+        title: 'Chapter 4: Logarithm Fundamentals (SL 1.5, AHL 1.9)',
+        subtitle: 'What a logarithm is, base 10 and e, laws of logarithms, solving exponential equations; read before Chapter 3',
+        notes: mathsCh4Notes,
+        sections: h2Sections(mathsCh4Notes),
+        flashcards: mathsCh4Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'Maths SL 1.5 and AHL 1.9 — Logarithm Fundamentals — Notes',
       },
     ],
   },
@@ -412,10 +511,43 @@ export const subjects: Subject[] = [
         subtitle: 'Rights and the UDHR, positive/negative rights, universalism vs relativism, types of justice, Ubuntu and the TRC',
         notes: gpCh6Notes,
         sections: h2Sections(gpCh6Notes),
-        flashcards: [],
+        flashcards: gpCh6Cards,
         updated: '2026-09-30',
         format: 'obsidian',
         vaultNote: 'GP Rights & Justice 1 — Contested Meanings — Notes',
+      },
+      {
+        id: 'ch7',
+        title: 'Chapter 7: Rights and Justice — Interactions',
+        subtitle: 'States, IGOs, civil society and human-rights NGOs, private companies and unions',
+        notes: gpCh7Notes,
+        sections: h2Sections(gpCh7Notes),
+        flashcards: gpCh7Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'GP Rights & Justice 2 — Interactions — Notes',
+      },
+      {
+        id: 'ch8',
+        title: 'Chapter 8: Rights and Justice — Nature, Practice and Study',
+        subtitle: 'How rights are codified, protected and monitored; evolution of global standards; responses to violations',
+        notes: gpCh8Notes,
+        sections: h2Sections(gpCh8Notes),
+        flashcards: gpCh8Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'GP Rights & Justice 3 — Nature, Practice and Study — Notes',
+      },
+      {
+        id: 'ch9',
+        title: 'Chapter 9: Rights and Justice — Debates',
+        subtitle: 'Universalism vs relativism, politicization, humanitarian intervention and R2P (Libya 2011), individual vs collective rights',
+        notes: gpCh9Notes,
+        sections: h2Sections(gpCh9Notes),
+        flashcards: gpCh9Cards,
+        updated: '2026-10-01',
+        format: 'obsidian',
+        vaultNote: 'GP Rights & Justice 4 — Debates — Notes',
       },
     ],
   },

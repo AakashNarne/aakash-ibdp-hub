@@ -1,0 +1,67 @@
+[
+  {
+    "q": "Define individual demand.",
+    "a": "The various quantities of a good or service a consumer is willing and able to buy at different possible prices during a particular time period, ceteris paribus.",
+    "hint": "Include willing and able, different prices, time period, and other things equal."
+  },
+  {
+    "q": "What is quantity demanded?",
+    "a": "The quantity a consumer is willing and able to buy at one particular price in a particular period, ceteris paribus."
+  },
+  {
+    "q": "What does ceteris paribus mean in demand analysis?",
+    "a": "Other factors that could affect purchases are held constant while the relationship between a good's own price and quantity demanded is isolated."
+  },
+  {
+    "q": "State the law of demand.",
+    "a": "Price and quantity demanded have a negative relationship over a particular time period, ceteris paribus: as price rises quantity demanded falls, and as price falls quantity demanded rises."
+  },
+  {
+    "q": "How is market demand derived?",
+    "a": "By horizontal summation: at each price, add the quantities demanded by all consumers, then repeat at every other price."
+  },
+  {
+    "q": "At USD 4, consumer A demands 4 bars, B demands 5, and the whole chocolate market demands 6,000. Why is the market total not 9 bars?",
+    "a": "Four plus five is only the total for A and B. Market demand includes every consumer, so the textbook market total also includes all other consumers and is shown in thousands of bars per week."
+  },
+  {
+    "q": "What is a normal good and how does higher income affect its demand?",
+    "a": "A normal good is one whose demand varies directly with income. Higher income increases demand and shifts its demand curve right."
+  },
+  {
+    "q": "What is an inferior good and how does higher income affect its demand?",
+    "a": "An inferior good is one whose demand varies inversely with income. Higher income decreases demand and shifts its demand curve left."
+  },
+  {
+    "q": "How do changes in the price of a substitute or complement affect demand for another good?",
+    "a": "Substitutes satisfy a similar need: a rise in the price of Y raises demand for X. Complements tend to be used together: a rise in the price of Y lowers demand for X."
+  },
+  {
+    "q": "What can happen to current demand when buyers expect a future price rise?",
+    "a": "Buyers may bring purchases forward, increasing current demand and shifting the curve right."
+  },
+  {
+    "q": "Distinguish a change in quantity demanded from a change in demand.",
+    "a": "A change in the good's own price causes movement along the same demand curve and changes quantity demanded. A change in a non-price determinant shifts the whole curve and changes demand."
+  },
+  {
+    "q": "How should a demand curve be labelled?",
+    "a": "Put price on the vertical axis and quantity with units and a time period on the horizontal axis; draw a downward-sloping curve labelled D."
+  },
+  {
+    "q": "State the law of diminishing marginal utility.",
+    "a": "As consumption of a good increases, the marginal utility from each additional unit decreases."
+  },
+  {
+    "q": "Anna's total utility rises from 36 utils at three T-shirts to 42 utils at four. What is the marginal utility of the fourth shirt?",
+    "a": "Six utils: 42 minus 36."
+  },
+  {
+    "q": "Explain the substitution and income effects of a price fall for a normal good.",
+    "a": "The good becomes relatively cheaper, so consumers substitute toward it. The same money also has greater purchasing power; for a normal good, quantity demanded rises. Both effects reinforce the negative price-quantity relationship."
+  },
+  {
+    "q": "What did the 2023 India tomato case show about movements and shifts in demand?",
+    "a": "A higher own-price for fresh tomatoes is shown as movement up along the same demand curve, assuming other determinants are constant. Higher fresh-tomato prices and higher puree sales at an unchanged puree price are consistent with a rightward shift in puree demand, but the reported sales are not controlled market-demand measurements."
+  }
+]

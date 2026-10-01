@@ -4,251 +4,191 @@ subject: Economics HL
 topic: "2.1 Demand"
 syllabus_ref: "Unit 2.1"
 type: notes
-source: "IB Economics guide (first assessment 2022), pp. 25–26; Tragakes, Economics for the IB Diploma Coursebook, Ch. 2.2 'Demand', pp. 43–49 (OCR of Ellie Eco Book.pdf, PDF pp. 61–67); Economics Workbook, Unit 2 Ch. 2 'Demand', pp. 5–9; Microeconomics.pdf (teacher deck), pp. 1 & 4; Demand - practice questions.pdf (OCR); 1.1 to 2.3 Practice sheet.pdf, Q9–12 & Q28–31; Mock Paper - Units 1 & 2 (Sep 2026); CNBC 13 Jul 2023; Reuters 7 Jul 2023 & 26 Jul 2023"
+source: >-
+  Tragakes, Economics for the IB Diploma Coursebook (3rd ed.), Ch. 2.2 “Demand”,
+  printed pp. 43–49 (Ellie Eco Book.pdf, PDF pp. 61–67); IB Economics,
+  Economics guide (first assessment 2022), Unit 2.1, printed pp. 25–27
+  (hosted PDF pp. 30–32); IBEconomics, “IB Economics - demand” (future price
+  expectations); CNBC (13 Jul 2023); Reuters (26 Jul 2023); Reuters report
+  republished by ThePrint (7 Jul 2023).
 date: 2026-09-30
 status: draft
 tags: [class-notes, Economics, IBDP]
 ---
 
-# Economics HL — 2.1 Demand
+# Economics HL — Demand — Notes
 
 > [!tip] If you remember nothing else
-> - **Demand** = the quantities consumers are *willing and able* to buy at each possible price, over a time period, *ceteris paribus*. It is the whole curve, not one number.
-> - **Law of demand**: price and quantity demanded are negatively (inversely) related, ceteris paribus. This gives a downward-sloping demand curve.
-> - **A change in the good's own price moves you along the curve** (a change in quantity demanded). **A change in a non-price determinant shifts the whole curve** (a change in demand).
-> - There are five non-price determinants (IB guide): **income, tastes and preferences, future price expectations, prices of related goods (substitutes/complements), number of consumers**.
-> - **HL:** the downward slope is explained by **diminishing marginal utility** and by the **income and substitution effects**. For Paper 3, be able to work with $Q_d = a - bP$.
+> - **Demand** is the quantities consumers are willing and able to buy at different prices during a time period, **ceteris paribus** (all other relevant factors held constant).
+> - The **law of demand** is the inverse relationship between a good’s own price and its quantity demanded, ceteris paribus.
+> - An own-price change causes a **change in quantity demanded** (movement along D); a **non-price determinant** (anything other than the good’s own price that affects demand) causes a **change in demand** (a shift of the whole curve).
+> - **Market demand** is the sum of all consumers’ quantities at each price: add quantities horizontally, not prices.
+> - HL explanations for the downward slope are developed in §6.
 
-Related: [[Ellie Ch1 - Introduction to Economics - Notes]] (ceteris paribus, models) · [[Economics HL — Supply — Notes]] (2.2) · [[Economics HL — Competitive Market Equilibrium — Notes]] (2.3) · [[Economics HL — Elasticity of Demand — Notes]] (2.5) · [[_Syllabus Index]]
+## 1. Scope and command terms
 
----
+This note covers **IB Economics 2.1 Demand**: the law and curve of demand, individual and market demand, the five non-price determinant headings, movements versus shifts, and the HL assumptions underlying the law. The IB Economics Guide lists the five headings as income; tastes and preferences; future price expectations; price of related goods (substitutes and complements); and number of consumers.[1]
 
-## 0. What 2.1 actually requires (IB guide, pp. 25–26)
-
-| Syllabus content | Assessment objective | HL only? |
+| Concept | Command term | What a complete answer needs |
 |---|---|---|
-| Law of demand: relationship between price and quantity demanded | AO2 | No |
-| Assumptions underlying the law of demand: income and substitution effects; law of diminishing marginal utility | AO2 | **Yes** |
-| Demand curve (diagram: downward-sloping demand curve) | AO4 | No |
-| Relationship between individual demand and market demand | AO2 | No |
-| Non-price determinants: income, tastes and preferences, future price expectations, price of related goods, number of consumers | AO2 | No |
-| Movements along vs shifts of the demand curve (diagram) | AO2, AO4 | No |
+| Demand and the law of demand | **Define**, **State**, **Explain** | Give the time period and ceteris paribus; state the negative price–quantity relationship. |
+| Demand curve | **Draw** | Price on the vertical axis; quantity and time period on the horizontal axis; a downward-sloping curve D. |
+| Individual and market demand | **Describe**, **Explain** | Explain that market demand is the horizontal sum of individual quantities at each price. |
+| Non-price determinants | **Identify**, **Explain**, **Analyse** | Name the factor, explain its mechanism, show the direction of the whole-curve shift. |
+| Movement versus shift | **Distinguish**, **Draw**, **Explain** | State the cause and show either movement on one curve or a shift between curves. |
+| HL assumptions | **Explain** | Define diminishing marginal utility and the income and substitution effects, then link each to the demand curve. |
 
 > [!warning] Scope
-> Elasticities (PED, YED) are **2.5**, not 2.1. See [[Economics HL — Elasticity of Demand — Notes]]. Equilibrium, shortages and surpluses are **2.3**. Taxes and subsidies are **2.2 / 2.7**.
+> PED and YED measure how much demand responds and belong in Elasticity of demand (2.5, note to come). Demand interacting with supply, equilibrium and shortages/surpluses belong in [[Economics HL — Competitive Market Equilibrium — Notes]]. Do not develop those topics here; these are separate syllabus points.[1]
 
-### Command terms you'll see for 2.1
+## 2. Individual demand and the law of demand
 
-| Concept | Typical command terms | Typical format |
-|---|---|---|
-| Demand, law of demand, market demand | **Define**, **State** | Paper 2 definition [2]; practice sheet Q9–10 |
-| Demand vs quantity demanded; movement vs shift | **Distinguish**, **Outline**, **Explain using a diagram** | [2] outline / [4] diagram question (Mock Q4; practice sheet Q11, Q29) |
-| Non-price determinants | **Identify**, **Explain**, **Analyse** (with diagram) | [4] (Workbook Q2b; practice sheet Q12, Q30, Q31) |
-| Downward slope: DMU, income and substitution effects (HL) | **Explain** | [4] (Workbook Q5b; practice sheet Q28) or [10] (Mock Q7) |
-| Individual → market demand | **Describe**, **Calculate**, **Plot** | [2]–[3] (Workbook Q3) |
-| Linear demand function (HL, Paper 3) | **Calculate**, **Plot**, **Outline** | Short quantitative items (Demand practice questions, Section C) |
+**Individual demand** is the various quantities of a good or service a consumer is willing and able to buy at different possible prices during a particular time period, ceteris paribus (Tragakes, p. 43). **Willing** means the consumer wants the good; **able** means the consumer can afford it. Wanting a Ferrari without being able to afford it, or being able to afford one without wanting it, is not effective demand (p. 43).
 
----
+**Quantity demanded** is the quantity a consumer is willing and able to buy at one particular price in that period, ceteris paribus: one point on the demand curve. **Ceteris paribus** means the other factors that could affect purchases are held constant while we isolate the good’s own-price relationship (p. 44).
 
-## 1. Demand and the law of demand
+A **demand schedule** is a table of quantities demanded at different prices. A **demand curve** is the schedule plotted as a graph; it is called a curve even if it is a straight line (p. 44).
 
-**Demand**: the various quantities of a good or service that consumers are **willing and able** to buy at different possible prices, during a particular time period, **ceteris paribus** (Tragakes p. 43). *Willing* means they want it. *Able* means they can afford it. You need both for it to count as demand.
+The **law of demand** states that price and quantity demanded have a negative (inverse) relationship over a particular time period, ceteris paribus: price rising lowers quantity demanded, while price falling raises it (p. 44). Tragakes describes the relationship as causal: a change in the good’s own price causes a change in quantity demanded.
 
-**Quantity demanded**: the amount consumers are willing and able to buy at **one specific price**. It is a single point on the curve.
+**Textbook schedule: one consumer’s weekly chocolate-bar demand (Table 2.1, p. 43)**
 
-**Law of demand**: there is a negative (inverse) relationship between the price of a good and its quantity demanded over a particular time period, ceteris paribus. As price rises, quantity demanded falls. As price falls, quantity demanded rises (Tragakes p. 44; teacher deck p. 1).
+| Price (USD per bar) | 5 | 4 | 3 | 2 | 1 |
+|---|---:|---:|---:|---:|---:|
+| Quantity demanded (bars per week) | 2 | 4 | 6 | 8 | 10 |
 
-**Ceteris paribus** ("other things being equal"): all determinants other than the good's own price are held constant. That lets us isolate the price–quantity relationship. See [[Ellie Ch1 - Introduction to Economics - Notes]].
+> [!example] Diagram 1: individual demand curve
+> Put **price of chocolate bars (USD per bar)** on the vertical axis and **quantity of chocolate bars per week** on the horizontal axis. Plot (Q, P) points (2, 5), (4, 4), (6, 3), (8, 2), and (10, 1); join them with one downward-sloping curve labelled D. Include units and the time period. A demand schedule describes what the consumer would buy at each possible price; it does not itself tell us the actual price paid or quantity bought (Tragakes, pp. 43–44).
 
-**Demand schedule**: a table of quantity demanded at each price. **Demand curve**: the schedule plotted as a graph. It is called a "curve" even when it is a straight line.
+## 3. From individual demand to market demand
 
-> [!example] Diagram 1: the demand curve (AO4, "draw a demand curve")
-> - **Vertical axis:** "Price (P)", with units, e.g. ₹ per kg. **Horizontal axis:** "Quantity (Q)", with units *and a time period*, e.g. kg per week.
-> - One straight, downward-sloping line labelled **D**.
-> - Mark two points, e.g. P1 → Q1 and P2 → Q2, with dotted lines to both axes. This shows a higher price paired with a lower quantity.
-> - Price always goes on the vertical axis, even though price is the *cause*. Examiners penalise swapped axes.
+**Market demand** is the total quantities all consumers are willing and able to buy at different prices during a particular period, ceteris paribus. **Horizontal summation** means adding the quantities demanded by every consumer at a fixed price, then repeating this at each price (Tragakes, pp. 44–45).
 
----
-
-## 2. Why the demand curve slopes down (HL: assumptions underlying the law of demand)
-
-### 2.1 Law of diminishing marginal utility (HL)
-
-- **Utility**: the satisfaction a consumer gets from consuming a good. It is subjective. For the theory we pretend it can be measured in "utils" (Tragakes p. 47).
-- **Total utility (TU)**: total satisfaction from all the units consumed.
-- **Marginal utility (MU)**: the *extra* satisfaction from consuming one more unit. $MU = \Delta TU / \Delta Q$.
-- **Law of diminishing marginal utility**: as consumption of a good increases, the marginal utility from each additional unit falls (Tragakes p. 48).
-- **Link to the law of demand:** each extra unit is worth less to the consumer, so they will only buy an additional unit **if the price falls**. So a lower price is needed to raise quantity demanded, which gives the downward slope.
-
-Illustrative numbers (not from a source): the 1st samosa gives 20 utils, the 2nd 14, the 3rd 8, the 4th 3. The consumer would pay most for the 1st and least for the 4th. To sell four, the seller must cut the price.
-
-> [!tip] Mock Q7 [10] structure (coach, not a model answer)
-> Define both laws → explain DMU → link DMU to the downward-sloping D curve (with diagram) → do the parallel argument for supply (diminishing marginal returns → rising MC → upward S; see [[Economics HL — Supply — Notes]]) → evaluate: utility can't really be measured, and consumers aren't always rational (2.4 HL, [[Economics HL — Critique of Maximizing Behaviour — Notes]]).
-
-### 2.2 Income and substitution effects (HL)
-
-These are an *alternative* explanation of the law of demand. When price changes, the total effect on quantity demanded is the sum of the two (Tragakes pp. 48–49).
-
-| Effect | What happens when the good's price **falls** | Direction |
-|---|---|---|
-| **Substitution effect** | The good is now cheaper *relative to substitutes*, so consumers switch towards it | Qd ↑ (always negative P–Q relationship) |
-| **Income effect** | **Real income** (purchasing power) rises, because the same money buys more, so consumers buy more (for a normal good) | Qd ↑ |
-
-- For a normal good, the two effects **reinforce each other** (Tragakes p. 49).
-- The substitution effect usually dominates. The income effect only matters much for goods that take up a large share of income (Tragakes p. 49).
-- Workbook Q5b (p. 9) asks exactly this for [4]. You need both effects, each linked explicitly to the negative slope.
-
-> [!note] Exceptions (beyond the 2.1 syllabus; mention only as evaluation)
-> Giffen goods (an extreme inferior-good case) and Veblen/status goods can, in theory, show an upward-sloping section of demand. Keep it to one sentence. Don't build answers around them.
-
----
-
-## 3. Individual demand → market demand
-
-**Market demand**: the total quantities of a good that *all* consumers in the market are willing and able to buy at each price, over a time period, ceteris paribus. It is the **sum of all individual demands** (Tragakes p. 44).
-
-**Method: horizontal summation.** At each price, **add the quantities** demanded by every consumer. Don't add the prices.
-
-Worked example (Economics Workbook Q3, p. 6: weekly cinema tickets):
-
-| Price ($) | Adults (D1) | Children (D2) | Students (D3) | Market demand (D4) |
-|---|---|---|---|---|
-| 10 | 4,700 | 3,500 | 2,600 | **10,800** |
-| 12 | 4,300 | 3,000 | 2,300 | **9,600** |
-| 14 | 3,900 | 2,500 | 2,000 | **8,400** |
-| 16 | 3,500 | 2,000 | 1,700 | **7,200** |
+At USD 4 per chocolate bar, consumer A demands 4 bars per week and consumer B demands 5; Figure 2.2 gives total market demand as 6,000 bars per week after adding the quantities of all other consumers too (p. 45). The figure’s individual panels measure bars per week, while the market panel measures thousands of bars per week—do not mistake A plus B alone for total market demand.
 
 > [!example] Diagram 2: market demand
-> Draw three individual curves (D1, D2, D3) and then D4 (market) on the same axes: Price ($) against Quantity of tickets per week. At every price, D4 lies to the right of each individual curve by the sum of their quantities. Market demand is flatter and further right than any individual curve.
+> Draw separate panels for consumer A, consumer B, and the market, using the same vertical price scale. Label each individual horizontal axis “chocolate bars per week”; label the market horizontal axis “thousands of chocolate bars per week.” At each price, add the individual quantities to locate the market point. Label the curves $D_A$, $D_B$ and $D_m$. The market curve also slopes downward (Tragakes, pp. 44–45).
 
----
+## 4. Non-price determinants and shifts
 
-## 4. Non-price determinants of demand → shifts
+A **non-price determinant of demand** is a factor other than the good’s own price that affects demand. Changing one shifts the entire curve: an **increase in demand** shifts D right (more demanded at each price); a **decrease in demand** shifts D left (less demanded at each price) (Tragakes, pp. 45–46). The five headings below follow the syllabus list.[1]
 
-A **non-price determinant of demand** is any variable other than the good's own price that affects demand. These are the variables that ceteris paribus holds constant. When one of them changes, the **whole curve shifts**:
-- **Increase in demand** = shift **right** (more demanded at every price).
-- **Decrease in demand** = shift **left** (less demanded at every price).
-
-| Determinant (IB guide) | Change | Effect on demand for good X | Example |
-|---|---|---|---|
-| **Income: normal good** (demand varies *directly* with income) | Income ↑ | Shift right | Holidays abroad (practice Q, Section A1a) |
-| **Income: inferior good** (demand varies *inversely* with income) | Income ↑ | Shift left | Used cars, second-hand clothes, bus tickets (Tragakes p. 45) |
-| **Tastes and preferences**, including **advertising**, fashion, health information, seasons | Change in favour of X | Shift right | Medical report that moderate coffee drinking is healthy → coffee D right (practice Q, Section A3a); ice cream in August vs March (Workbook Q4c) |
-| **Future price expectations** | Consumers expect P of X to rise | Shift right *now* | A tax on heating oil announced for 5 months' time → heating oil D shifts right today (practice Q, Section B) |
-| **Price of a substitute** (goods satisfying a similar need) | P of substitute Y ↑ | Shift right | Coca-Cola price ↑ → Pepsi D right (Tragakes p. 46) |
-| **Price of a complement** (goods used together) | P of complement Y ↑ | Shift left | Helmet price ↑ → bicycle D left; sugar price ↑ → coffee D left (practice Q, Section A) |
-| **Number of consumers** (population, demographics) | More buyers | Shift right | Population growth → housing D right |
-
-Memory rule: **substitutes**: P of Y and demand for X move in the *same* direction. **Complements**: they move in *opposite* directions (Tragakes p. 46). Goods with no link (pencils and apples) are **independent goods**.
-
-> [!warning] Fixed from the earlier draft: taxes and subsidies are NOT demand determinants
-> An indirect tax or subsidy on **producers** shifts the **supply** curve (teacher deck p. 4: "Taxes shift the supply curve upwards"). The resulting price change then causes a **movement along** demand, not a shift. See [[Economics HL — Supply — Notes]] and 2.7. (A cash transfer to *households* raises their income, and that's the income determinant.)
-
-**YED signs (pointer only):** normal goods have **YED > 0** and inferior goods have **YED < 0** (teacher deck p. 2). The measurement belongs to 2.5: [[Economics HL — Elasticity of Demand — Notes]].
-
----
-
-## 5. Movement along vs shift of the demand curve
-
-| | Movement along the curve | Shift of the curve |
+| Determinant | Meaning and change | Effect on demand for good X |
 |---|---|---|
-| Cause | Change in the good's **own price** | Change in a **non-price determinant** |
-| Name | **Change in quantity demanded** (extension if Qd ↑, contraction if Qd ↓) | **Change in demand** (increase or decrease) |
-| Diagram | One curve D. Point A → point B | Two curves D1 → D2 (or D1 → D3) |
-| At a given price | Different price, different quantity | Same price P1, different quantity (Q1 → Q2) |
+| **Income** — **normal good** | A normal good is one whose demand varies directly with consumer income. Income rises / falls. | Demand rises / falls; shift right / left. |
+| **Income** — **inferior good** | An inferior good is one whose demand varies inversely with consumer income. Income rises / falls. | Demand falls / rises; shift left / right. Tragakes’ examples include second-hand clothes, used cars and bus tickets (p. 45). |
+| **Tastes and preferences** | The product becomes more / less popular. | More favourable tastes shift demand right; less favourable tastes shift it left (p. 45). |
+| **Future price expectations** | Buyers expect the good’s price to rise soon / fall soon. | A predicted rise can bring purchases forward, increasing current demand; a predicted fall can defer purchases, decreasing current demand. |
+| **Price of related goods** — **substitutes** | Substitute goods satisfy a similar need. The price of substitute Y rises / falls. | Demand for X rises / falls: the price of Y and demand for X move in the same direction (pp. 45–46). |
+| **Price of related goods** — **complements** | Complementary goods tend to be used together. The price of complement Y rises / falls. | Demand for X falls / rises: the price of Y and demand for X move in opposite directions (p. 46). |
+| **Number of consumers** | The number of buyers in the market rises / falls. | Market demand rises / falls because it sums consumers’ individual demands; shift right / left (p. 46). |
 
-> [!example] Diagram 3a: movement along (Tragakes Fig 2.4a)
-> Axes P and Q (label both). One curve **D**. Point **A** at (Q1, P1), point **B** at (Q2, P2), with P2 < P1 and Q2 > Q1. Draw dotted lines to both axes. Put an **arrow along the curve** from A to B and label it "increase in quantity demanded". Caption: *caused by a fall in the price of the good, ceteris paribus.*
+A teaching page on future price expectations explains the direction: expected price rises can encourage buyers to purchase more now, while expected falls can encourage them to wait.[2]
 
-> [!example] Diagram 3b: shift (Tragakes Fig 2.4b)
-> Axes P and Q. Original curve **D1**. A parallel curve **D2** to the right (increase in demand) and/or **D3** to the left (decrease in demand). Mark **one** price **P1** on the vertical axis and read across to **Q1** on D1 and **Q2** on D2 (and Q3 on D3). Put **horizontal arrows between the curves**. Caption: name the determinant, e.g. *rise in income, normal good*.
+> [!note] Keep the five syllabus headings straight
+> Normal and inferior goods are two cases within **income**; substitutes and complements are two cases within **price of related goods**. Population characteristics are not a separate sixth heading in the syllabus list.[1]
 
-```
- P                          P
- |\                         | \     \
-P1 A                        |  \     \
- |  \                     P1 ---+-----+---
-P2 ..B                      |    \ →   \
- |    \ D                   |     \D1   \D2
- +---Q1-Q2----- Q           +-----Q1----Q2---- Q
-   movement along D            shift D1 → D2
-```
+> [!example] Diagram 3: shifts in demand
+> Label price P on the vertical axis and quantity Q on the horizontal axis. Draw the original curve $D_1$, a right-shifted $D_2$, and a left-shifted $D_3$. At one price $P_1$, show $Q_3 < Q_1 < Q_2$ and arrows $D_1 \rightarrow D_2$ (“increase in demand”) and $D_1 \rightarrow D_3$ (“decrease in demand”). Name the determinant causing each shift.
 
-**Marks come from:** labelled axes, labelled curves (D1, D2), labelled P and Q values, a direction arrow, and a sentence in the text that *refers to* the diagram ("as shown in the diagram, demand shifts from D1 to D2…"). An unexplained diagram loses marks.
+## 5. Movement along a curve versus a shift
 
----
+| | Change in quantity demanded | Change in demand |
+|---|---|---|
+| Cause | Change in the good’s own price, ceteris paribus | Change in a non-price determinant |
+| What changes on the graph? | A movement between points on the same curve D | The whole curve shifts to a new position |
+| At a fixed price? | No: the good’s price changes | Yes: compare quantities at the same price |
+| Diagram label | P falls from $P_1$ to $P_2$; Q rises from $Q_1$ to $Q_2$ (or reverse) | $D_1 \rightarrow D_2$ right for an increase; $D_1 \rightarrow D_3$ left for a decrease |
 
-## 6. HL: linear demand functions, $Q_d = a - bP$
-
-> [!note] Syllabus status
-> The 2022 IB guide's 2.1 table (pp. 25–26) doesn't list linear demand functions. They come from the previous syllabus, but your teacher sets them (Demand practice questions, Section C) and they are standard Paper 3 technique. Learn them.
-
-- **$a$** = quantity demanded when $P = 0$, i.e. the **Q-axis intercept**. It captures all the **non-price determinants**.
-- **$b$** = how much $Q_d$ falls when P rises by 1 unit. The function's slope is $\Delta Q_d/\Delta P = -b$.
-- **P-axis intercept** (where $Q_d = 0$): $P = a/b$.
-- **Plotting:** join $(Q = a, P = 0)$ and $(Q = 0, P = a/b)$. Put P on the vertical axis.
-
-Worked example: $Q_d = 100 - 5P$ (illustrative)
-
-| P | Qd = 100 − 5P |
-|---|---|
-| 0 | 100 |
-| 4 | 80 |
-| 10 | 50 |
-| 20 | 0 |
-
-**Changing a (shift):** a non-price determinant changes, so $a$ changes and the curve **shifts parallel**. For example, $Q_d = 100 - 5P \to 130 - 5P$ means 30 more units are demanded at *every* price: a rightward shift.
-
-**Changing b (steepness):** with $a$ fixed, the curve pivots around the Q-intercept. On a P-vertical diagram the curve's slope is $-1/b$, so a **larger b gives a flatter curve** (Qd more responsive to P) and a **smaller b gives a steeper curve**.
-
-**Market demand from functions:** add the functions *for prices where every consumer's Qd ≥ 0*. The Section C functions give $(320 - 8P) + (140 - 7P) + (40 - 2P) = 500 - 17P$. This is only valid for $P \le 20$, because the last two consumers' Qd reaches 0 at $P = 20$. Above ₹20 only the first consumer buys, so the market is $320 - 8P$. Check at P = 10: 240 + 70 + 20 = 330 = 500 − 170 ✓
-
----
-
-## 7. Real-world application: India's tomato price spike, July 2023
-
-> [!example] Case: a movement along demand for tomatoes + a shift in demand for a substitute
-> **Facts (verified):**
-> - Retail tomato prices rose **341% year-to-date, from ₹24.68/kg to ₹108.92/kg as of 11 July 2023** (Department of Consumer Affairs data, reported by CNBC). The cause was flooding in major producing states (Andhra Pradesh, Maharashtra, Karnataka) and a late monsoon. That is a **supply** shock. [CNBC, 13 Jul 2023](https://www.cnbc.com/2023/07/13/indias-tomato-prices-surge-over-300percent-prompting-thieves-and-turmoil.html)
-> - A Mumbai vegetable vendor said sales fell from about **40 kg a day to 5 kg**, because "most of my customers have stopped buying tomatoes". McDonald's outlets in many parts of India dropped tomatoes from burgers and wraps. Their franchisees cited supply and **quality** problems. [Reuters, 7 Jul 2023, via ThePrint](https://theprint.in/india/mcdonalds-drops-tomatoes-from-india-offerings-citing-quality-concerns-as-prices-surge/1659199/)
-> - By 26 July, New Delhi tomatoes cost **₹199/kg (from ~₹30 in April)**. **Tomato puree** (≈₹130/kg, *price unchanged*) boomed: Mother Dairy puree sales **+300% in 15 days** (New Delhi), BigBasket puree sales **+175% in early July**, Amazon puree demand **×5**, ketchup sales **+30%**. BigBasket customers who used to buy about 1 kg of fresh tomatoes per order were buying half that. [Reuters, 26 Jul 2023](https://www.reuters.com/world/india/tomato-price-shock-hits-indian-restaurants-cheaper-puree-sales-boom-2023-07-26/) (read via the Odisha Post print edition, 27 Jul 2023, p. 11: https://odishapostepaper.com/uploads/epaper/2023-07/64c1701fa2adc.pdf)
+> [!example] Diagram 4: show both changes
+> **Movement:** axes P (vertical) and Q (horizontal), origin 0, one downward-sloping D. Mark A at $(Q_1,P_1)$ and B at $(Q_2,P_2)$, where $P_2<P_1$ and $Q_2>Q_1$. Add dotted guides and an arrow **along D** from A to B, labelled “increase in quantity demanded.” A price rise gives the reverse movement (Tragakes, pp. 46–47).
 >
-> **2.1 analysis:**
-> 1. **Fresh tomatoes: movement along D.** The price rose (P1 → P2) because supply fell (2.2/2.3). Consumers' tastes, incomes and so on were unchanged, so quantity demanded **contracted** along the same D curve, from A to B. The vendor's 40 kg → 5 kg and "half per order" illustrate this. **Don't draw a leftward demand shift** for tomatoes.
-> 2. **Tomato puree (substitute): shift of D.** The price of a *substitute* (fresh tomatoes) rose, so demand for puree **shifted right**, D1 → D2. Puree's own price was unchanged at about ₹130/kg, yet quantity bought rose sharply at that price. That's the signature of a shift, not a movement.
-> 3. **Evaluation angles:** (i) Ceteris paribus doesn't hold neatly. McDonald's said *quality/supply*, not price, drove its decision, so it isn't clean evidence of the law of demand. (ii) Tomatoes are staples. DBS's Radhika Rao called demand "relatively inelastic" (CNBC), which is why the price had to rise so far. The degree of response belongs to 2.5: [[Economics HL — Elasticity of Demand — Notes]]. (iii) The figures come from firms' and vendors' statements, not a controlled study.
+> **Shift:** draw $D_1$, $D_2$ to its right and $D_3$ to its left. At a fixed $P_1$, show $Q_3$ on $D_3$, $Q_1$ on $D_1$, and $Q_2$ on $D_2$. Arrows go **between curves**, and the caption names the non-price determinant (pp. 45–47).
 
----
+## 6. HL: assumptions underlying the law of demand
+
+The HL syllabus explains the downward slope using the law of diminishing marginal utility and the income and substitution effects (Tragakes, pp. 47–49; IB Economics Guide, p. 25).[1]
+
+### 6.1 Diminishing marginal utility
+
+**Utility** is the satisfaction gained from consumption; it is subjective. The theory treats it as measurable in “utils,” although utils are not actual units (Tragakes, p. 47). **Total utility (TU)** is total satisfaction from all units consumed. **Marginal utility (MU)** is the extra satisfaction from one more unit: $MU = \Delta TU / \Delta Q$ (p. 48).
+
+The **law of diminishing marginal utility** says that, as consumption of a good increases, the marginal utility from each additional unit decreases (p. 48).
+
+| T-shirts bought per year | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Total utility (utils) | 0 | 15 | 27 | 36 | 42 | 45 | 45 | 42 |
+| Marginal utility (utils) | — | 15 | 12 | 9 | 6 | 3 | 0 | −3 |
+
+The MU row is the change in TU from one extra shirt: for shirt 4, $42-36=6$ utils; for shirt 7, $42-45=-3$ utils. TU peaks at 45 utils for six shirts; the seventh has negative MU and TU falls to 42 (Table 2.2, p. 48; arithmetic checked).
+
+**Link to demand:** if each extra unit gives less satisfaction, a consumer is willing to buy another unit only at a lower price. Higher quantity demanded therefore requires a lower price, consistent with the downward-sloping demand curve (p. 48).
+
+### 6.2 Income and substitution effects
+
+A price change’s total effect on quantity demanded is the sum of the **substitution effect** and the **income effect** (Tragakes, pp. 48–49).
+
+| Effect when the good’s price falls | Mechanism | Result |
+|---|---|---|
+| **Substitution effect** | The good becomes cheaper relative to alternatives, so the consumer substitutes toward it. | Quantity demanded rises. This effect always reinforces the negative price–quantity relationship. |
+| **Income effect** | **Real income** (purchasing power) rises because the same money can buy more. | For a **normal good**, quantity demanded rises. |
+
+Textbook example: with USD 12, a consumer can buy 3 pencils at USD 4 each; when the price falls to USD 3, the same budget buys 4 pencils. This illustrates increased real purchasing power (p. 49; arithmetic checked). For normal goods, the income and substitution effects reinforce each other. For most goods whose price is a small share of income, the substitution effect is more important; the income effect is more important when the purchase takes a large share of income (p. 49). Tragakes limits this explanation to normal goods; the syllabus still includes inferior goods under the separate income determinant in §4.
+
+## 7. Application: India’s tomato price shock, 2023
+
+CNBC reported Indian retail tomato prices rose 341% year-to-date, from ₹24.68/kg to ₹108.92/kg by 11 July 2023. It attributed the surge in part to flooding in major producing states and a late, unusually hot monsoon that affected production.[3]
+
+> [!warning] Check the reported percentage
+> Recalculation: $((108.92-24.68)/24.68)\times100=341.3\%$, consistent with the article body’s 341%. The photo caption’s alternative inputs, ₹26.76/kg to ₹108.92/kg, give $((108.92-26.76)/26.76)\times100=307.0\%$, not its stated 366.86%.[3]
+
+> [!example] Apply the demand diagrams carefully
+> - **Fresh tomatoes:** in a demand-only diagram, an own-price rise is a movement up along the same D curve, with quantity demanded contracting, provided other demand determinants are held constant. CNBC reports the price and supply disruption, not an isolated market quantity-demanded series; the diagram is the model implication, not a measured demand curve.[3]
+> - **Tomato puree:** Reuters reported New Delhi tomatoes at ₹199/kg in late July, up from around ₹30 in April; puree cost about ₹130/kg and its price had not changed. Mother Dairy reported puree sales up 300% in the previous 15 days in New Delhi.[4] This is consistent with a rightward demand shift for puree as consumers switch toward an alternative, but company-reported sales are not a controlled estimate of demand at a fixed price.[4]
+> - **Data caution:** a Reuters report republished by ThePrint says a Mumbai vendor used to peddle 40 kg a day and now brings five kilos. The current five-kilo figure is what he brings, not a reported measurement that he sold five kilos; do not describe this as verified sales falling from 40 kg to 5 kg.[5]
 
 ## 8. Common mistakes / examiner traps
 
-| Mistake | Why it loses marks | Do this instead |
-|---|---|---|
-| "Price rose, so demand fell" | The own-price change changes **quantity demanded**, not demand | Say "quantity demanded contracted (movement along D)" |
-| Shifting D when a *tax/subsidy/cost* changes | These shift **supply**. Demand only moves along | Shift S in 2.2, then read off the movement along D |
-| Swapped axes, unlabelled axes, or missing units/time period | AO4 marks need labelled axes | P (₹ per unit) vertical, Q (units per week) horizontal |
-| Showing a shift without holding one price fixed | You can't then show "more demanded at *every* price" | Mark P1 → Q1 on D1 and Q2 on D2 |
-| Defining demand without "willing **and able**" or "ceteris paribus" | These are the definition's mark-bearing words | Learn the definition verbatim |
-| Complements/substitutes back-to-front | A rise in the complement's price shifts the *other* good's D **left** | Substitutes: same direction. Complements: opposite |
-| Vague "expectations" | The guide says **future price** expectations | "Consumers expect price to rise → buy now → D shifts right today" |
-| Summing individual demands **vertically** (adding prices) | Market demand is **horizontal** summation | Add quantities at each price |
-| Reading "larger b" as "steeper" | On P-vertical axes the slope is −1/b | Larger b → flatter |
-| Writing "\|YED\| > 0" or bringing PED into a 2.1 answer | The sign matters for YED, and elasticity isn't asked in 2.1 | YED > 0 normal, YED < 0 inferior. Detail in 2.5 |
-| Leaning on Giffen/Veblen exceptions | Beyond the syllabus. Wastes time | One sentence at most, as evaluation |
-
----
+| Mistake | Correction |
+|---|---|
+| “Price rose, so demand fell.” | Say “quantity demanded fell”: it is a movement along D, not a shift. |
+| Shifting D after the good’s own price changes | Only a non-price determinant shifts that good’s demand curve. |
+| Calling a producer cost change a demand shift | That belongs to supply; see [[Economics HL — Supply — Notes]]. The resulting own-price change is a movement along D. |
+| Adding prices to get market demand | Add quantities at each price; use the market quantity scale shown in the diagram. |
+| Reversing substitutes and complements | For substitutes, price of Y and demand for X move together; for complements, they move in opposite directions. |
+| Confusing an income determinant with the income effect | A change in consumers’ money income shifts demand; the real-income effect of an own-price change is part of movement along demand. |
+| Treating reported sales, stock brought to market, or company statements as a clean demand curve | State what the data measure and qualify any ceteris paribus assumption. |
+| Omitting units, time period, curve labels or arrows | Label P and Q, include units/time, identify D or $D_1$/$D_2$, and show movement along or between curves. |
 
 ## 9. Self-test
 
-1. Define the term *demand*. **[2]**
-2. Using a diagram, explain the difference between a *change in demand* and a *change in quantity demanded*. **[4]**
-3. **(HL)** With reference to the law of diminishing marginal utility, explain why the demand curve slopes downward. **[4]**
-4. **(HL)** The daily demand for onions in a market is $Q_d = 120 - 4P$ (P in ₹ per kg, Q in kg). **(a)** Calculate $Q_d$ at P = ₹15. **[1]** **(b)** Calculate the price at which $Q_d = 0$. **[1]** **(c)** After a rise in incomes the function becomes $Q_d = 150 - 4P$. State what type of good onions are and calculate the change in $Q_d$ at P = ₹15. **[2]** **(d)** Outline how the curve would change if the function were instead $Q_d = 120 - 6P$. **[1]**
-5. With reference to India's July 2023 tomato price surge, explain, using a diagram, the effect on the market for tomato puree. **[4]**
+1. Define individual demand, including the role of ceteris paribus.
+2. State the law of demand and describe the diagram for a fall in the good’s own price.
+3. At USD 4, consumer A demands 4 chocolate bars per week and B demands 5; the whole market demands 6,000. Explain how market demand is derived and why A plus B alone is not the market total.
+4. **HL:** From Anna’s table, calculate MU for the fourth and seventh T-shirts, then explain how diminishing marginal utility supports the law of demand.
+5. Using the 2023 India case, distinguish the demand-diagram treatment of fresh tomatoes from tomato puree and state one limitation of the reported data.
 
 > [!question]- Answers
-> 1. Demand is the quantity of a good consumers are **willing and able** to buy at each possible price [1], over a given time period, **ceteris paribus** [1].
-> 2. Diagram 1: a single D curve, with a price fall P1 → P2 moving from A to B and Qd rising Q1 → Q2. That's a **change in quantity demanded**, caused only by the good's own price. Diagram 2: D1 → D2 at a fixed P1, with Q1 → Q2. That's a **change in demand**, caused by a non-price determinant (e.g. income ↑ for a normal good). Marks: accurate labelled diagram(s) [2] + explanation of the causes and the difference [2].
-> 3. Define MU and DMU: each additional unit consumed adds less satisfaction. Because extra units are valued less, a consumer will only buy more if the price falls. Lower prices are needed for higher Qd, so the inverse P–Qd relationship gives a downward-sloping D curve, with a diagram. Include a numerical illustration if you can.
-> 4. (a) 120 − 60 = **60 kg**. (b) 0 = 120 − 4P → **P = ₹30**. (c) **Normal good** (demand rose with income). At P = 15: 150 − 60 = 90, so Qd rises by **30 kg**, the same at every price: a parallel rightward shift. (d) $a$ is unchanged, so the curve still meets the Q-axis at 120 but now meets the P-axis at ₹20 (instead of ₹30). It pivots and becomes **flatter** on P-vertical axes, meaning Qd is more responsive to price.
-> 5. Fresh tomatoes and puree are **substitutes**. Fresh tomato prices rose sharply (₹24.68 → ₹108.92/kg YTD to 11 July, CNBC; ₹199/kg in Delhi by 26 July, Reuters), so consumers switched to puree. The **demand for puree shifts right**, D1 → D2. At the unchanged puree price (≈₹130/kg), quantity rises Q1 → Q2 (e.g. Mother Dairy puree sales +300% in 15 days). Diagram: P (₹/kg) vs Q (kg per week), D1 → D2, with P1 held constant. Don't show a movement along puree's own D, because its price didn't change.
+> 1. Individual demand is the various quantities of a good or service a consumer is willing and able to buy at different possible prices during a particular time period, ceteris paribus. Willing means wanting the good; able means being able to afford it.
+> 2. The law of demand says price and quantity demanded are negatively related, ceteris paribus. Put P vertically and Q horizontally; draw one downward-sloping D. A price fall from $P_1$ to $P_2$ moves down/right along D, raising Q from $Q_1$ to $Q_2$.
+> 3. At each price, add every consumer’s quantity demanded; this is horizontal summation. The 4 plus 5 bars are only A and B. The 6,000-bar market total includes all other consumers as well, as in Tragakes Figure 2.2.
+> 4. MU of shirt 4 is $42-36=6$ utils; MU of shirt 7 is $42-45=-3$ utils. As marginal utility declines with each extra unit, the consumer is willing to buy more only at a lower price, which supports a downward-sloping D.
+> 5. For fresh tomatoes, a rise in their own price is shown as movement up along the same demand curve, with quantity demanded falling, if other determinants are held constant. For puree, a rise in the price of a substitute can shift puree demand right. Reuters reported puree’s price unchanged and Mother Dairy sales higher, consistent with that shift; however these are reported sales, not controlled market-demand measurements.
+
+## 10. Connections
+
+- [[Ellie Ch1 - Introduction to Economics - Notes]]: ceteris paribus and economic models.
+- [[Economics HL — Supply — Notes]]: supply-side determinants that can change market prices.
+- [[Economics HL — Competitive Market Equilibrium — Notes]]: demand interacting with supply.
+- Elasticity of demand (2.5, note to come): the magnitude of a response in quantity demanded.
+- [[Economics HL — Critique of Maximizing Behaviour — Notes]]: limitations of the consumer-behaviour assumptions behind the HL explanation.
+- [[_Syllabus Index]] · [[_Index]]
+
+## 11. Sources
+
+Sources:
+[1] https://www.clastify.com/knowledge-hub/post/ib-economics-syllabus-topics — IB Economics Syllabus + Topics (secondary summary)
+[2] https://www.cnbc.com/2023/07/13/indias-tomato-prices-surge-over-300percent-prompting-thieves-and-turmoil.html — India's tomato prices surge over 300%, prompting thieves and turmoil
+[3] https://www.reuters.com/world/india/tomato-price-shock-hits-indian-restaurants-cheaper-puree-sales-boom-2023-07-26 — Tomato price shock hits Indian restaurants, cheaper puree sales boom
+[4] https://theprint.in/india/mcdonalds-drops-tomatoes-from-india-offerings-citing-quality-concerns-as-prices-surge/1659199 — McDonald's drops tomatoes from India offerings (Reuters via ThePrint)
+[5] https://www.ibeconomics.com/ib-economics-demand.html — IB Economics - demand

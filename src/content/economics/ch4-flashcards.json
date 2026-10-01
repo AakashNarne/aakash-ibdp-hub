@@ -1,0 +1,74 @@
+[
+  {
+    "q": "Define supply of an individual firm.",
+    "a": "The quantities of a good or service the firm is willing and able to produce and offer for sale at different prices over a particular time period, ceteris paribus."
+  },
+  {
+    "q": "State the law of supply.",
+    "a": "Price and quantity supplied are positively related, ceteris paribus: a higher price leads to a greater quantity supplied, and a lower price to a smaller quantity supplied."
+  },
+  {
+    "q": "What does ceteris paribus mean in the law of supply?",
+    "a": "Other relevant influences on supply are held constant so the effect of the good's own price can be isolated."
+  },
+  {
+    "q": "Distinguish supply from quantity supplied.",
+    "a": "Supply is the relationship or whole curve across possible prices; quantity supplied is the amount offered at one particular price."
+  },
+  {
+    "q": "How should a basic supply-curve diagram be labelled?",
+    "a": "Price per unit on the vertical axis and quantity per time period on the horizontal axis; draw an upward-sloping curve labelled S."
+  },
+  {
+    "q": "How is market supply derived from individual firms' supplies?",
+    "a": "By horizontal summation: at each price, add the quantities supplied by all firms."
+  },
+  {
+    "q": "In competitive supply, what happens to this product's supply when the price of the alternative product rises?",
+    "a": "Supply of this product shifts left because firms redirect shared resources toward the now more profitable alternative."
+  },
+  {
+    "q": "In joint supply, what can happen to the supply of a co-product when the price of one joint product rises?",
+    "a": "Its supply can shift right because producing more of one joint product also produces more of the other."
+  },
+  {
+    "q": "How do higher indirect taxes and higher subsidies affect supply?",
+    "a": "A higher indirect tax raises production costs and shifts supply left. A higher subsidy lowers effective costs and shifts supply right."
+  },
+  {
+    "q": "If firms expect their product price to rise in the future, what may happen to current supply?",
+    "a": "Current supply may fall and shift left as firms hold back sales for the expected higher future price."
+  },
+  {
+    "q": "What are the supply effects of improved technology and an increase in the number of firms?",
+    "a": "Both increase market supply and shift the supply curve right; improved technology can lower costs, while additional firms add to total market supply."
+  },
+  {
+    "q": "Distinguish a change in quantity supplied from a change in supply.",
+    "a": "A change in quantity supplied is a movement along the curve caused by a change in the good's own price. A change in supply is a shift caused by a non-price determinant."
+  },
+  {
+    "q": "Distinguish the short run from the long run in production.",
+    "a": "In the short run at least one input is fixed. In the long run all inputs can be changed. Neither describes a fixed calendar length."
+  },
+  {
+    "q": "State the law of diminishing marginal returns.",
+    "a": "As more units of a variable input are added to fixed input(s), marginal product may first rise but eventually falls, with fixed inputs and technology unchanged."
+  },
+  {
+    "q": "From Tragakes' TP values of 140 kg at five workers and 150 kg at six workers, what is MP6, and what is wrong with the printed table?",
+    "a": "MP6 is 10 kg because 150 minus 140 equals 10. The printed MP cell and prose say zero, so the textbook is internally inconsistent."
+  },
+  {
+    "q": "How is marginal cost calculated, and what pattern does Tragakes' cost table show?",
+    "a": "Marginal cost is the change in total cost divided by the change in output. The table's successive MC values are USD 12, 8, 6, 8, 12 and 16: they fall at first and then rise."
+  },
+  {
+    "q": "What did ICCO estimate for world cocoa production in 2022/23 and 2023/24?",
+    "a": "5.043 million tonnes in 2022/23 and 4.489 million tonnes in 2023/24, a decline of 554,000 tonnes or about 11.0 percent."
+  },
+  {
+    "q": "Why are linear supply functions omitted from this Supply note?",
+    "a": "They are not listed in the current IB Economics guide's Unit 2.2 requirements; this note follows the first-assessment-2022 scope."
+  }
+]
