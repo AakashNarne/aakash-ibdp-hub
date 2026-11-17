@@ -149,18 +149,18 @@ An **intergovernmental organization (IGO)** is a body of states that cooperate o
 
 Regional systems try to fit human rights protection to local values. They are the textbook's test of whether regionalism answers the **cultural relativist** charge that rights are "too Western" (review question, p. 134).
 
-| Organization | Instrument (year) | Binding? (Hodder Table 2.14) | Court? | Who can bring a case |
+| Organization | Instrument (year) | Binding status of instrument | Court? | Who can bring a case |
 |---|---|---|---|---|
 | **Council of Europe** | European Convention on Human Rights (signed 4 Nov 1950, in force 3 Sept 1953) | Yes | **European Court of Human Rights**, Strasbourg | States **and individuals** |
-| **OAS** | American Convention on Human Rights (1969) | No (per Hodder; see warning) | Inter-American Court | Only the Commission or states. Individuals and NGOs go to the Commission first. |
-| **African Union** | African Charter on Human and Peoples' Rights (1981) | No (per Hodder: states can enter reservations) | African Court | Individuals and NGOs **only** against states that make an Art. 34(6) declaration |
+| **OAS** | American Convention on Human Rights (1969) | **Yes, for states parties** | Inter-American Court | Individuals and NGOs petition the Commission; contentious cases are brought before the Court by the Commission or a state. Court jurisdiction depends on acceptance; judgments bind states in cases to which they are parties. |
+| **African Union** | African Charter on Human and Peoples' Rights (1981) | **Yes, for states parties** | African Court | Direct individual/NGO access to the Court is conditional on the state's Art. 34(6) declaration; the Commission also has a role. Reservations do not make the treaty non-binding for its parties. The African Commission lists 54 ratifications. |
 | **OIC** | Cairo Declaration (1990): rights grounded in Sharia | No | None | — |
 | **ASEAN** | ASEAN Human Rights Declaration (18 Nov 2012) | No | None (the intergovernmental commission meets twice a year) | — |
 
 > [!warning] Three corrections to the textbook (verify before you quote Hodder)
 > 1. **The Council of Europe is not the EU** and did not "evolve into" it (Hodder p. 124). The ECHR has **46 member states of the Council of Europe** ([CoE](https://www.coe.int/en/web/portal/46-members-states)), not "46 states within the EU". The EU has 27 members.
 > 2. **The African Court:** Hodder's "eight of the 34 member states" is really **34 states that have ratified the Court Protocol**, of which only **8** have made the Art. 34(6) declaration letting individuals and NGOs sue. The AU itself has **55** members ([African Court](https://www.african-court.org/wpafc/basic-information/)).
-> 3. **Inter-American Court:** Hodder calls its decisions "non-binding" and its column says "No". But Art. 68 of the American Convention says states parties "undertake to comply with the judgment of the Court in any case to which they are parties" ([OAS treaty text](https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.htm)). Its *advisory opinions* are non-binding. Its contentious judgments bind states that have accepted its jurisdiction.
+> 3. **Inter-American system:** distinguish the Convention's treaty obligations from the Court's jurisdiction and the effect of its decisions. Article 68 requires states parties to comply with a Court judgment in cases to which they are parties; individuals and NGOs petition the Commission rather than filing directly with the Court ([OAS treaty text](https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.pdf)).
 
 > [!example] Case 5: *Hirst v UK (No 2)*: a strong regional court meets a sovereign parliament
 > - John Hirst was serving life for manslaughter and challenged the UK's **blanket ban** on convicted prisoners voting. UK courts said it was a matter for Parliament ([House of Commons Library](https://researchbriefings.files.parliament.uk/documents/CBP-7461/CBP-7461.pdf)).
@@ -279,7 +279,7 @@ Structure: define terms, give a thesis, then claims and counterclaims each with 
 > [!question]- Answers
 > 1. **ICJ**: states only; disputes the parties consent to; 15 judges; example *DRC v Uganda*, USD 325 m in reparations (9 Feb 2022), or *Gambia v Myanmar*, unanimous provisional measures (23 Jan 2020). **ICC**: individuals; genocide, crimes against humanity, war crimes (after 2002) and aggression (activated 17 July 2018); complementarity; 18 judges; example the arrest warrant for Putin (17 Mar 2023).
 > 2. **Protect:** the state must prevent abuse by business. Bangladesh failed to enforce building safety. **Respect:** companies must do due diligence. Brands signed the binding Accord (15 May 2013) with unions. **Remedy:** victims need redress. The ILO-chaired committee raised USD 30 m in compensation (June 2015).
-> 3. **Europe (Council of Europe):** binding ECHR; ECtHR open to individuals; 46 CoE states. It is *not* the EU, which is the textbook error. **Africa (AU):** the African Charter allows reservations; the African Court protocol has 34 ratifications but only **8** Art. 34(6) declarations, so most Africans cannot petition it directly. That gives it weaker reach and more sovereignty retained.
+> 3. **Europe (Council of Europe):** binding ECHR; ECtHR open to individuals; 46 Council of Europe states (not EU members). **Africa (AU):** the African Charter binds its states parties. The Court Protocol has 34 ratifications in the cited textbook account; only states making the Article 34(6) declaration permit direct individual/NGO petitions. Reservations do not make the Charter non-binding. This distinction matters when comparing treaty coverage with access to a court.
 > 4. The Grand Chamber found the UK's blanket prisoner-voting ban violated A3P1 (12–5, 6 Oct 2005). Parliament resisted, and the Committee of Ministers closed the case only on 6 Dec 2018 after minimal administrative changes. Binding does not mean enforced: sovereignty and political will decide compliance.
 > 5. They research violations, publish reports (Amnesty's annual report) and "name and shame". They mobilise members through petitions and protests. Amnesty uses its UN consultative status (since 1964) to advise, and HRW does undercover fieldwork. Their power rests on **legitimacy**: independence, non-profit status, and a single UDHR standard applied to all states. Relativism would let states excuse abuses.
 
@@ -295,6 +295,8 @@ Structure: define terms, give a thesis, then claims and counterclaims each with 
 
 ## Sources
 - **Textbook:** Fugill, T., Hirons, S. & Hull, R. (2024). *Global Politics*. Hodder Education, ch. 2.2, pp. 115–134 (PDF pp. 119–138; printed page = PDF page − 4). Part of the UNHRC introduction (end of p. 118 / start of p. 119) was missing from the extract.
+- Organization of American States, [American Convention on Human Rights](https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.pdf), especially Articles 44, 61 and 68.
+- African Commission on Human and Peoples' Rights, [State Parties](https://achpr.au.int/en/states); African Court, [Basic Information](https://www.african-court.org/wpafc/basic-information/) — ratification, protocol and direct-access status.
 - **Verified web sources:**
   - ICJ, *Gambia v Myanmar* provisional measures press release (23 Jan 2020): https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/178/178-20200123-PRE-01-00-EN.pdf
   - UN News, *DRC v Uganda* reparations (9 Feb 2022): https://news.un.org/en/story/2022/02/1111612

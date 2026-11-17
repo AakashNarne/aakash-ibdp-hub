@@ -30,12 +30,12 @@ tags: [class-notes, GlobalPolitics, IBDP]
 
 Ideas of right and wrong come from family, school, religion, friends, the media and the wider community. State legal systems usually rest on these shared moral ideas. At the global level the UN, other IGOs and NGOs hold "definitive ideas" about which rights everyone deserves (Hodder p. 95). Because rights and justice are **social before they are legal**, different communities build different versions. Hodder links rights and justice directly to **power**, the central concept of the course (p. 95).
 
-| Key concept | Hodder's definition (pp. 96–97) | Why it matters for rights and justice |
-|---|---|---|
-| **Power** | The ability to affect change; an aspect of relations among people | Who defines a right, and who can deliver it or deny it |
-| **Sovereignty** | A state's right to make decisions independently | Each state chooses how, or whether, to apply and enforce its citizens' rights |
-| **Legitimacy** | Being commonly accepted as having authority to exercise power over others | The authority of states, courts, IGOs and NGOs to rule on rights is often questioned |
-| **Interdependence** | Mutual reliance among groups, organisations and regions | Values, rights norms among them, travel along economic ties |
+| Key concept         | Hodder's definition (pp. 96–97)                                           | Why it matters for rights and justice                                                |
+| ------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Power**           | The ability to affect change; an aspect of relations among people         | Who defines a right, and who can deliver it or deny it                               |
+| **Sovereignty**     | A state's right to make decisions independently                           | Each state chooses how, or whether, to apply and enforce its citizens' rights        |
+| **Legitimacy**      | Being commonly accepted as having authority to exercise power over others | The authority of states, courts, IGOs and NGOs to rule on rights is often questioned |
+| **Interdependence** | Mutual reliance among groups, organisations and regions                   | Values, rights norms among them, travel along economic ties                          |
 
 Four concepts embedded in this theme (Hodder p. 97):
 - **Equality**: all people have the same intrinsic value.
@@ -99,11 +99,11 @@ Four concepts embedded in this theme (Hodder p. 97):
 ### 3.2 The three generations of rights (Hodder pp. 103–104)
 **Karel Vasak** of the International Institute of Human Rights in Strasbourg introduced this classification in the 1970s. He set it out in the *UNESCO Courier* in November 1977 ([Cambridge Core](https://cambridge.org/core/journals/netherlands-international-law-review/article/abs/human-rights-universal-panacea-some-reflections-on-the-socalled-human-rights-of-the-third-generation/AA621FCE558794D936439147055C8854)). It is modelled on the French Revolution's *liberté, égalité, fraternité*.
 
-| | **1st generation: liberty** | **2nd generation: equality** | **3rd generation: fraternity** |
-|---|---|---|---|
-| Type | Civil and political | Economic, social and cultural | Collective or solidarity rights |
-| Examples | Freedom from slavery, privacy, a fair trial, no arbitrary arrest | Safe working conditions, housing, food, health care, social security | A clean environment, development, benefiting from world trade |
-| Closest to | **Negative** rights | **Positive** rights | Rights of **communities**, a response to globalisation |
+|            | **1st generation: liberty**                                      | **2nd generation: equality**                                        | **3rd generation: fraternity**                                |
+| ---------- | ---------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Type       | Civil and political                                              | Economic, social and cultural                                       | Collective or solidarity rights                               |
+| Examples   | Freedom from slavery, privacy, a fair trial, no arbitrary arrest | Safe working conditions, housing, food, healthcare, social security | A clean environment, development, benefiting from world trade |
+| Closest to | **Negative** rights                                              | **Positive** rights                                                 | Rights of **communities**, a response to globalisation        |
 
 > [!warning] Trap
 > The generations are **not a ranking** and not a strict timeline. The UDHR already contained 2nd-generation rights in 1948 (Art. 26). The **Vienna Declaration** (25 June 1993, para. 5) says that "All human rights are universal, indivisible and interdependent and interrelated" ([OHCHR](https://www.ohchr.org/en/instruments-mechanisms/instruments/vienna-declaration-and-programme-action)).

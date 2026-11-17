@@ -33,10 +33,18 @@ import gpCh6Notes from './global-politics/ch6-notes.md?raw'
 import econCh4Notes from './economics/ch4-notes.md?raw'
 import econCh5Notes from './economics/ch5-notes.md?raw'
 import econCh6Notes from './economics/ch6-notes.md?raw'
+import econCh7Notes from './economics/ch7-notes.md?raw'
+import econCh8Notes from './economics/ch8-notes.md?raw'
+import econCh9Notes from './economics/ch9-notes.md?raw'
 import dtCh3Notes from './design-tech/ch3-notes.md?raw'
 import dtCh4Notes from './design-tech/ch4-notes.md?raw'
 import dtCh5Notes from './design-tech/ch5-notes.md?raw'
+import dtCh6Notes from './design-tech/ch6-notes.md?raw'
+import dtCh7Notes from './design-tech/ch7-notes.md?raw'
+import dtCh8Notes from './design-tech/ch8-notes.md?raw'
+import englishCh2Notes from './english/ch2-notes.md?raw'
 import mathsCh4Notes from './maths/ch4-notes.md?raw'
+import mathsCh5Notes from './maths/ch5-notes.md?raw'
 import gpCh7Notes from './global-politics/ch7-notes.md?raw'
 import gpCh8Notes from './global-politics/ch8-notes.md?raw'
 import gpCh9Notes from './global-politics/ch9-notes.md?raw'
@@ -52,6 +60,8 @@ import mathsCh4Cards from './maths/ch4-flashcards.json'
 import gpCh7Cards from './global-politics/ch7-flashcards.json'
 import gpCh8Cards from './global-politics/ch8-flashcards.json'
 import gpCh9Cards from './global-politics/ch9-flashcards.json'
+import hindiCh2Notes from './hindi/ch2-notes.md?raw'
+import englishCh3Notes from './english/ch3-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -159,6 +169,39 @@ export const subjects: Subject[] = [
         format: 'obsidian',
         vaultNote: 'Economics HL — Critique of Maximizing Behaviour — Notes',
       },
+      {
+        id: 'ch7',
+        title: 'Chapter 7: 2.5–2.6 Elasticity of Demand and Supply',
+        subtitle: 'PED, YED and PES; calculation methods, determinants, total-revenue implications, applications and exam traps',
+        notes: econCh7Notes,
+        sections: h2Sections(econCh7Notes),
+        flashcards: [],
+        updated: '2026-11-04',
+        format: 'obsidian',
+        vaultNote: 'Tuition notes - 2.5 and 2.6',
+      },
+      {
+        id: 'ch8',
+        title: 'Chapter 8: 2.7 Role of Government in Microeconomics',
+        subtitle: 'Intervention rationale, indirect taxation, tax incidence, revenue and welfare, with subsidy and price-control comparisons',
+        notes: econCh8Notes,
+        sections: h2Sections(econCh8Notes),
+        flashcards: [],
+        updated: '2026-11-04',
+        format: 'obsidian',
+        vaultNote: 'Government Intervention in Microeconomics',
+      },
+      {
+        id: 'ch9',
+        title: 'Chapter 9: Assessed Work — Mark Lessons',
+        subtitle: 'Examiner-commented Economics Paper 1 and 2 samples: scores, high-credit habits and common mark-losing errors',
+        notes: econCh9Notes,
+        sections: h2Sections(econCh9Notes),
+        flashcards: [],
+        updated: '2026-11-16',
+        format: 'obsidian',
+        vaultNote: 'Economics — Assessed Work Mark Lessons',
+      },
     ],
   },
   {
@@ -242,6 +285,39 @@ export const subjects: Subject[] = [
         format: 'obsidian',
         vaultNote: 'DT C1.2 — Inclusive design — Notes',
       },
+      {
+        id: 'ch6',
+        title: 'Chapter 6: A2.1 User-centred research methods',
+        subtitle: 'End-user needs, user involvement, multidisciplinary teams, population research, personae, scenarios and stereotypes',
+        notes: dtCh6Notes,
+        sections: h2Sections(dtCh6Notes),
+        flashcards: [],
+        updated: '2026-11-04',
+        format: 'obsidian',
+        vaultNote: 'DT A2.1 — User-Centred Research Methods — Notes',
+      },
+      {
+        id: 'ch7',
+        title: 'Chapter 7: B2.1 The design process',
+        subtitle: 'Five process sections, user research, ideation, modelling, iteration and solution communication',
+        notes: dtCh7Notes,
+        sections: h2Sections(dtCh7Notes),
+        flashcards: [],
+        updated: '2026-11-04',
+        format: 'obsidian',
+        vaultNote: 'DT B2.1 — The Design Process — Notes',
+      },
+      {
+        id: 'ch8',
+        title: 'Chapter 8: Assessed Work — Design Project Mark Lessons',
+        subtitle: 'Examiner-commented internal-assessment samples: score pattern, evidence chain and project pitfalls; not timed-exam advice',
+        notes: dtCh8Notes,
+        sections: h2Sections(dtCh8Notes),
+        flashcards: [],
+        updated: '2026-11-16',
+        format: 'obsidian',
+        vaultNote: 'DT — Assessed Work Mark Lessons',
+      },
     ],
   },
   {
@@ -320,6 +396,17 @@ export const subjects: Subject[] = [
         format: 'obsidian',
         vaultNote: 'Maths SL 1.5 and AHL 1.9 — Logarithm Fundamentals — Notes',
       },
+      {
+        id: 'ch5',
+        title: 'Chapter 5: Topic 1 — Number and Algebra',
+        subtitle: 'Number systems, sequences & series, financial maths (TVM solver), logarithms & exponents, binomial theorem, HL complex numbers, matrices',
+        notes: mathsCh5Notes,
+        sections: h2Sections(mathsCh5Notes),
+        flashcards: [],
+        updated: '2026-10-16',
+        format: 'obsidian',
+        vaultNote: 'Topic 1 - Number and Algebra',
+      },
     ],
   },
   {
@@ -351,6 +438,28 @@ export const subjects: Subject[] = [
         ],
         flashcards: englishCh1Flashcards,
         updated: '2026-09-04',
+      },
+      {
+        id: 'ch2',
+        title: 'Chapter 2: Assessed Work — Paper 1 and Paper 2 Mark Lessons',
+        subtitle: 'Examiner-commented analysis and comparative essay samples, scores, strengths and exam traps',
+        notes: englishCh2Notes,
+        sections: h2Sections(englishCh2Notes),
+        flashcards: [],
+        updated: '2026-11-16',
+        format: 'obsidian',
+        vaultNote: 'English A — Assessed Work Mark Lessons',
+      },
+      {
+        id: 'ch3',
+        title: 'Chapter 3: Paper 1 Non-Literary Text Types',
+        subtitle: 'Text-type conventions and analysis strategies for non-literary texts',
+        notes: englishCh3Notes,
+        sections: h2Sections(englishCh3Notes),
+        flashcards: [],
+        updated: '2026-11-16',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Non-Literary Text Types — Notes',
       },
     ],
   },
@@ -386,6 +495,17 @@ export const subjects: Subject[] = [
         flashcards: hindiCh1Flashcards,
         updated: '2026-09-04',
       },
+      {
+        id: 'ch2',
+        title: 'Chapter 2: Vocabulary, मुहावरे and Assessment Criteria',
+        subtitle: 'Five-theme vocabulary, connectors, idioms, Paper 1 criteria and Individual Oral checklist',
+        notes: hindiCh2Notes,
+        sections: h2Sections(hindiCh2Notes),
+        flashcards: [],
+        updated: '2026-11-16',
+        format: 'obsidian',
+        vaultNote: 'Hindi B SL — Vocabulary, Muhavre and Criteria Checklist — Notes',
+      },
     ],
   },
   {
@@ -402,22 +522,11 @@ export const subjects: Subject[] = [
         title: 'Chapter 1: Foundations of Global Politics',
         subtitle: 'Core key concepts (power, sovereignty, legitimacy, interdependence), theoretical lenses, thematic studies, assessment structure',
         notes: gpCh1Notes,
-        sections: [
-          'Section 1.1 — What Global Politics Is (and Isn\'t)',
-          'Section 1.2 — The Four Core Key Concepts — Summary and Cross-references',
-          'Section 1.3 — The Three Thematic Studies',
-          'Section 1.4 — Levels of Analysis',
-          'Section 1.5 — Theoretical Lenses',
-          'Section 1.6 — Stakeholder Analysis Framework',
-          'Section 1.7 — Claims and Counterclaims: the Grey Areas Rule',
-          'Section 1.8 — Assessment Structure',
-          'Section 1.9 — Common Exam Traps',
-          'Section 1.10 — Exam-Ready Definitions',
-          'Section 1.11 — Diagnostic Prompts to Test Yourself',
-          'Section 1.12 — Sources',
-        ],
+        sections: h2Sections(gpCh1Notes),
         flashcards: gpCh1Flashcards,
-        updated: '2026-09-09',
+        updated: '2026-11-04',
+        format: 'obsidian',
+        vaultNote: 'Chapter 1: Foundations of Global Politics',
       },
       {
         id: 'ch2',

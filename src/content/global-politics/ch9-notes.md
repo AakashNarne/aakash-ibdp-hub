@@ -145,12 +145,12 @@ The **2005 UN World Summit** unanimously accepted the responsibility to protect 
 |---|---|
 | **I.** States must protect their own people from mass atrocity crimes | **Prevent:** tackle long‑ and short‑term causes of conflict |
 | **II.** The international community must assist states to do this | **React:** appropriate measures, e.g. sanctions, prosecution, and in extreme cases military intervention |
-| **III.** If a state is unable or unwilling, the international community must take timely and decisive action under international law | **Rebuild:** recovery, reconstruction and reconciliation after intervention |
+| **III.** If national authorities are manifestly failing to protect populations from the four atrocity crimes, the international community should be prepared for collective action through the UN Security Council, in accordance with the Charter and on a case-by-case basis | **Rebuild:** recovery, reconstruction and reconciliation after intervention |
 
 **Humanitarian intervention** means specifically the *use of military force*; within R2P it is the last resort.
 
 *R2P controversy:*
-- **Sovereignty clash:** Article 2(7) of the UN Charter forbids intervention in domestic jurisdiction.
+- **Sovereignty and Charter:** Article 2(7) protects matters essentially within domestic jurisdiction, but explicitly says this does not prejudice Chapter VII enforcement measures. R2P does not create a free-standing licence for unilateral force; collective coercive action must follow the Charter framework.
 - **Loss of life:** Military action (e.g., Libya) can cause civilian casualties and weapon proliferation.
 - **Politicization:** Powerful states may exploit R2P for strategic goals (postcolonial critique).
 
@@ -203,6 +203,9 @@ The **2005 UN World Summit** unanimously accepted the responsibility to protect 
 - **LGBTQ+:** Anti‑discrimination laws reflect collective rights to equality.
 
 *Debate:* Do collective rights dilute individual freedoms? Counter‑argument: Some rights are inherently group‑based (e.g., development, environmental protection).
+
+> [!warning] GloPoPolis class case-study coverage
+> GloPoPolis's 2026 Rights and Justice page links a class case study on **violence against women** (`2.2 Violence against women.pdf`). The Saudi driving reform example above is about mobility and participation; it is **not a substitute** for that focused case study. Add the class resource's evidence and sources here before treating this requirement as covered.
 
 ### 4.3 The tension in real‑world cases
 
@@ -272,6 +275,8 @@ The **2005 UN World Summit** unanimously accepted the responsibility to protect 
 ## 8. Sources
 
 - **Textbook:** Fugill, T., Hirons, S. & Hull, R. (2024). *Global Politics*. Hodder Education, ch. 2.4, printed pp.154–173 (PDF pp.158–177; printed page = PDF page – 4).
+- GloPoPolis 2026, [Rights and Justice](https://www.glopopolis.org/2026/rights-justice) — class resources include a violence-against-women case study.
+- United Nations, [Charter of the United Nations, Article 2](https://www.un.org/en/about-us/un-charter/full-text) — Article 2(7) and the Chapter VII enforcement-measures exception.
 - Amnesty International (2026), *Death sentences and executions 2025*: 2,707 executions in 2025, up 78% from 1,518 in 2024. https://www.amnesty.org/en/documents/act50/0778/2026/en/
 - Amnesty International (May 2026), "Death penalty in 2025 – Facts and figures": https://www.amnesty.org/en/latest/news/2026/05/death-penalty-in-2025-facts-and-figures/
 - Amnesty International (May 2026), "Executions surge to highest recorded figure in 44 years": https://www.amnesty.org/en/latest/news/2026/05/executions-surge-highest-recorded-figure-44-years/
