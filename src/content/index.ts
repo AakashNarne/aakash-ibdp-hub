@@ -62,6 +62,15 @@ import gpCh8Cards from './global-politics/ch8-flashcards.json'
 import gpCh9Cards from './global-politics/ch9-flashcards.json'
 import hindiCh2Notes from './hindi/ch2-notes.md?raw'
 import englishCh3Notes from './english/ch3-notes.md?raw'
+import englishCh4Notes from './english/ch4-notes.md?raw'
+import englishCh5Notes from './english/ch5-notes.md?raw'
+import englishCh6Notes from './english/ch6-notes.md?raw'
+import englishCh7Notes from './english/ch7-notes.md?raw'
+import englishCh8Notes from './english/ch8-notes.md?raw'
+import englishCh9Notes from './english/ch9-notes.md?raw'
+import englishCh10Notes from './english/ch10-notes.md?raw'
+import englishCh11Notes from './english/ch11-notes.md?raw'
+import englishCh12Notes from './english/ch12-notes.md?raw'
 
 /**
  * SUBJECTS AND CHAPTERS REGISTRY
@@ -460,6 +469,105 @@ export const subjects: Subject[] = [
         updated: '2026-11-16',
         format: 'obsidian',
         vaultNote: 'English Paper 1 — Non-Literary Text Types — Notes',
+      },
+      {
+        id: 'ch4',
+        title: 'Chapter 4: Paper 1 — Print Advertisement',
+        subtitle: 'Purpose, visual hierarchy, branding, audience and persuasion',
+        notes: englishCh4Notes,
+        sections: h2Sections(englishCh4Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Print Advertisement — Notes',
+      },
+      {
+        id: 'ch5',
+        title: 'Chapter 5: Paper 1 — PSA',
+        subtitle: 'Public awareness, behaviour change, evidence and calls to action',
+        notes: englishCh5Notes,
+        sections: h2Sections(englishCh5Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — PSA — Notes',
+      },
+      {
+        id: 'ch6',
+        title: 'Chapter 6: Paper 1 — Political Cartoon',
+        subtitle: 'Visual satire, symbolism, irony, context and viewpoint',
+        notes: englishCh6Notes,
+        sections: h2Sections(englishCh6Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Political Cartoon — Notes',
+      },
+      {
+        id: 'ch7',
+        title: 'Chapter 7: Paper 1 — Comic Strip',
+        subtitle: 'Panel sequence, pacing, gutters, punchlines and commentary',
+        notes: englishCh7Notes,
+        sections: h2Sections(englishCh7Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Comic Strip — Notes',
+      },
+      {
+        id: 'ch8',
+        title: 'Chapter 8: Paper 1 — Infographic',
+        subtitle: 'Data, visual hierarchy, scale, sourcing and word-image interplay',
+        notes: englishCh8Notes,
+        sections: h2Sections(englishCh8Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Infographic — Notes',
+      },
+      {
+        id: 'ch9',
+        title: 'Chapter 9: Paper 1 — Magazine Cover',
+        subtitle: 'Cover lines, image, branding, visual hierarchy and audience',
+        notes: englishCh9Notes,
+        sections: h2Sections(englishCh9Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Magazine Cover — Notes',
+      },
+      {
+        id: 'ch10',
+        title: 'Chapter 10: Paper 1 — Feature Article',
+        subtitle: 'Narrative leads, structure, voice, evidence and perspective',
+        notes: englishCh10Notes,
+        sections: h2Sections(englishCh10Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Feature Article — Notes',
+      },
+      {
+        id: 'ch11',
+        title: 'Chapter 11: Paper 1 — Opinion Article',
+        subtitle: 'Thesis, reasoning, evidence, voice and counterargument',
+        notes: englishCh11Notes,
+        sections: h2Sections(englishCh11Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — Opinion Article — Notes',
+      },
+      {
+        id: 'ch12',
+        title: 'Chapter 12: Paper 1 — News Article',
+        subtitle: 'News framing, leads, sourcing, voices and information order',
+        notes: englishCh12Notes,
+        sections: h2Sections(englishCh12Notes),
+        flashcards: [],
+        updated: '2026-11-17',
+        format: 'obsidian',
+        vaultNote: 'English Paper 1 — News Article — Notes',
       },
     ],
   },
